@@ -557,3 +557,6 @@ p.wordmark {
   display: flex;
   align-items: center;
 }
+
+.more { margin-top: var(--s3); padding-left: calc(var(--s4) + var(--s3)); }
+@media (max-width: 560px) { .more { padding-left: calc(var(--s3) + var(--s2)); } }
