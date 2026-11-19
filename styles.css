@@ -182,7 +182,7 @@ a.wordmark {
 .hand {
   margin-top: var(--s2);
   font-family: var(--hand);
-  font-size: var(--t-title);
+  font-size: var(--t-heading);
   line-height: 1.1;
   transform: rotate(-1.2deg);
   transform-origin: left top;
@@ -537,7 +537,8 @@ a.wordmark {
   .hero h1, .page-head h1 { font-size: var(--t-heading); }
   .article-head h1 { font-size: var(--t-title); }
   .sessions h2, .letter h2 { font-size: var(--t-title); }
-  .story, .prose h2, .hand { font-size: var(--t-lead); }
+  .story, .prose h2 { font-size: var(--t-lead); }
+  .hand { font-size: var(--t-title); }
   .contents li { gap: var(--s2); }
   .num { flex-basis: var(--s3); font-size: var(--t-body); }
   .photo-lead { padding: var(--s2) var(--s3); }
