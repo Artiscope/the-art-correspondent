@@ -30,20 +30,6 @@
     items.forEach(function (el) { watcher.observe(el); });
   }
 
-  // Section filter on the Features page
-  var filters = document.querySelectorAll('.filter button');
-  Array.prototype.forEach.call(filters, function (button) {
-    button.addEventListener('click', function () {
-      var wanted = button.getAttribute('data-filter');
-      Array.prototype.forEach.call(filters, function (other) {
-        other.setAttribute('aria-pressed', other === button ? 'true' : 'false');
-      });
-      Array.prototype.forEach.call(document.querySelectorAll('.feature-grid li'), function (item) {
-        item.hidden = wanted !== '' && item.getAttribute('data-section') !== wanted;
-      });
-    });
-  });
-
   // Forms. Paste the Formspree address between the quotes below to switch them on,
   // for example 'https://formspree.io/f/abcdwxyz'. Both forms use the same address.
   var FORM_ADDRESS = '';

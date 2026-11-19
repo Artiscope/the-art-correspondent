@@ -627,3 +627,64 @@ button:disabled { opacity: 0.6; cursor: default; }
   .feature-grid .story { min-height: 44px; }
   .feature-grid .blurb { display: none; }
 }
+
+/* Feature cards */
+
+.feature-grid { gap: var(--s3); }
+.feature-grid li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--s4);
+  background: rgba(217, 190, 145, 0.26);
+  border-radius: 2px;
+  transition: background 0.2s ease;
+}
+.feature-grid li:hover { background: rgba(217, 190, 145, 0.5); }
+.feature-grid .where {
+  order: -1;
+  margin-bottom: var(--s2);
+  font-size: var(--t-label);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.feature-grid .story { padding: 0; min-height: 0; }
+.feature-grid .story:hover { text-decoration: none; color: var(--black); }
+.feature-grid .story::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.feature-grid .story:focus-visible { outline: none; }
+.feature-grid .story:focus-visible::after {
+  outline: 2px solid var(--black);
+  outline-offset: 2px;
+}
+.feature-grid .blurb {
+  margin-top: var(--s2);
+  color: var(--soft);
+}
+/* When one section is chosen, its name on every card is not needed */
+.feature-grid.is-filtered .where { display: none; }
+
+/* Filter words: no box when chosen, a heavier underline for keyboard users */
+.filter button:focus { outline: none; }
+.filter button:focus-visible {
+  outline: none;
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+@media (max-width: 980px) {
+  .feature-grid { gap: var(--s3); }
+}
+@media (max-width: 560px) {
+  .feature-grid { gap: var(--s2); }
+  .feature-grid li { padding: var(--s3); }
+  .feature-grid .story { min-height: 0; }
+  .feature-grid .where { margin-bottom: var(--s1); }
+}
