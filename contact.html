@@ -47,10 +47,9 @@
   </section>
 
   <section class="prose">
-    <!-- To make this form send: sign up with a form service such as Formspree,
-         then add  action="https://formspree.io/f/YOUR-ID" method="POST"
-         to the form tag below and remove data-pending. -->
-    <form class="contact-form" data-pending data-reveal>
+    <form class="contact-form" data-form="contact" data-reveal>
+      <input type="hidden" name="form" value="Write to us">
+      <p class="trap" aria-hidden="true"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
       <div class="field">
         <label for="contact-name">Your name</label>
         <input id="contact-name" name="name" type="text" autocomplete="name" required>

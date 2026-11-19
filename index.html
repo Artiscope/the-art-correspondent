@@ -131,7 +131,9 @@
   <section class="letter" aria-labelledby="letter-title">
     <h2 id="letter-title" data-reveal>A letter from the studio, now and then.</h2>
     <p class="letter-note" data-reveal>New features as they are published. Nothing else.</p>
-    <form class="signup" data-signup data-reveal>
+    <form class="signup" data-form="signup" data-reveal>
+      <input type="hidden" name="form" value="Sign-up">
+      <p class="trap" aria-hidden="true"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
       <div class="field">
         <label for="signup-email">Your email address</label>
         <input id="signup-email" name="email" type="email" autocomplete="email" required>

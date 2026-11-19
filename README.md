@@ -18,6 +18,12 @@ A plain static site: HTML pages, one `styles.css`, one `script.js`. No build ste
 The six features are published as reported essays. Each one lists its sources at the foot of the page.
 To correct or update one, edit the text inside its `<div class="prose">` block.
 
+## Forms
+
+The sign-up form on the homepage and the Write to us form are ready but switched off.
+To switch them on, open `script.js`, find the line `var FORM_ADDRESS = '';` and paste a
+Formspree address between the quotes. Both forms then send to that address.
+
 ## Editorial rule
 
 No interview, quote or conversation is invented. An interview is published only after it has

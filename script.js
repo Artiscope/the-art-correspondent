@@ -30,23 +30,53 @@
     items.forEach(function (el) { watcher.observe(el); });
   }
 
-  // Sign-up form. Not connected to a mailing service yet.
-  var signup = document.querySelector('[data-signup]');
-  if (signup) {
-    signup.addEventListener('submit', function (event) {
-      event.preventDefault();
-      var reply = signup.querySelector('.signup-reply');
-      if (reply) reply.textContent = 'Thank you. Sign-up opens shortly, please check back soon.';
-    });
-  }
+  // Forms. Paste the Formspree address between the quotes below to switch them on,
+  // for example 'https://formspree.io/f/abcdwxyz'. Both forms use the same address.
+  var FORM_ADDRESS = '';
 
-  // Contact form. Shows a note until a form service is connected.
-  var pending = document.querySelector('form[data-pending]');
-  if (pending) {
-    pending.addEventListener('submit', function (event) {
+  var notes = {
+    signup: {
+      closed: 'Thank you. Sign-up opens shortly, please check back soon.',
+      done: 'Thank you. You are on the list.'
+    },
+    contact: {
+      closed: 'Messages are not open yet. Please check back soon.',
+      done: 'Thank you. Your message has been sent.'
+    }
+  };
+
+  Array.prototype.forEach.call(document.querySelectorAll('form[data-form]'), function (form) {
+    var kind = form.getAttribute('data-form');
+    var reply = form.querySelector('.signup-reply');
+    var button = form.querySelector('button[type="submit"]');
+    var label = button ? button.textContent : '';
+
+    form.addEventListener('submit', function (event) {
       event.preventDefault();
-      var reply = pending.querySelector('.signup-reply');
-      if (reply) reply.textContent = 'Messages are not open yet. Please check back soon.';
+      if (!FORM_ADDRESS) { reply.textContent = notes[kind].closed; return; }
+
+      // A hidden field that people leave empty and junk senders fill in
+      var trap = form.querySelector('input[name="_gotcha"]');
+      if (trap && trap.value) { reply.textContent = notes[kind].done; return; }
+
+      button.disabled = true;
+      button.textContent = 'Sending';
+      reply.textContent = '';
+
+      fetch(FORM_ADDRESS, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (!response.ok) throw new Error('not sent');
+        form.reset();
+        reply.textContent = notes[kind].done;
+      }).catch(function () {
+        reply.textContent = 'Sorry, that did not send. Please try again in a moment.';
+      }).then(function () {
+        button.disabled = false;
+        button.textContent = label;
+      });
     });
-  }
+  });
 })();

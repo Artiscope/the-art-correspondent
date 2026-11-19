@@ -561,3 +561,14 @@ p.wordmark {
 
 .more { margin-top: var(--s3); padding-left: calc(var(--s4) + var(--s3)); }
 @media (max-width: 560px) { .more { padding-left: calc(var(--s3) + var(--s2)); } }
+
+/* Hidden field that catches junk senders */
+
+.trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+button:disabled { opacity: 0.6; cursor: default; }
