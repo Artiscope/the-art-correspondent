@@ -8,16 +8,15 @@ A plain static site: HTML pages, one `styles.css`, one `script.js`. No build ste
 
 - `index.html` is the homepage.
 - `features.html`, `artist-stories.html`, `studio-notes.html`, `conversations.html`, `culture.html`, `exhibitions.html` are the section pages.
-- The six feature pages are named after their headlines. Each one is waiting for its text.
+- The six feature pages are named after their headlines. Each one is a reported essay with its sources listed.
 - `zara-muse.html`, `konn-artiss.html`, `artist-studios.html`, `art-and-identity.html`, `art-and-philanthropy.html` gather stories by subject.
 - `studio-sessions.html`, `about.html`, `contact.html` are the information pages.
 - Photographs go in `images/`.
 
-## Publishing a feature
+## Features
 
-1. Open the feature's page and replace the "being reported" note with the real text.
-2. Remove the line `<meta name="robots" content="noindex">` near the top.
-3. Add the page's address to `sitemap.xml`.
+The six features are published as reported essays. Each one lists its sources at the foot of the page.
+To correct or update one, edit the text inside its `<div class="prose">` block.
 
 ## Editorial rule
 
