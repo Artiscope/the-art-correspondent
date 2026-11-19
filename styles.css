@@ -544,3 +544,16 @@ a.wordmark {
   .signup button { flex: 1 1 100%; }
   .contact-form button { align-self: stretch; }
 }
+
+/* Logo mark beside the name */
+
+.wordmark .mark {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+p.wordmark {
+  display: flex;
+  align-items: center;
+}
