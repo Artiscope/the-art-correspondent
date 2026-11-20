@@ -1,0 +1,700 @@
+{
+  "_how_to_edit": "This file is edited in Artiscope Digital Home. Each page is a list of sections.",
+  "shared": {
+    "header": {
+      "type": "header",
+      "visible": true,
+      "settings": {
+        "name": "The Art Correspondent",
+        "links": [
+          [
+            "Features",
+            "features/"
+          ],
+          [
+            "Artist Stories",
+            "artist-stories/"
+          ],
+          [
+            "Studio Notes",
+            "studio-notes/"
+          ],
+          [
+            "Conversations",
+            "conversations/"
+          ],
+          [
+            "Culture",
+            "culture/"
+          ],
+          [
+            "Exhibitions",
+            "exhibitions/"
+          ],
+          [
+            "Studio Sessions",
+            "studio-sessions/"
+          ]
+        ],
+        "logos": []
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "visible": true,
+      "settings": {
+        "tagline": "The people, practice and culture magazine.",
+        "links_heading": "",
+        "links": [
+          [
+            "Features",
+            "features/"
+          ],
+          [
+            "Artist Stories",
+            "artist-stories/"
+          ],
+          [
+            "Studio Notes",
+            "studio-notes/"
+          ],
+          [
+            "Conversations",
+            "conversations/"
+          ],
+          [
+            "Culture",
+            "culture/"
+          ],
+          [
+            "Exhibitions",
+            "exhibitions/"
+          ],
+          [
+            "The Studio Sessions",
+            "studio-sessions/"
+          ],
+          [
+            "All stories",
+            "stories/"
+          ],
+          [
+            "About",
+            "about/"
+          ],
+          [
+            "Write to us",
+            "contact/"
+          ]
+        ],
+        "legal": "© {year} The Art Correspondent. theartcorrespondent.com"
+      }
+    }
+  },
+  "groups": {
+    "top": [],
+    "popups": [],
+    "bottom": []
+  },
+  "pages": {
+    "home": {
+      "path": "index.html",
+      "title": "The Art Correspondent | The People, Practice and Culture Magazine",
+      "description": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Studio reporting, cultural essays and visual storytelling.",
+      "sections": [
+        {
+          "id": "opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "large",
+            "eyebrow": "The people, practice and culture magazine",
+            "heading": "Behind Every Work, There Is a Story.",
+            "text": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Through studio reporting, interviews, cultural essays and visual storytelling, we examine the ideas, experiences and creative decisions behind today's artistic practices.",
+            "link": "Read the stories",
+            "href": "stories/"
+          }
+        },
+        {
+          "id": "lead",
+          "type": "tac-lead",
+          "visible": true,
+          "settings": {
+            "image": "",
+            "alt": "An artist's studio, shot for the opening feature.",
+            "hand": "Filed from the studio floor."
+          }
+        },
+        {
+          "id": "latest",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "Latest",
+            "every": false,
+            "count": 6,
+            "style": "list",
+            "only": "",
+            "more": "All {n} stories"
+          }
+        },
+        {
+          "id": "subjects",
+          "type": "tac-subjects",
+          "visible": true,
+          "settings": {
+            "heading": "Read by subject",
+            "artists": true,
+            "links": []
+          }
+        },
+        {
+          "id": "band",
+          "type": "tac-band",
+          "visible": true,
+          "settings": {
+            "eyebrow": "The Studio Sessions",
+            "heading": "Interviews, photographs and short films, made in the room where the work is made.",
+            "text": "The first sessions are being recorded now. Every conversation we publish is a real one, with a transcript the artist has approved. Until then, you will find reported features and essays here.",
+            "link": "About the Studio Sessions",
+            "href": "studio-sessions/"
+          }
+        },
+        {
+          "id": "letter",
+          "type": "signup",
+          "visible": true,
+          "settings": {
+            "heading": "A letter from the studio, now and then.",
+            "text": "New features as they are published. Nothing else.",
+            "button": "Sign up",
+            "pitch": ""
+          }
+        }
+      ],
+      "home": true
+    },
+    "features": {
+      "path": "features/index.html",
+      "title": "Features | The Art Correspondent",
+      "description": "Reported features and essays on the ideas shaping contemporary art.",
+      "sections": [
+        {
+          "id": "features-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Features",
+            "text": "Reported features and essays on the ideas shaping contemporary art.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "features-stories",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "every": true,
+            "count": 6,
+            "style": "cards",
+            "only": "Features",
+            "more": ""
+          }
+        },
+        {
+          "id": "features-subjects",
+          "type": "tac-subjects",
+          "visible": true,
+          "settings": {
+            "heading": "Read by subject",
+            "artists": true,
+            "links": []
+          }
+        }
+      ]
+    },
+    "artist-stories": {
+      "path": "artist-stories/index.html",
+      "title": "Artist Stories | The Art Correspondent",
+      "description": "The lives and working practices of the artists we follow.",
+      "sections": [
+        {
+          "id": "artist-stories-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Artist Stories",
+            "text": "The lives and working practices of the artists we follow.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "artist-stories-stories",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "every": true,
+            "count": 6,
+            "style": "cards",
+            "only": "Artist Stories",
+            "more": ""
+          }
+        }
+      ]
+    },
+    "studio-notes": {
+      "path": "studio-notes/index.html",
+      "title": "Studio Notes | The Art Correspondent",
+      "description": "Materials, methods and the working day, seen from inside the studio.",
+      "sections": [
+        {
+          "id": "studio-notes-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Studio Notes",
+            "text": "Materials, methods and the working day, seen from inside the studio.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "studio-notes-stories",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "every": true,
+            "count": 6,
+            "style": "cards",
+            "only": "Studio Notes",
+            "more": ""
+          }
+        }
+      ]
+    },
+    "conversations": {
+      "path": "conversations/index.html",
+      "title": "Conversations | The Art Correspondent",
+      "description": "Interviews with artists and the people who present and collect their work.",
+      "sections": [
+        {
+          "id": "conversations-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Conversations",
+            "text": "Interviews with artists and the people who present and collect their work.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "conversations-text",
+          "type": "tac-text",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "standfirst": "",
+            "paras": [
+              "No conversations have been published yet. Every conversation that appears here will be a real interview, published with a transcript the artist has approved. We do not write imagined or reconstructed dialogue."
+            ],
+            "parts": [],
+            "align": "centre",
+            "link": "About the Studio Sessions",
+            "href": "studio-sessions/"
+          }
+        }
+      ]
+    },
+    "culture": {
+      "path": "culture/index.html",
+      "title": "Culture | The Art Correspondent",
+      "description": "Where art meets the wider world: hospitality, celebrity, memory and public life.",
+      "sections": [
+        {
+          "id": "culture-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Culture",
+            "text": "Where art meets the wider world: hospitality, celebrity, memory and public life.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "culture-stories",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "every": true,
+            "count": 6,
+            "style": "cards",
+            "only": "Culture",
+            "more": ""
+          }
+        }
+      ]
+    },
+    "exhibitions": {
+      "path": "exhibitions/index.html",
+      "title": "Exhibitions | The Art Correspondent",
+      "description": "Reports from shows, openings and installations.",
+      "sections": [
+        {
+          "id": "exhibitions-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "Exhibitions",
+            "text": "Reports from shows, openings and installations.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "exhibitions-list",
+          "type": "tac-entries",
+          "visible": true,
+          "settings": {
+            "heading": "Shows and installations in our reporting",
+            "numbered": false,
+            "note": "These notes come from published reports. First-hand exhibition reviews will be added here as they are filed.",
+            "entries": [
+              {
+                "title": "Konn Artiss, ANTI-FRIEZE",
+                "href": "stories/konn-artiss-object-and-spectacle/",
+                "where": "Outside Frieze London, October 2025",
+                "blurb": "Five blocks of ice, each holding a miniature effigy of a famous artist, left to melt at the entrance to the fair."
+              },
+              {
+                "title": "Beyond The Surface",
+                "href": "stories/amanza-smith-starts-again-on-canvas/",
+                "where": "Grove Gallery, Palma, April 2025",
+                "blurb": "The opening exhibition of a new gallery space, with work by Zara Muse, Amanza Smith and Silent Mike."
+              },
+              {
+                "title": "Silent Mike, Chromatic Shift",
+                "href": "stories/the-gallery-in-residence/",
+                "where": "Dorsett Shepherds Bush, London, opened 28 March 2025",
+                "blurb": "Fifteen works in colour hung through the hotel bar and restaurant, the first show in a gallery residency."
+              },
+              {
+                "title": "Zara Muse at Fairmont Windsor Park",
+                "href": "stories/art-and-luxury-hospitality/",
+                "where": "Windsor, reported November 2024",
+                "blurb": "Fourteen portraits hung in the hotel bar and restaurant as part of a year-long partnership with Grove Gallery."
+              },
+              {
+                "title": "Zara Muse, Winds of Change: A Journey Unfolding",
+                "href": "stories/zara-muse-physical-language-of-portraiture/",
+                "where": "Grove Gallery, London, autumn 2024",
+                "blurb": "A solo exhibition that FAD Magazine reported was extended by two weeks because of demand."
+              },
+              {
+                "title": "Zen Xander, Society Falling",
+                "href": "stories/zen-xander-one-name-many-hands/",
+                "where": "Grove Gallery, Fitzrovia, London, opened 26 June 2024",
+                "blurb": "A first solo exhibition of stencil and spray paint works on plywood, with animals standing in for people."
+              },
+              {
+                "title": "Amoako Boafo, Proper Love",
+                "href": "stories/amoako-boafo-and-the-portrait-painted-by-hand/",
+                "where": "Belvedere, Vienna, 2024",
+                "blurb": "More than fifty finger-painted portraits, some hung beside Egon Schiele and Gustav Klimt."
+              },
+              {
+                "title": "El Anatsui, Behind the Red Moon",
+                "href": "stories/el-anatsui-and-the-second-life-of-materials/",
+                "where": "Tate Modern, London, 10 October 2023 to 14 April 2024",
+                "blurb": "Three vast hangings of bottle caps and copper wire in the Turbine Hall, made for the Hyundai Commission."
+              },
+              {
+                "title": "Zara Muse, Radiant Resilience",
+                "href": "stories/zara-muse-physical-language-of-portraiture/",
+                "where": "Grove Gallery, Fitzrovia, London, September 2023",
+                "blurb": "Her first exhibition at the gallery."
+              },
+              {
+                "title": "Clarke Reynolds at Quantus Gallery",
+                "href": "stories/clarke-reynolds-braille-you-can-see/",
+                "where": "London, early 2023",
+                "blurb": "A solo exhibition of braille works made to be seen and touched."
+              },
+              {
+                "title": "Njideka Akunyili Crosby, The Beautyful Ones",
+                "href": "stories/njideka-akunyili-crosby-two-homes-in-one-picture/",
+                "where": "National Portrait Gallery, London, 2018",
+                "blurb": "A series of portraits built from paint, collage and photo transfer."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "all-stories": {
+      "path": "stories/index.html",
+      "title": "All stories | The Art Correspondent",
+      "description": "Every feature, artist story, studio note and essay published by The Art Correspondent, newest first.",
+      "sections": [
+        {
+          "id": "all-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "All stories",
+            "text": "Everything we have published, newest first.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "all-cards",
+          "type": "tac-latest",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "every": true,
+            "count": 6,
+            "style": "cards",
+            "only": "",
+            "more": ""
+          }
+        },
+        {
+          "id": "all-subjects",
+          "type": "tac-subjects",
+          "visible": true,
+          "settings": {
+            "heading": "Read by subject",
+            "artists": true,
+            "links": []
+          }
+        }
+      ]
+    },
+    "studio-sessions": {
+      "path": "studio-sessions/index.html",
+      "title": "The Studio Sessions | The Art Correspondent",
+      "description": "The Studio Sessions: original interviews, photographs and short films made inside artists' studios.",
+      "sections": [
+        {
+          "id": "sessions-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "",
+            "heading": "The Studio Sessions",
+            "text": "Original interviews, photographs and short films, made in the room where the work is made.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "sessions-photo",
+          "type": "tac-lead",
+          "visible": true,
+          "settings": {
+            "image": "",
+            "alt": "From the first session.",
+            "hand": ""
+          }
+        },
+        {
+          "id": "sessions-text",
+          "type": "tac-text",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "standfirst": "",
+            "paras": [],
+            "parts": [
+              {
+                "heading": "What a session is",
+                "text": "Each session is a visit to one artist's studio. We sit down for an interview, photograph the space and the work in progress, and make a short film of the artist at work."
+              },
+              {
+                "heading": "Our rule on interviews",
+                "text": "Every conversation we publish is a real one. An interview appears here only after it has taken place and the artist has approved the transcript. We do not write imagined or reconstructed dialogue."
+              },
+              {
+                "heading": "Where things stand",
+                "text": "The first sessions are being recorded now. Until they are ready, you will find reported features and essays across the magazine."
+              }
+            ],
+            "align": "left",
+            "link": "Read the stories",
+            "href": "stories/"
+          }
+        }
+      ]
+    },
+    "about": {
+      "path": "about/index.html",
+      "title": "About | The Art Correspondent",
+      "description": "About The Art Correspondent, the people, practice and culture magazine for contemporary art.",
+      "sections": [
+        {
+          "id": "about-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "About",
+            "heading": "The people, practice and culture magazine.",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "about-text",
+          "type": "tac-text",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "standfirst": "The Art Correspondent explores contemporary art through the people who make, present and collect it.",
+            "paras": [
+              "Through studio reporting, interviews, cultural essays and visual storytelling, we examine the ideas, experiences and creative decisions behind today's artistic practices."
+            ],
+            "parts": [
+              {
+                "heading": "What we publish",
+                "text": "Features and reported essays. Artist stories. Notes from the studio on materials and working methods. Writing on culture and exhibitions. And The Studio Sessions, our series of interviews, photographs and short films."
+              },
+              {
+                "heading": "How we work",
+                "text": "We publish an interview only when it has really taken place and the transcript has been approved by the person interviewed. Until then, a piece is a feature or a reported essay and is described as one."
+              },
+              {
+                "heading": "How we report",
+                "text": "Every feature lists its sources at the foot of the page, so you can check what we have said. We write in our own words and do not invent quotations. Where published accounts disagree, we say so and do not pick a side without evidence."
+              },
+              {
+                "heading": "Corrections",
+                "text": "If we have something wrong, tell us and we will put it right on the page."
+              }
+            ],
+            "align": "left",
+            "link": "Write to us",
+            "href": "contact/"
+          }
+        },
+        {
+          "id": "about-subjects",
+          "type": "tac-subjects",
+          "visible": true,
+          "settings": {
+            "heading": "Read by subject",
+            "artists": true,
+            "links": []
+          }
+        }
+      ]
+    },
+    "contact": {
+      "path": "contact/index.html",
+      "title": "Write to us | The Art Correspondent",
+      "description": "Write to The Art Correspondent with story ideas, corrections or questions.",
+      "sections": [
+        {
+          "id": "contact-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "Write to us",
+            "heading": "Tell us what you have seen.",
+            "text": "Story ideas, corrections and questions are all welcome.",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "contact-form",
+          "type": "contact-form",
+          "visible": true,
+          "settings": {
+            "eyebrow": "",
+            "heading": "",
+            "text": "",
+            "topics": [],
+            "button": "Send message"
+          }
+        }
+      ]
+    }
+  },
+  "lists": {
+    "articles": {
+      "eyebrow": "",
+      "heading": [
+        "All stories"
+      ],
+      "intro": ""
+    },
+    "artists": {
+      "eyebrow": "Read by subject",
+      "heading": [
+        "Subjects"
+      ],
+      "intro": "Everything we report on, filed by artist and theme."
+    }
+  },
+  "templates": {
+    "article": {
+      "default": {
+        "name": "Default story",
+        "sections": [
+          {
+            "id": "main",
+            "type": "main"
+          }
+        ]
+      }
+    },
+    "artist": {
+      "default": {
+        "name": "Default subject",
+        "sections": [
+          {
+            "id": "main",
+            "type": "main"
+          },
+          {
+            "id": "t-subjects",
+            "type": "tac-subjects",
+            "visible": true,
+            "settings": {
+              "heading": "Read by subject",
+              "artists": true,
+              "links": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "addons": {}
+}

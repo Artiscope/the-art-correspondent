@@ -2,32 +2,29 @@
 
 The people, practice and culture magazine. Live at theartcorrespondent.com.
 
-A plain static site: HTML pages, one `styles.css`, one `script.js`. No build step.
+The site is edited in Artiscope Digital Home. Nothing here needs editing by
+hand to change the words, the stories, the pages or the look.
 
-## Where things are
+- `data/content.json`: the stories, the subjects they are filed under, the
+  site's details (email, web address, the nib logo's outline) and the old
+  addresses that forward to the new pages.
+- `data/pages.json`: the pages and their sections, the menu bar and the footer,
+  kept by the page editor.
+- `data/theme.json`: the colours, typefaces and theme settings.
+- `assets/render.js`: draws every page. The page editor uses it for its
+  preview, so the preview and the published page always match.
+- `assets/brand/`: the nib logo, the tab icons and the sharing picture.
+- `tools/build.py <folder>`: builds the pages into a folder. Publishing runs it
+  on every push to main (`.github/workflows/pages.yml`).
 
-- `index.html` is the homepage.
-- `features.html`, `artist-stories.html`, `studio-notes.html`, `conversations.html`, `culture.html`, `exhibitions.html` are the section pages.
-- The six feature pages are named after their headlines. Each one is a reported essay with its sources listed.
-- `zara-muse.html`, `konn-artiss.html`, `artist-studios.html`, `art-and-identity.html`, `art-and-philanthropy.html` gather stories by subject.
-- `studio-sessions.html`, `about.html`, `contact.html` are the information pages.
-- Photographs go in `images/`.
-
-## Features
-
-The six features are published as reported essays. Each one lists its sources at the foot of the page.
-To correct or update one, edit the text inside its `<div class="prose">` block.
-
-## Forms
-
-The sign-up form on the homepage and the Write to us form are ready but switched off.
-To switch them on, open `script.js`, find the line `var FORM_ADDRESS = '';` and paste a
-Formspree address between the quotes. Both forms then send to that address.
+Stories live at `stories/<name>/`, subjects at `subjects/<name>/`. Each page's
+old address, such as `who-owns-the-street.html`, forwards to its new one.
 
 ## Editorial rule
 
-No interview, quote or conversation is invented. An interview is published only after it has
-taken place and the transcript is approved. Until then a piece is a feature or a reported essay.
+No interview, quote or conversation is invented. An interview is published only
+after it has taken place and the transcript is approved. Until then a piece is a
+feature or a reported essay.
 
 ## Colours
 
