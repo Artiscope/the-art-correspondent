@@ -1,3 +1,36 @@
 {
-  "files": {}
+  "files": {
+    "banksy-statue-waterloo-place.jpg": {
+      "alt": "A dark statue seen from below against a grey sky: a man in a suit strides off the edge of a stone plinth while a large flag he holds blows back over his face, with scaffolded buildings behind.",
+      "caption": "Statue by Banksy in Waterloo Place, London, installed in April 2026. Photographed in May 2026. Photo: Bex Walton, CC BY 4.0, via Wikimedia Commons."
+    },
+    "yayoi-kusama-c2004.jpg": {
+      "alt": "Close view of Yayoi Kusama's face, with dark hair, red lipstick and pale pink glasses in a decorative silver frame.",
+      "caption": "Yayoi Kusama, around 2004. A still from George Quasha's film series art is (Speaking Portraits). Photo: George Quasha, CC BY 3.0, via Wikimedia Commons."
+    },
+    "el-anatsui-ambivalent-hold-nsukka.jpg": {
+      "alt": "A weathered grey stone sculpture of a crouching, rounded figure whose large hands cover its face, set on paving in front of a yellow concrete building.",
+      "caption": "Ambivalent Hold, from a design by El Anatsui, carved by the SKEP art collective for the Physical Sciences building at the University of Nigeria, Nsukka. Photographed in 2024. Photo: Mercyjamb123, CC BY-SA 4.0, via Wikimedia Commons."
+    },
+    "s-h-raza-delhi-2011.jpg": {
+      "alt": "S.H. Raza, an elderly man with white hair and glasses in a pale suit, seated and leaning over a sheet of paper as people gather close around him.",
+      "caption": "S.H. Raza at an art summit in Delhi, January 2011. Photo: Chetan Nikam, CC BY-SA 4.0, via Wikimedia Commons."
+    },
+    "gerhard-richter-prague-2017.jpg": {
+      "alt": "Portrait of Gerhard Richter, an older man with white hair, a short white beard and round dark glasses, in a dark coat, looking at the camera.",
+      "caption": "Gerhard Richter at the National Gallery, Prague, in April 2017. Photo: Jindřich Nosek (NoJin), CC BY-SA 4.0, via Wikimedia Commons."
+    },
+    "vhils-berlin-chausseestrasse.jpg": {
+      "alt": "A large portrait of a man in a cap, made by chipping away the pale plaster of a tall brown city wall to show the darker layers beneath.",
+      "caption": "Joe Hatchiban, a wall portrait carved by Vhils (Alexandre Farto) in Berlin in 2011. Photographed in 2013. Photo: OTFW, Berlin, CC BY-SA 3.0, via Wikimedia Commons."
+    },
+    "amoako-boafo-studio-2020.jpg": {
+      "alt": "Amoako Boafo in a white T-shirt, sitting on the edge of a white table in his studio, with large unfinished portraits of figures on pink and pale blue grounds on the walls behind him.",
+      "caption": "Amoako Boafo in his studio, July 2020. Photo: Francis Kokoroko, CC BY-SA 4.0, via Wikimedia Commons."
+    },
+    "njideka-akunyili-crosby-2014.jpg": {
+      "alt": "Njideka Akunyili Crosby, with her hair pulled back, speaking in a plain white room during a filmed interview.",
+      "caption": "Njideka Akunyili Crosby interviewed by the Bronx Museum Teen Council, November 2014. A still from their film. Photo: Bronx Museum Teen Council, CC BY 3.0, via Wikimedia Commons."
+    }
+  }
 }
