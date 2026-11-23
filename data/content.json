@@ -9,6 +9,87 @@
   },
   "articles": [
     {
+      "slug": "two-paintings-two-long-journeys",
+      "title": "Two Paintings, Two Long Journeys to the Saleroom",
+      "kicker": "Artist Stories",
+      "summary": "A Van Gogh chestnut tree and a Kandinsky abstract set auction records in New York this November. Their owners over a century tell you why.",
+      "description": "The stories behind Van Gogh's Châtaigniers en fleurs and Kandinsky's Betonte Ecken, the record-setting lots of November 2026: where they were painted, who owned them, and the 1936 sale that nearly stopped one of them.",
+      "date": "23 November 2026",
+      "subjects": [
+        "vincent-van-gogh",
+        "wassily-kandinsky"
+      ],
+      "next": "who-decides-an-artist-matters",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Two paintings made the biggest headlines in New York this November. One was painted in a village north of Paris in May 1890. The other was painted at a German art school over the winter of 1922. Both had passed through many hands before they reached the saleroom, and the record of those hands tells you a good deal about why people wanted them.</p>\n<h2>A chestnut tree in Auvers</h2>\n<p>Vincent van Gogh arrived in Auvers-sur-Oise in May 1890, after a year at the asylum in Saint-Rémy. He wanted, in his words as the Kröller-Müller Museum reports them, to study peasants and landscapes from life. He had about ten weeks left. In that time he made around 70 oil paintings.</p>\n<p>On 24 May he painted Châtaigniers en fleurs, a chestnut tree in full blossom so large that the people walking under it look small. A day or two earlier he had painted a smaller canvas of the same subject, now in the Kröller-Müller Museum in Otterlo. The museum's own description of that one gives a sense of how he worked: flat strokes of green, short dark blue strokes for the structure of the leaves, a sky of overlapping zigzags.</p>\n<h2>Where it went next</h2>\n<p>Sotheby's lot page sets out the owners in order. The painting passed to his brother Theo, then to Theo's widow Johanna and their son. It went through the Berlin dealer Paul Cassirer in 1905, through collectors in Paris, and in 1909 to Samuel Fischer, the Berlin publisher. His widow Hedwig inherited it in 1934. In 1936 it was sold to a couple in Paris. From 1945 it belonged to George and Marie DeSylva in Los Angeles, and in 1975 it was bought by the family of Nelly Arrieta de Blaquier in Argentina.</p>\n<p>That 1936 sale came back to matter. The Fischer heirs said the family had sold the painting under Nazi persecution, as they prepared to leave Germany. The day before the auction, Sotheby's said the two families had reached a settlement, and the painting was sold under their agreement. The terms were not made public.</p>\n<p>On 18 November it sold for US$190.4 million with fees, as reported by Art Insider and others. It is now the most expensive Van Gogh ever sold at auction.</p>\n<h2>Corners and circles</h2>\n<p>Wassily Kandinsky painted Betonte Ecken, or Accented Corners, between December 1922 and January 1923. He had recently started teaching at the Bauhaus. Tate describes his painting from those years as tighter and more geometric than his earlier work, and this one is built from black lines and hard-edged coloured shapes.</p>\n<p>In 1929 it was bought by Hilla Rebay, who gave it to the Guggenheim in 1941. In 1964 the museum sold it in London, one of about 50 Kandinskys sent to auction, for £22,000. It went to a New York dealer, then to collectors in Boston, and in 1986 it sold at Sotheby's New York for US$1 million. Artsy and Art Insider disagree on who bought it then.</p>\n<p>On 17 November it sold at Christie's New York for US$85.8 million with fees, as reported by The Art Newspaper, nearly twice the artist's previous auction record. A month earlier, Christie's in London had sold an earlier Kandinsky, Das bunte Leben of 1907, for £31.56 million.</p>\n<h2>What the journeys have in common</h2>\n<p>Both paintings spent decades with one owner. Both have long, written-down histories, the kind that let a buyer see exactly where a picture has been. And both come from moments that mattered in their painters' lives: Van Gogh's last weeks, Kandinsky's first years at the Bauhaus. None of that is a measure of how good a painting is. It does help explain why, on two evenings in New York, more than one person wanted each of them very badly.</p>",
+      "how": "This is a reported story. It draws on the auction house lot page, museum records and the press reports listed below, and is not an interview with anyone involved.",
+      "sources": [
+        {
+          "title": "Vincent van Gogh, Châtaigniers en fleurs, lot 5",
+          "publisher": "Sotheby's",
+          "date": "18 November 2026",
+          "href": "https://www.sothebys.com/buy/bcef4231-708a-4487-9b3f-53b866de0727/lots/ac1f9fd6-946e-473e-9a6a-0483bc4b8ae8"
+        },
+        {
+          "title": "Vincent van Gogh, Blossoming Chestnut Trees",
+          "publisher": "Kröller-Müller Museum",
+          "date": "",
+          "href": "https://www.krollermuller.nl/en/collection/vincent-van-gogh-blossoming-chestnut-trees-km-105-479"
+        },
+        {
+          "title": "Vincent van Gogh",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+        },
+        {
+          "title": "Van Gogh's Châtaigniers en fleurs Sells for Record $190.4 Million at Sotheby's",
+          "publisher": "Art Insider",
+          "date": "19 November 2026",
+          "href": "https://www.art-insider.com/van-goghs-chataigniers-en-fleurs-sells-for-record-190-4-million-at-sothebys/8934"
+        },
+        {
+          "title": "Blaquier's Van Gogh painting goes for record US$190m after Nazi-era dispute",
+          "publisher": "Buenos Aires Herald",
+          "date": "19 November 2026",
+          "href": "https://buenosairesherald.com/culture-ideas/arts-culture-ideas/blaquiers-van-gogh-painting-goes-for-record-us190-after-nazi-era-dispute"
+        },
+        {
+          "title": "Record-breaking $85.8 million Kandinsky leads Christie's November 2026 New York evening sale",
+          "publisher": "Artsy",
+          "date": "18 November 2026",
+          "href": "https://www.artsy.net/article/artsy-editorial-record-breaking-858-million-kandinsky-leads-christie-s-november-2026-new-york-evening-sale"
+        },
+        {
+          "title": "Kandinsky's Betonte Ecken Sells for Record $85.8 Million, 62 Years After the Guggenheim Sold It for £22,000",
+          "publisher": "Art Insider",
+          "date": "18 November 2026",
+          "href": "https://www.art-insider.com/kandinskys-betonte-ecken-sells-for-record-85-8-million-62-years-after-the-guggenheim-sold-it-for-22000/8926"
+        },
+        {
+          "title": "Kandinsky record and trove consigned by Jeff Koons buoy Christie's 20th-century sale in New York",
+          "publisher": "The Art Newspaper",
+          "date": "18 November 2026",
+          "href": "https://www.theartnewspaper.com/2026/11/18/kandinsky-record-and-a-trove-consigned-by-jeff-koons-buoy-christies-solid-20th-century-evening-sale-in-new-york"
+        },
+        {
+          "title": "Paintings by Kandinsky from the Solomon R Guggenheim Museum",
+          "publisher": "Tate",
+          "date": "1958",
+          "href": "https://tate.org.uk/whats-on/tate-britain/paintings-kandinsky-solomon-r-guggenheim-museum"
+        },
+        {
+          "title": "Christie's, Sotheby's and Phillips: Auction Results During Frieze Week",
+          "publisher": "London Art Walk",
+          "date": "October 2026",
+          "href": "https://www.londonartwalk.com/2026/10/19/christies-sothebys-and-phillips-auction-results-during-frieze-week/"
+        }
+      ],
+      "hidden": false
+    },
+    {
       "slug": "who-decides-an-artist-matters",
       "title": "Who Decides an Artist Matters?",
       "kicker": "Features",
@@ -1681,6 +1762,30 @@
       "slug": "faith-xlvii",
       "name": "Faith XLVII",
       "line": "Our reporting on Faith XLVII: South African graffiti, murals in 39 countries and work beyond the wall.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "vincent-van-gogh",
+      "name": "Vincent van Gogh",
+      "line": "Our reporting on Vincent van Gogh: the last weeks at Auvers, the chestnut trees and the long lives of his paintings after him.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "wassily-kandinsky",
+      "name": "Wassily Kandinsky",
+      "line": "Our reporting on Wassily Kandinsky: the move to abstraction, the Bauhaus years and the Guggenheim connection.",
       "about": "",
       "details": [],
       "image": "",
