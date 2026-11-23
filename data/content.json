@@ -9,6 +9,64 @@
   },
   "articles": [
     {
+      "slug": "banksy-the-artist-who-isnt-there",
+      "title": "Banksy, the Artist Who Isn't There",
+      "kicker": "Artist Stories",
+      "summary": "No confirmed name, no public face. How an anonymous artist from Bristol built a body of work, and a way of proving it is his.",
+      "description": "A reported profile of Banksy: the Bristol beginnings, the early move to canvas, Pest Control and the joke as a method, drawn from museum and auction house records.",
+      "date": "23 November 2026",
+      "subjects": [
+        "banksy",
+        "humour-and-satire",
+        "art-in-public"
+      ],
+      "next": "konn-artiss-object-and-spectacle",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Banksy has never publicly said who he is. For an artist whose canvases now sell for millions, that is an unusual position, and it shapes how everything else about him is known. This is a reported essay: it draws on museum and auction house records, listed below, not on any meeting with the artist.</p>\n<h2>Bristol first</h2>\n<p>The record begins in Bristol. A research guide from the Jordan Schnitzer Museum of Art places him as a teenage graffiti writer there in the 1990s, before a move to London. Phillips, in its catalogue, dates the first works on trains and walls to 1993.</p>\n<p>The stencil came early. It is quick to use and the image it leaves reads at once, which suits work made in public, at speed, by someone who would rather not be seen making it.</p>\n<h2>From the wall to the canvas</h2>\n<p>The move indoors happened sooner than many assume. <em>Laugh Now</em>, a canvas of a chimpanzee wearing a sandwich board that says one day they will be in charge, was painted in 2001 and bought from the artist that same year, according to Bonhams. A year later the same image ran six metres long on a wall commissioned by the Ocean Rooms nightclub in Brighton.</p>\n<p>By 2006 he was showing large canvases in a warehouse exhibition in Los Angeles called <em>Barely Legal</em>. <em>Angel</em>, a black and white figure against a dark field more than two metres square, was among them, and was bought by its owner directly from the artist.</p>\n<h2>A name that certifies</h2>\n<p>An anonymous artist still needs a way to say what is his. Banksy's answer is Pest Control, his own authentication body. Every recent auction lot we checked, from <em>Laugh Now</em> to a small cut-out canvas of a rat reaching for a red heart, came with its certificate.</p>\n<p>That arrangement turns the absent artist into a kind of signature. The work is known to be his because his office says so, not because anyone has watched him make it.</p>\n<h2>The joke as a method</h2>\n<p>Rats, chimpanzees and children recur because they let him point at people without drawing them. Bonhams' catalogue calls the chimpanzee a stand-in through which human hierarchies can be seen. The humour comes first, and the point a second later.</p>\n<p>The best-known joke was played on the art market itself. In October 2018 a framed <em>Girl with Balloon</em> was partly shredded by a device in its frame moments after it sold at Sotheby's London. The work was renamed <em>Love Is in the Bin</em>.</p>\n<h2>What is not known</h2>\n<p>Quite a lot. Auction houses do not even agree on his year of birth: Bonhams catalogues him as born in 1974 on one lot and 1975 on another. We have not tried to settle that, or the question of who he is. The work, at least, is on the record.</p>",
+      "how": "This is a reported essay. It draws on the museum and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Research Guide: Banksy",
+          "publisher": "Jordan Schnitzer Museum of Art, University of Oregon",
+          "date": "2024",
+          "href": "https://jsma.uoregon.edu/sites/default/files/2024-08/JSMA%20Research%20Guide%20-%20Banksy.pdf"
+        },
+        {
+          "title": "Banksy, Keep Ou T, 2019, lot 4",
+          "publisher": "Phillips",
+          "date": "15 October 2026",
+          "href": "https://www.phillips.com/detail/banksy/238143"
+        },
+        {
+          "title": "Banksy, Laugh Now, painted in 2001, lot 9",
+          "publisher": "Bonhams",
+          "date": "15 October 2026",
+          "href": "https://www.bonhams.com/auction/32184/lot/9/banksy-b-1975-laugh-now-painted-in-2001/"
+        },
+        {
+          "title": "Banksy, Angel, painted in 2006, lot 18A",
+          "publisher": "Bonhams",
+          "date": "18 November 2026",
+          "href": "https://www.bonhams.com/auction/31893/lot/18A/banksy-b-1974-angel-83-78-x-83-78-in-213-x-213-cm-painted-in-2006/"
+        },
+        {
+          "title": "Banksy, Rat & Heart, 2015, lot 77068",
+          "publisher": "Heritage Auctions",
+          "date": "10 November 2026",
+          "href": "https://fineart.ha.com/itm/paintings/banksy-b-1974-rat-and-heart-2015-spray-paint-and-emulsion-on-cut-out-canvas-in-artist-s-frame-9-7-8-x-11-7-8-inches/a/8277-77068.s"
+        },
+        {
+          "title": "Girl with Balloon",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Girl_with_Balloon"
+        }
+      ],
+      "hidden": false
+    },
+    {
       "slug": "when-an-artist-is-also-a-celebrity",
       "title": "When an Artist Is Also a Celebrity",
       "kicker": "Culture",
@@ -1004,6 +1062,18 @@
       "slug": "konn-artiss",
       "name": "Konn Artiss",
       "line": "Our reporting on Konn Artiss: the creative process, public interventions and mixed media work.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "banksy",
+      "name": "Banksy",
+      "line": "Our reporting on Banksy: the anonymous artist from Bristol, his stencil work, and how his work is authenticated.",
       "about": "",
       "details": [],
       "image": "",
