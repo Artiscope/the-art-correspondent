@@ -9,6 +9,197 @@
   },
   "articles": [
     {
+      "slug": "osgemeos-two-brothers-one-world",
+      "title": "OSGEMEOS, Two Brothers and One World",
+      "kicker": "Artist Stories",
+      "summary": "Twin brothers from São Paulo who started on the walls and never stopped painting the same imagined place.",
+      "description": "A reported profile of OSGEMEOS: graffiti in São Paulo, a painted Scottish castle and the dream world they carry from walls to canvas.",
+      "date": "23 November 2026",
+      "subjects": [
+        "osgemeos",
+        "art-in-public"
+      ],
+      "next": "vhils-the-portrait-in-the-wall",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>OSGEMEOS is a name for two people. Gustavo and Otavio Pandolfo are twin brothers, born in 1974, and the name means “the twins” in Portuguese. This is a reported essay, drawn from the records listed below.</p>\n<h2>From the street</h2>\n<p>They started as graffiti artists in São Paulo. Artsy, which tracks their career, lists the influences as Brazilian folk culture, hip-hop and the graffiti scene that first gave them walls to paint.</p>\n<h2>A castle in Scotland</h2>\n<p>In May 2007 the London street art blog Hookedblog reported a month-long project at Kelburn Castle in Ayrshire. OSGEMEOS, Nina Pandolfo and Nunca came from Brazil to paint the castle's walls and turrets alongside Scottish artists, living in the castle while they worked. Four years later Hyperallergic reported that the owners wanted the paint to stay.</p>\n<h2>The same world, indoors</h2>\n<p>Their figures are thin and yellow-skinned, dressed in patterned clothes. Indoors the brothers add things a wall cannot hold. One 2010 panel at Christie's combined acrylic, spray enamel, latex and sequins. A 2005 work sold by Phillips came with its own audio player and headphones.</p>\n<h2>What is not known</h2>\n<p>How the two divide the work is not recorded in the sources we read. They sign as one, and we have reported them as one.</p>",
+      "how": "This is a reported essay. It draws on the museum, artist and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "OSGEMEOS",
+          "publisher": "Artsy",
+          "date": "2026",
+          "href": "https://www.artsy.net/artist/osgemeos"
+        },
+        {
+          "title": "Graffiti Project",
+          "publisher": "Hookedblog",
+          "date": "23 May 2007",
+          "href": "https://www.hookedblog.co.uk/2007/05/graffiti-project.html"
+        },
+        {
+          "title": "Mix & Match: 13th C Castle Wants the Street Art to Stay",
+          "publisher": "Hyperallergic",
+          "date": "7 September 2011",
+          "href": "https://hyperallergic.com/kelburn-castle-street-art/"
+        },
+        {
+          "title": "OSGEMEOS, Sem medo de ser feliz, lot 117",
+          "publisher": "Christie's",
+          "date": "17 July 2026",
+          "href": "https://onlineonly.christies.com.cn/s/first-open-post-war-contemporary-art/osgemeos-b-1974-117/316126"
+        },
+        {
+          "title": "OSGEMEOS, O dia em que a Andorinha não voou, lot 390",
+          "publisher": "Phillips",
+          "date": "14 May 2025",
+          "href": "https://www.phillips.com/detail/osgemeos/216474"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "vhils-the-portrait-in-the-wall",
+      "title": "Vhils and the Portrait in the Wall",
+      "kicker": "Artist Stories",
+      "summary": "A Lisbon artist who makes faces by taking the city apart, one layer at a time.",
+      "description": "A reported profile of Vhils, Alexandre Farto: Lisbon graffiti, art school in London and a method built on removal.",
+      "date": "23 November 2026",
+      "subjects": [
+        "vhils",
+        "art-in-public"
+      ],
+      "next": "kaws-the-cartoon-that-grew-up",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Most artists add paint. Alexandre Farto, who works as Vhils, takes it away. This is a reported essay. Much of what is known about his career comes from his own website, and we say so where it does.</p>\n<h2>Lisbon</h2>\n<p>Farto was born in Lisbon in 1987. His site says he began working on the city's walls as Vhils in the early 2000s, at a time when Lisbon was changing quickly, and that he went on to study in London at Byam Shaw School of Art and Central Saint Martins.</p>\n<h2>Scratching the surface</h2>\n<p>His site calls the method subtraction. He cuts, drills, etches or blasts through a surface until a face appears. The first walls made this way were shown in Lisbon in 2007, and at the Cans Festival in London in 2008, which the site names as the moment his work became known abroad.</p>\n<h2>The same idea in the studio</h2>\n<p>The studio pieces use the street as material. <em>Attrition series #01</em>, sold at Bonhams in 2025, is a stack of advertising posters collected from the street and carved by hand. The colours of old adverts become the shadows of a face.</p>\n<h2>What is not known</h2>\n<p>The site reports work in more than 30 countries. We have not found an independent list to check that against.</p>",
+      "how": "This is a reported essay. Much of it draws on the artist's own website, marked in the text, and an auction house record. It is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "About",
+          "publisher": "Vhils (artist's website)",
+          "date": "2026",
+          "href": "https://vhils.com/about/"
+        },
+        {
+          "title": "Vhils, Attrition series #01, lot 231",
+          "publisher": "Bonhams",
+          "date": "17 October 2025",
+          "href": "https://www.bonhams.com/auction/31240/lot/231/vhils-b-1987-attrition-series-01-executed-in-2018/"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "kaws-the-cartoon-that-grew-up",
+      "title": "KAWS and the Cartoon That Grew Up",
+      "kicker": "Artist Stories",
+      "summary": "From bus shelter adverts to a balloon over Manhattan: how Brian Donnelly built a career around one crossed-out face.",
+      "description": "A reported profile of KAWS, Brian Donnelly: graffiti, animation work, the COMPANION toy and the move from street to sculpture.",
+      "date": "23 November 2026",
+      "subjects": [
+        "kaws",
+        "humour-and-satire",
+        "art-in-public"
+      ],
+      "next": "eko-nugroho-masks-and-thread",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>KAWS is the name Brian Donnelly, born in 1974, chose to write on walls. According to Christie's, he chose it because he liked how the four letters looked together. This is a reported essay, drawn from the records listed below.</p>\n<h2>Walls, then adverts</h2>\n<p>Donnelly studied illustration at the School of Visual Arts in New York and painted backgrounds for television cartoons. He tagged buildings in New Jersey and Manhattan, then moved to bus shelters, painting his own cartoon figures into the adverts behind the glass.</p>\n<h2>A toy with crossed-out eyes</h2>\n<p>In 1999, on a visit to Japan with the brand Bounty Hunter, he made his first toy, COMPANION. Christie's reports that the edition of 500 sold out almost at once. The figure, with X's for eyes, became the centre of his work.</p>\n<h2>Bigger and bigger</h2>\n<p>In 2012 a COMPANION balloon floated through Manhattan in the Macy's Thanksgiving parade. In 2019 a 37 metre inflatable lay in Hong Kong's Victoria Harbour. In the studio, a 2011 fibreglass COMPANION stands almost two and a half metres tall.</p>\n<h2>Where he sits</h2>\n<p>Christie's notes that critics compare him with Basquiat and Haring, who also came from the street, and with Warhol and Koons. He names Takashi Murakami's collaborations as an influence. Whether a cartoon on this scale is still a joke is a question his work keeps open.</p>",
+      "how": "This is a reported essay. It draws on the museum, artist and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "10 things to know about KAWS",
+          "publisher": "Christie's",
+          "date": "28 March 2026",
+          "href": "https://www.christies.com.cn/zh-cn/stories/kaws-artist-guide-1266ae90d08c4aba926e0e3309aeafaa"
+        },
+        {
+          "title": "KAWS, COMPANION (ORIGINALFAKE), lot 16",
+          "publisher": "Christie's",
+          "date": "25 June 2026",
+          "href": "https://www.christies.com.cn/en/lot/lot-6594586"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "eko-nugroho-masks-and-thread",
+      "title": "Eko Nugroho, Masks and Thread",
+      "kicker": "Artist Stories",
+      "summary": "A Yogyakarta artist whose masked comic figures turn up on walls, in embroidery and in a national museum.",
+      "description": "A reported profile of Eko Nugroho: Yogyakarta, community projects, masked figures and the move from paint to thread.",
+      "date": "23 November 2026",
+      "subjects": [
+        "eko-nugroho",
+        "art-in-public",
+        "art-and-identity"
+      ],
+      "next": "faith-xlvii-from-faith47",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Eko Nugroho was born in Yogyakarta, Indonesia, in 1977, and still lives and works there. This is a reported essay, drawn from the museum and auction house records listed below.</p>\n<h2>Working with others</h2>\n<p>The Singapore Art Museum describes him as an artist who often works with communities and other creatives to draw attention to social issues. He works in painting, embroidery and sculpture, and Phillips has sold his work in batik on cotton.</p>\n<h2>Why the masks</h2>\n<p>His figures come from comics and almost always wear masks. The museum gives a reason: he avoids stereotyped faces that could lead to discriminatory readings of his work.</p>\n<h2>From wall to thread</h2>\n<p>In <em>Illusion</em> (2007), now in the Singapore Art Museum, a masked figure stands in a stripped landscape full of monster-like machines. The museum reads it as a picture of environmental “crispy crisis”. It is made in embroidery, and it keeps the flat, bold look of a drawing on a wall.</p>\n<h2>On the map</h2>\n<p>He showed at the 5th Asia Pacific Triennial in Brisbane in 2006, and later at the Singapore Art Museum and National Gallery Singapore.</p>",
+      "how": "This is a reported essay. It draws on the museum, artist and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Illusion (2007) by Eko Nugroho",
+          "publisher": "Singapore Art Museum",
+          "date": "2026",
+          "href": "https://singaporeartmuseum.sg/About/Our-Collection/Illusion"
+        },
+        {
+          "title": "Eko Nugroho, Topi untuk Haring, lot 65",
+          "publisher": "Phillips",
+          "date": "2 May 2025",
+          "href": "https://www.phillips.com/detail/eko-nugroho/215603"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "faith-xlvii-from-faith47",
+      "title": "Faith XLVII, From Faith47 to 39 Countries",
+      "kicker": "Artist Stories",
+      "summary": "A South African graffiti writer who took her quiet figures from local walls to murals around the world.",
+      "description": "A reported profile of Faith XLVII: graffiti in South Africa from 1997, murals in 39 countries and a practice that grew beyond the wall.",
+      "date": "23 November 2026",
+      "subjects": [
+        "faith-xlvii",
+        "art-in-public"
+      ],
+      "next": "osgemeos-two-brothers-one-world",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Faith XLVII was born in 1979 and began writing graffiti on South African streets in 1997, under the name Faith47. This is a reported essay, drawn from the auction house records listed below.</p>\n<h2>Leaving home</h2>\n<p>In 2006, according to Strauss & Co, she began travelling to paint public murals. The count now stands at 39 countries. One of them is <em>Capax Infiniti</em>, painted in 2014 on the side of the Carlyle building in Portland, Oregon. The Latin means “holding the infinite”.</p>\n<h2>Beyond the wall</h2>\n<p>Her work has grown into new media installations, hand-sewn wall hangings, bronzes, paintings and prints. Wall images come back as prints: the Portland mural later became a lithograph with the same name.</p>\n<h2>Three words</h2>\n<p>One triptych, sold by Strauss & Co in June 2024, is called <em>Coltan; Oil; Diamonds</em>. Three resources mined in Africa, each on a tall panel in a frame she made by hand. It joins the quiet, almost religious mood of her figures to a hard subject.</p>\n<h2>Where it is seen</h2>\n<p>Strauss lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation, and shows at the Brooklyn Museum and the Bernard Magrez Foundation in France.</p>",
+      "how": "This is a reported essay. It draws on the museum, artist and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Faith XLVII",
+          "publisher": "Strauss & Co",
+          "date": "2026",
+          "href": "https://www.straussart.co.za/artists/faith-xlvii"
+        },
+        {
+          "title": "Faith XLVII, CAPAX INFINITI, lot 93",
+          "publisher": "Strauss & Co",
+          "date": "25 October 2022",
+          "href": "https://www.straussart.co.za/auctions/lot/25-oct-2022/93"
+        },
+        {
+          "title": "Faith XLVII, Coltan; Oil; Diamonds, triptych, lot 332",
+          "publisher": "Strauss & Co",
+          "date": "10 June 2024",
+          "href": "https://www.straussart.co.za/auctions/lot/315-10-jun-2024/332"
+        }
+      ],
+      "hidden": false
+    },
+    {
       "slug": "yayoi-kusama-one-mark-over-and-over",
       "title": "Yayoi Kusama, One Mark Over and Over",
       "kicker": "Artist Stories",
@@ -1303,6 +1494,66 @@
       "slug": "gerhard-richter",
       "name": "Gerhard Richter",
       "line": "Our reporting on Gerhard Richter: the photo paintings, the squeegee abstracts and the move west.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "osgemeos",
+      "name": "OSGEMEOS",
+      "line": "Our reporting on OSGEMEOS, the twin brothers from São Paulo: graffiti, murals and the world they paint.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "vhils",
+      "name": "Vhils",
+      "line": "Our reporting on Vhils, Alexandre Farto: carved walls, street posters and a method built on removal.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "kaws",
+      "name": "KAWS",
+      "line": "Our reporting on KAWS, Brian Donnelly: graffiti, cartoons, COMPANION and sculpture.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "eko-nugroho",
+      "name": "Eko Nugroho",
+      "line": "Our reporting on Eko Nugroho: Yogyakarta, masked figures, embroidery and community work.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "faith-xlvii",
+      "name": "Faith XLVII",
+      "line": "Our reporting on Faith XLVII: South African graffiti, murals in 39 countries and work beyond the wall.",
       "about": "",
       "details": [],
       "image": "",
