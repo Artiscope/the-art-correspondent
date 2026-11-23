@@ -9,6 +9,133 @@
   },
   "articles": [
     {
+      "slug": "who-decides-an-artist-matters",
+      "title": "Who Decides an Artist Matters?",
+      "kicker": "Features",
+      "summary": "Museums, prizes and the odd auction room moment. A look at how eleven artists we follow came to be taken seriously, and what that recognition leaves out.",
+      "description": "A reported essay on how artists gain standing through museum shows, prizes and biennials, from Richter and Kusama at Tate Modern to OSGEMEOS, KAWS, Vhils, Eko Nugroho and Faith XLVII.",
+      "date": "23 November 2026",
+      "subjects": [
+        "gerhard-richter",
+        "yayoi-kusama",
+        "el-anatsui",
+        "s-h-raza",
+        "beatriz-milhazes",
+        "osgemeos",
+        "kaws",
+        "vhils",
+        "eko-nugroho",
+        "faith-xlvii",
+        "banksy",
+        "art-in-public"
+      ],
+      "next": "who-owns-the-street",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Ask how an artist becomes important and you get two kinds of answer. One is about the work: what it looks like, how it is made, what it changed. The other is about people: the curators, juries and crowds who decide, over years, which work is worth looking at again. This is a reported essay about the second kind, drawn from museum, prize and press records listed below.</p>\n<h2>The museum invitation</h2>\n<p>For many artists the clearest sign of standing is a large museum show. Tate Modern has given several of the artists we write about that moment. Gerhard Richter's retrospective, <em>Panorama</em>, opened there in October 2011, and Tate's announcement described him as widely regarded as one of the most important artists working today. Yayoi Kusama's <em>Infinity Mirror Rooms</em> opened at Tate Modern in May 2021 and stayed until April 2024, close to three years.</p>\n<p>El Anatsui was given the Turbine Hall. His Hyundai Commission, <em>Behind the Red Moon</em>, opened on 9 October 2023, and Tate called it the largest work he had made.</p>\n<p>Timing can say as much as the invitation. S.H. Raza had worked in France for decades before the Centre Pompidou gave him a retrospective in 2023, seven years after his death. The Art Newspaper described it as his first show in a state-run museum. Beatriz Milhazes had been showing internationally since the 1990s when the Guggenheim gave her the first New York museum show devoted to her work, in 2025.</p>\n<h2>Prizes for a whole career</h2>\n<p>Some honours are given for a single show. Others are given for a life's work. The Praemium Imperiale, awarded in Japan, went to Richter for painting in 1997 and to Kusama in 2006. El Anatsui received the Golden Lion for Lifetime Achievement at the Venice Biennale in 2015, and the Praemium Imperiale two years later.</p>\n<p>National honours count too, though they are read differently abroad. Raza received India's Padma Shri in 1981, the Padma Bhushan in 2007 and the Padma Vibhushan in 2013. France made him a Commandeur of the Légion d'honneur in 2015.</p>\n<h2>Artists who started outside</h2>\n<p>For artists who began on the street, the route in looks different. In 2008 Tate Modern invited six artists, among them the twin brothers known as OSGEMEOS, to paint its river front. Tate called the show the first major public museum display of street art in London.</p>\n<p>Others followed in their own cities and their own time. The Brooklyn Museum gave KAWS a survey of more than 100 works in 2021, from early graffiti drawings to large sculpture. In Lisbon, MAAT showed Vhils' video installation <em>Prisma</em> in 2022, and MUDE, the city's design museum, showed his printed editions in early 2026. Eko Nugroho was one of five artists in Indonesia's pavilion at the Venice Biennale in 2013. In 2025 the STRAAT Museum in Amsterdam showed Faith XLVII with her son and another artist, and added one of her works to its collection.</p>\n<h2>And then there is Banksy</h2>\n<p>Banksy is the clearest case of an artist whose standing was built almost entirely outside these systems. His best known moment came in an auction room. In 2018 a <em>Girl with Balloon</em> shredded itself just after the hammer fell at Sotheby's. Three years later the renamed <em>Love Is in the Bin</em> was sold again at Sotheby's London, and The Art Newspaper reported a price of £18.6m with fees.</p>\n<h2>What recognition does and does not tell you</h2>\n<p>A museum show, a prize or a place in a pavilion is a judgement made by particular people at a particular time. It makes the work easier to see and easier to take seriously. It does not settle whether the work is good, and it does not tell you whether you will like it.</p>\n<p>It also misses a great deal. Many artists are better known in their own region than in London or New York, and many of the walls these artists painted were never reviewed by anyone. The record above is a starting point for looking, not a ranking.</p>",
+      "how": "This is a reported essay. It draws on the museum, prize body and press records listed below, and is not an interview with any of the artists.",
+      "sources": [
+        {
+          "title": "Gerhard Richter: Panorama, press release",
+          "publisher": "Tate",
+          "date": "4 October 2011",
+          "href": "https://www.tate.org.uk/press/press-releases/gerhard-richter-panorama"
+        },
+        {
+          "title": "Yayoi Kusama: Infinity Mirror Rooms",
+          "publisher": "Tate Modern",
+          "date": "",
+          "href": "https://www.tate.org.uk/whats-on/tate-modern/yayoi-kusama-infinity-mirror-rooms"
+        },
+        {
+          "title": "Hyundai Commission: El Anatsui: Behind the Red Moon, press release",
+          "publisher": "Tate",
+          "date": "9 October 2023",
+          "href": "https://www.tate.org.uk/press/press-releases/hyundai-commission-el-anatsui-behind-the-red-moon"
+        },
+        {
+          "title": "Leading Indian Modernist SH Raza gets first public museum retrospective at Centre Pompidou in Paris",
+          "publisher": "The Art Newspaper",
+          "date": "16 March 2023",
+          "href": "https://www.theartnewspaper.com/2023/03/16/leading-indian-modernist-sh-raza-gets-first-public-museum-retrospective-at-centre-pompidou-in-paris"
+        },
+        {
+          "title": "Guggenheim unveils first New York museum show for Brazilian abstractionist Beatriz Milhazes",
+          "publisher": "Artdaily",
+          "date": "2025",
+          "href": "https://artdaily.com/news/178975/Guggenheim-unveils-first-New-York-museum-show-for-Brazilian-abstractionist-Beatriz-Milhazes"
+        },
+        {
+          "title": "Beatriz Milhazes",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Beatriz_Milhazes"
+        },
+        {
+          "title": "Painting laureates",
+          "publisher": "Praemium Imperiale",
+          "date": "",
+          "href": "https://www.praemiumimperiale.org/en/bumon/painting"
+        },
+        {
+          "title": "El Anatsui",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/El_Anatsui"
+        },
+        {
+          "title": "S. H. Raza",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/S._H._Raza"
+        },
+        {
+          "title": "Street Art at Tate Modern, press release",
+          "publisher": "Tate",
+          "date": "2 April 2008",
+          "href": "https://www.tate.org.uk/press/press-releases/street-art-tate-modern"
+        },
+        {
+          "title": "KAWS: WHAT PARTY",
+          "publisher": "Brooklyn Museum",
+          "date": "2021",
+          "href": "https://www.brooklynmuseum.org/exhibitions/kaws_what_party"
+        },
+        {
+          "title": "Vhils: Prisma",
+          "publisher": "MAAT",
+          "date": "2022",
+          "href": "https://maat.pt/en/exhibition/vhils-prisma"
+        },
+        {
+          "title": "Vhils in view: Lisbon looks back at two decades of art",
+          "publisher": "Euronews",
+          "date": "25 January 2026",
+          "href": "https://www.euronews.com/2026/01/25/vhils-in-view-lisbon-looks-back-at-two-decades-of-art-by-portugals-urban-archaeologist"
+        },
+        {
+          "title": "The Indonesian Pavilion at the 55th Venice Biennale",
+          "publisher": "Biennial Foundation",
+          "date": "15 May 2013",
+          "href": "https://www.biennialfoundation.org/2013/05/the-indonesian-pavilion-under-the-banner-of-sakti-in-sanskrit-meaning-cosmic-energy-is-all-set-to-be-a-force-to-reacon-with-at-the-55th-venice-biennale/"
+        },
+        {
+          "title": "STRAAT Museum offers a unique insight into the artistic journey of Faith XLVII",
+          "publisher": "Artdaily",
+          "date": "2025",
+          "href": "https://artdaily.com/news/182027/STRAAT-Museum-offers-a-unique-insight-into-the-artistic-journey-of-South-African-street-artist-Faith-XLVII-"
+        },
+        {
+          "title": "Banksy world record as shredded work sells to Asian collector for £18.6m at Sotheby's",
+          "publisher": "The Art Newspaper",
+          "date": "14 October 2021",
+          "href": "https://www.theartnewspaper.com/2021/10/14/banksys-shredded-love-is-in-the-bin-sells-for-pound185m"
+        }
+      ],
+      "hidden": false
+    },
+    {
       "slug": "osgemeos-two-brothers-one-world",
       "title": "OSGEMEOS, Two Brothers and One World",
       "kicker": "Artist Stories",
