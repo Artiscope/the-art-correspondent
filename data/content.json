@@ -9,6 +9,174 @@
   },
   "articles": [
     {
+      "slug": "yayoi-kusama-one-mark-over-and-over",
+      "title": "Yayoi Kusama, One Mark Over and Over",
+      "kicker": "Artist Stories",
+      "summary": "The Japanese artist who died in August 2026 spent seven decades repeating a single mark until it filled canvases, objects and rooms.",
+      "description": "A reported profile of Yayoi Kusama: Kyoto training, the New York Infinity Nets, the dots and mirror rooms, and the record set at Sotheby's in November 2026.",
+      "date": "23 November 2026",
+      "subjects": [
+        "yayoi-kusama",
+        "artist-studios"
+      ],
+      "next": "beatriz-milhazes-painting-without-a-brush",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Yayoi Kusama died in a Tokyo hospital on 14 August 2026, aged 97. Her foundation announced the death on 27 August. Three months later one of her earliest paintings set a new auction record for her work. The gap between those two facts says something about how long the paintings took to be understood.</p>\n<h2>Kyoto, then New York</h2>\n<p>She was born in Matsumoto in 1929 and studied Japanese-style painting in Kyoto in 1948. In 1957 she left for the United States, and by 1958 she was in New York, where she stayed until 1973.</p>\n<h2>The Net</h2>\n<p>The New York paintings are the Infinity Nets: canvases covered edge to edge in small looped brushmarks. There is no centre and no border to the pattern. It stops only where the canvas stops. One of them, <em>No. 3P.B.</em> of 1960, was shown in the Whitney Museum's annual exhibition in 1961. On 16 November 2026 it sold at Sotheby's New York for about US$15 million with fees, according to The Art Newspaper.</p>\n<h2>From net to dot to room</h2>\n<p>The same repeated mark later became the dot, carried onto pumpkins, sculptures and whole rooms. In the mirror rooms the repetition has no end at all. She first showed at the Venice Biennale in 1966, with <em>Narcissus Garden</em>, and represented Japan there in 1993.</p>\n<h2>What is not settled</h2>\n<p>Reports of the November sale disagree on which earlier record it replaced. Artsy names a 2022 sale at Phillips; HENI News names a 2023 sale in Hong Kong. We have not tried to settle it.</p>",
+      "how": "This is a reported essay. It draws on the encyclopedia, museum and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Yayoi Kusama has died aged 97",
+          "publisher": "The Art Newspaper",
+          "date": "27 August 2026",
+          "href": "https://www.theartnewspaper.com/2026/08/27/yayoi-kusama-polka-dots-mirror-rooms-has-died-aged-97"
+        },
+        {
+          "title": "Yayoi Kusama",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Yayoi_Kusama"
+        },
+        {
+          "title": "Yayoi Kusama sets $15m auction record",
+          "publisher": "The Art Newspaper",
+          "date": "16 November 2026",
+          "href": "https://theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales"
+        },
+        {
+          "title": "20 new artist auction records set in November 2026",
+          "publisher": "Artsy",
+          "date": "20 November 2026",
+          "href": "https://www.artsy.net/article/artsy-editorial-20-new-artist-auction-records-set-november-2026"
+        },
+        {
+          "title": "Yayoi Kusama, No. 3P.B.",
+          "publisher": "HENI News",
+          "date": "17 November 2026",
+          "href": "https://heni.com/news/article/yayoi-kusama-no-3p-b-2026-11-17"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "beatriz-milhazes-painting-without-a-brush",
+      "title": "Beatriz Milhazes, Painting Without a Brush",
+      "kicker": "Artist Stories",
+      "summary": "The Rio painter paints on plastic and presses the paint onto canvas, building pictures out of flowers, circles and Carnival colour.",
+      "description": "A reported profile of Beatriz Milhazes: the 1980s Generation, the plastic-sheet method, and the Brazilian sources behind her patterns.",
+      "date": "23 November 2026",
+      "subjects": [
+        "beatriz-milhazes",
+        "artist-studios"
+      ],
+      "next": "s-h-raza-from-the-village-to-the-dot",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Beatriz Milhazes paints her pictures twice. First on a sheet of plastic, then, once the paint has dried, by pressing that sheet face down onto the canvas and peeling it away. What stays behind is flat, with no brushstrokes, and carries small tears and wrinkles from the transfer.</p>\n<h2>Rio de Janeiro</h2>\n<p>She was born in Rio de Janeiro in 1960 and works there. She is associated with the 1980s Generation of Brazilian painters. She showed at the Carnegie International in 1995, in Brazil's pavilion at the Venice Biennale in 2003, and had her first survey in the United States at the Pérez Art Museum Miami in 2015.</p>\n<h2>What goes into the pattern</h2>\n<p>Phillips' catalogue for <em>Paraty</em> (2001 to 2002) lists her sources: Baroque architecture, lace, Carnival decoration and the plants of Rio's botanical garden. The painting takes its name from the coastal town where her mother was born. The same catalogue links her to the Brazilian modernist idea of taking in outside influences and making them local.</p>\n<h2>How to look</h2>\n<p>Find the geometry first, the bands and circles, then watch the flowers slide over and under them. The pictures are crowded on purpose.</p>",
+      "how": "This is a reported essay. It draws on the encyclopedia, museum and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Beatriz Milhazes",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Beatriz_Milhazes"
+        },
+        {
+          "title": "Beatriz Milhazes, Paraty, lot 309",
+          "publisher": "Phillips",
+          "date": "May 2026",
+          "href": "https://www.phillips.com/detail/beatriz-milhazes/233914"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "s-h-raza-from-the-village-to-the-dot",
+      "title": "S.H. Raza, From the Village to the Dot",
+      "kicker": "Artist Stories",
+      "summary": "An Indian painter who spent sixty years in France moved from landscapes of Provence and Corsica to the bindu, a single black dot.",
+      "description": "A reported profile of S.H. Raza: the Progressive Artists' Group, Paris, the French landscapes and the Bindu paintings from 1980.",
+      "date": "23 November 2026",
+      "subjects": [
+        "s-h-raza",
+        "artist-studios"
+      ],
+      "next": "gerhard-richter-the-blur-and-the-squeegee",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>S.H. Raza's paintings begin with villages and end with a dot. The distance between the two took him most of a working life, much of it spent far from India.</p>\n<h2>Bombay</h2>\n<p>He was born in 1922 in Kakkaiya, in what is now Madhya Pradesh, and trained in Nagpur and at the Sir J. J. School of Art in Bombay. In 1947 he was one of the founders of the Progressive Artists' Group there.</p>\n<h2>France</h2>\n<p>In 1950 he went to Paris on a French government scholarship and studied at the École des Beaux-Arts. In 1956 he became the first artist from outside France to win the Prix de la Critique. His French landscapes are built of blocks of thick paint: <em>Village Otta Corse</em> (1958), a village in Corsica, is one. By the 1960s the forms loosen into large dark fields, as in <em>La Provence Noire</em> (1965).</p>\n<h2>The bindu</h2>\n<p>From 1980 the bindu, a black dot, sits at the centre of his work, with circles, triangles and bands of colour around it. He moved back to India late in life (Wikipedia gives both 2010 and 2011) and died in New Delhi in July 2016.</p>",
+      "how": "This is a reported essay. It draws on the encyclopedia, museum and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "S. H. Raza",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/S._H._Raza"
+        },
+        {
+          "title": "S H Raza, Village Otta Corse, lot 28",
+          "publisher": "Saffronart",
+          "date": "19 September 2026",
+          "href": "https://www.saffronart.com/auctions/DefaultController.aspx?pt=1&l=55068&eid=4984&a=S%20H%20Raza"
+        },
+        {
+          "title": "S H Raza, La Provence Noire, lot 39",
+          "publisher": "AstaGuru",
+          "date": "September 2026",
+          "href": "https://www.astaguru.com/auctions/2026/manifest-221/la-provence-noire-19204"
+        },
+        {
+          "title": "S H Raza, Bindu, lot 141",
+          "publisher": "Saffronart",
+          "date": "September 2026",
+          "href": "https://www.saffronart.com/auctions/DefaultController.aspx?pt=1&l=55271&eid=4983&a=S%20H%20Raza"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "gerhard-richter-the-blur-and-the-squeegee",
+      "title": "Gerhard Richter, the Blur and the Squeegee",
+      "kicker": "Artist Stories",
+      "summary": "The German painter has worked in two strands at once: photographs copied and blurred, and abstracts left partly to chance.",
+      "description": "A reported profile of Gerhard Richter: Dresden, the move west in 1961, Capitalist Realism, the photo paintings and the squeegee abstracts.",
+      "date": "23 November 2026",
+      "subjects": [
+        "gerhard-richter",
+        "artist-studios"
+      ],
+      "next": "yayoi-kusama-one-mark-over-and-over",
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "body": "<p>Gerhard Richter has never settled on one way to paint. For most of his career he has worked in two strands side by side, and each seems to argue with the other.</p>\n<h2>East to West</h2>\n<p>He was born in Dresden in 1932 and studied at the Dresden Academy of Fine Arts from 1951. In 1961, two months before the Berlin Wall went up, he left for West Germany and continued his studies in Düsseldorf. With Sigmar Polke and Konrad Lueg he took up the label Capitalist Realism. He has lived in Cologne since 1983.</p>\n<h2>The blur</h2>\n<p>The first strand starts with a photograph, copied onto canvas and softened with a dry brush. <em>Kerze</em> (Candle) of 1982 is one: a single candle, painted from a photograph and blurred. The Art Newspaper reports that it sold at Christie's New York in May 2026 from the collection of the dealer Marian Goodman.</p>\n<h2>The squeegee</h2>\n<p>The second strand, from the mid-1980s, is abstract. Layers of paint are dragged across the canvas with a large squeegee, so that colours scrape, tear and show through. <em>Abstraktes Bild</em> of 1991, two metres tall, is a large example. The artist sets the conditions; the paint decides the details.</p>",
+      "how": "This is a reported essay. It draws on the encyclopedia, museum and auction house records listed below, and is not an interview with the artist.",
+      "sources": [
+        {
+          "title": "Gerhard Richter",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Gerhard_Richter"
+        },
+        {
+          "title": "Christie's sale of Marian Goodman's Richters",
+          "publisher": "The Art Newspaper",
+          "date": "21 May 2026",
+          "href": "https://www.theartnewspaper.com/2026/05/21/christies-marian-goodman-richters-henry-mcneil-minimalism-auction-report-new-york"
+        },
+        {
+          "title": "Christie's Hong Kong evening sale, spring 2026",
+          "publisher": "TheValue",
+          "date": "28 March 2026",
+          "href": "https://en.thevalue.com/articles/christies-hong-kong-20th-21st-century-art-auction-2026-spring-evening-sale-result"
+        }
+      ],
+      "hidden": false
+    },
+    {
       "slug": "banksy-the-artist-who-isnt-there",
       "title": "Banksy, the Artist Who Isn't There",
       "kicker": "Artist Stories",
@@ -490,6 +658,7 @@
       "description": "El Anatsui turns thousands of discarded bottle caps into vast hanging sculptures. A note on how they are made and why the material matters.",
       "date": "19 November 2026",
       "subjects": [
+        "el-anatsui",
         "artist-studios"
       ],
       "next": "paper-paste-and-scale",
@@ -1074,6 +1243,66 @@
       "slug": "banksy",
       "name": "Banksy",
       "line": "Our reporting on Banksy: the anonymous artist from Bristol, his stencil work, and how his work is authenticated.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "yayoi-kusama",
+      "name": "Yayoi Kusama",
+      "line": "Our reporting on Yayoi Kusama: the Infinity Nets, the dots and the mirror rooms.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "el-anatsui",
+      "name": "El Anatsui",
+      "line": "Our reporting on El Anatsui: the sculptor of bottle caps and copper wire, and his years in Nsukka.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "beatriz-milhazes",
+      "name": "Beatriz Milhazes",
+      "line": "Our reporting on Beatriz Milhazes: the Rio painter, her plastic-sheet method and her Brazilian sources.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "s-h-raza",
+      "name": "S.H. Raza",
+      "line": "Our reporting on S.H. Raza: the Progressive Artists' Group, the French landscapes and the bindu.",
+      "about": "",
+      "details": [],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [],
+      "hidden": false
+    },
+    {
+      "slug": "gerhard-richter",
+      "name": "Gerhard Richter",
+      "line": "Our reporting on Gerhard Richter: the photo paintings, the squeegee abstracts and the move west.",
       "about": "",
       "details": [],
       "image": "",
