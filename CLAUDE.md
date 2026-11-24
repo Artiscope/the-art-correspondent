@@ -15,7 +15,7 @@ This file is your standing brief. Read all of it before doing anything.
 - It covers Grove Gallery artists and international artists. The owner
   wants it read as an independent publication: no line on the site says it
   is published by Grove. Do not add one.
-- Email shown on the site: info@grovegallery.com.
+- Email shown on the site: info@artiscope.co.uk.
 
 ## How the site is put together
 The pages are built by a script on every push. There are no built pages
