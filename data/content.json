@@ -9,6 +9,81 @@
   },
   "articles": [
     {
+      "slug": "andy-warhol-the-shoe-illustrator",
+      "title": "Andy Warhol, the Shoe Illustrator Who Turned Repetition into Art",
+      "kicker": "Artist Stories",
+      "summary": "A commercial artist from Pittsburgh drew shoes for magazines, then printed soup cans and film stars onto canvas and changed what a painting could be.",
+      "description": "The life of Andy Warhol, from the son of Rusyn immigrants in Pittsburgh and a shoe illustrator in 1950s New York to the soup cans, the silkscreens, the Factory and his paintings with Basquiat.",
+      "date": "25 November 2026",
+      "subjects": [
+        "andy-warhol",
+        "artist-studios"
+      ],
+      "next": "who-decides-an-artist-matters",
+      "body": "<p>Before he painted a soup can, Andy Warhol drew shoes. His first paid job in New York, in 1949, was a set of shoe illustrations for <em>Glamour</em>. Through the 1950s he drew for <em>Vogue</em>, <em>Harper's Bazaar</em> and the shoe company I. Miller, and won awards from the Art Directors Club for the work.</p>\n<h2>From Pittsburgh to New York</h2>\n<p>He was born Andrew Warhola in Pittsburgh on 6 August 1928. His parents were working-class Rusyn immigrants from a village in what is now Slovakia. As a boy he collected film magazines and the autographs of stars, and took Saturday drawing classes at the Carnegie Institute. He went on to study pictorial design at the Carnegie Institute of Technology, graduated in June 1949 and moved to New York that year with his classmate Philip Pearlstein.</p>\n<h2>Thirty-two cans</h2>\n<p>In July 1962 the Ferus Gallery in Los Angeles showed 32 small canvases, each a can of Campbell's soup, one for every flavour the company then sold. They stood on a shelf as well as hanging on the wall, like goods in a grocery aisle. The Museum of Modern Art, which now owns them, notes that they were still painted by hand, the lettering traced from a projection and the border stamped on.</p>\n<p>Later in 1962 he moved to photo-silkscreen, printing a photograph onto canvas through a screen. In his book <em>POPism</em> he wrote that he wanted something that felt more like an assembly line. After Marilyn Monroe died in August 1962 he took a publicity photograph from the film <em>Niagara</em> and printed it 50 times across two canvases. <em>Marilyn Diptych</em> is bright on the left and drains to black and white on the right. Tate bought it in 1980.</p>\n<h2>The studio as a scene</h2>\n<p>His studio, the Factory, became a centre for experiment of every kind. He made underground films, managed the Velvet Underground and later started <em>Interview</em> magazine. In 1968 he was shot at the studio and survived. Afterwards, Wikipedia's account of his life says, the Factory became much more of a business.</p>\n<p>In the 1980s he painted with a much younger artist, Jean-Michel Basquiat. The two are thought to have made about 160 works together between 1983 and 1985. Warhol said he thought the paintings were better when you could not tell who had done which part. The Fondation Louis Vuitton in Paris showed more than 80 of them in 2023.</p>\n<h2>After 1987</h2>\n<p>Warhol died in New York on 22 February 1987, after gallbladder surgery. He was 58. The Andy Warhol Museum in Pittsburgh is described as the largest museum in the United States devoted to a single artist, and his work comes up for sale constantly: Christie's alone lists more than 5,800 sold lots by him. In one week this November a 48 inch <em>Flowers</em> sold at Sotheby's New York for a reported US$18.2 million with fees, and a single soup can, <em>Turkey Noodle</em> of 1962, made US$9 million with fees at Christie's. The boy who collected film stars' autographs ended up making the pictures that other people collect.</p>",
+      "sources": [
+        {
+          "title": "Andy Warhol",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Andy_Warhol"
+        },
+        {
+          "title": "Andy Warhol, Campbell's Soup Cans, 1962",
+          "publisher": "The Museum of Modern Art",
+          "date": "",
+          "href": "https://www.moma.org/collection/works/79809"
+        },
+        {
+          "title": "Andy Warhol, Campbell's Soup Cans, 1962",
+          "publisher": "MoMA Learning",
+          "date": "",
+          "href": "https://www.moma.org/learn/moma_learning/andy-warhol-campbells-soup-cans-1962/"
+        },
+        {
+          "title": "Marilyn Diptych",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Marilyn_Diptych"
+        },
+        {
+          "title": "Andy Warhol and Jean-Michel Basquiat's collaboration examined in Fondation Louis Vuitton show",
+          "publisher": "The Art Newspaper",
+          "date": "30 March 2023",
+          "href": "https://www.theartnewspaper.com/2023/03/30/andy-warhol-and-jean-michel-basquiats-collaboration-examined-in-fondation-louis-vuitton-show"
+        },
+        {
+          "title": "Basquiat x Warhol: Painting 4 Hands",
+          "publisher": "e-flux",
+          "date": "2023",
+          "href": "https://www.e-flux.com/announcements/501487/basquiat-x-warhol-painting-4-hands/"
+        },
+        {
+          "title": "Yayoi Kusama sets $15m auction record as Sotheby's opens New York mega-sales",
+          "publisher": "The Art Newspaper",
+          "date": "16 November 2026",
+          "href": "https://www.theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales"
+        },
+        {
+          "title": "Christie's tepid 21st-century sale caps week of blockbuster auctions in New York",
+          "publisher": "The Art Newspaper",
+          "date": "20 November 2026",
+          "href": "https://theartnewspaper.com/2026/11/20/christies-new-york-november-auction-21st-century-art-gund-sonnabend-basquiat"
+        },
+        {
+          "title": "Andy Warhol, sold lots",
+          "publisher": "Christie's",
+          "date": "",
+          "href": "https://www.christies.com.cn/en/search?entry=andy%20warhol&sortby=date&tab=sold_lots"
+        }
+      ],
+      "image": "andy-warhol-jack-mitchell-1973.jpg",
+      "alt": "Close black and white portrait of Andy Warhol in clear-framed glasses, holding his dachshund up against his cheek.",
+      "credit": "Andy Warhol with his dachshund Archie, 1973. Photo: Jack Mitchell, CC BY-SA 4.0, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the museum, encyclopedia, exhibition and auction pages listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false
+    },
+    {
       "slug": "mohamed-lghacham-the-borrowed-family-album",
       "title": "Mohamed L'Ghacham and the Borrowed Family Album",
       "kicker": "Artist Stories",
@@ -3084,6 +3159,44 @@
           "publisher": "Colossal (Grace Ebert)",
           "date": "13 April 2021",
           "href": "https://www.thisiscolossal.com/2021/04/mohamed-lghacham-photo-murals/"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "andy-warhol",
+      "name": "Andy Warhol",
+      "line": "Our reporting on Andy Warhol: the shoe drawings, the soup cans, the silkscreens and the Factory.",
+      "about": "<p>An American artist, born in Pittsburgh in 1928, who moved from commercial illustration to Pop art in the early 1960s. He printed photographs of products, film stars and news events onto canvas by silkscreen, made films and founded <em>Interview</em> magazine. He died in New York in 1987.</p>",
+      "details": [
+        [
+          "Born",
+          "Pittsburgh, 1928"
+        ],
+        [
+          "Died",
+          "New York, 1987"
+        ],
+        [
+          "Known for",
+          "Pop art, silkscreen paintings and film"
+        ]
+      ],
+      "image": "andy-warhol-white-house-1977.jpg",
+      "alt": "Black and white photograph of Andy Warhol in a dark suit and striped tie, hands folded, standing in a candlelit room.",
+      "credit": "Andy Warhol at a White House reception for artists, 14 June 1977. Photo: Jack Kightlinger, White House, public domain, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Andy Warhol",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Andy_Warhol"
+        },
+        {
+          "title": "Andy Warhol, Campbell's Soup Cans, 1962",
+          "publisher": "The Museum of Modern Art",
+          "date": "",
+          "href": "https://www.moma.org/collection/works/79809"
         }
       ],
       "hidden": false
