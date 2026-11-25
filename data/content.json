@@ -84,6 +84,75 @@
       "hidden": false
     },
     {
+      "slug": "mohamed-lghacham-the-borrowed-family-album",
+      "title": "Mohamed L'Ghacham and the Borrowed Family Album",
+      "kicker": "Artist Stories",
+      "summary": "A muralist from Tangier asks people for their old photographs, then paints them across the walls of the towns they came from.",
+      "description": "How Mohamed L'Ghacham, born in Tangier in 1993 and based near Barcelona, paints family snapshots and archive photographs as murals, from Casa Paquita in Mallorca to Vienna.",
+      "date": "25 November 2026",
+      "subjects": [
+        "mohamed-lghacham",
+        "art-in-public"
+      ],
+      "next": "rene-matic-the-people-in-the-pictures",
+      "body": "<p>In October 2017, on one of the oldest houses in Can Picafort, on the north coast of Mallorca, Mohamed L'Ghacham painted a group of children. They were the children of the woman who owned the house, Paquita, as they had looked about forty years earlier, standing in the same place. The picture came from her family photographs, and she let him use it. The mural, made for the Saladina Art Fest, is called <em>Casa Paquita</em>.</p>\n<p>That arrangement, a stranger's snapshot returned to the street where it was taken, sits at the centre of his work.</p>\n<h2>A painter from Tangier</h2>\n<p>L'Ghacham was born in Tangier, Morocco, in 1993 and is based in Mataró, on the coast north of Barcelona. He found graffiti at school, and only later the classical painters. His first murals, he told Colossal in 2021, were painted in abandoned or demolished places, or on the outskirts of cities.</p>\n<h2>Borrowed pictures</h2>\n<p>Festival organisers describe his painting as figurative and close to realism, with Impressionist touches, drawn from photographs of the late twentieth century. Colossal, writing in 2019, noticed what he paints: meals, table settings, toasts, people gathered together. It also noticed that he prefers photographs with small accidents in them, because they make the scene feel real.</p>\n<p>The pictures increasingly come from the places he paints. By 2021 he was working from snapshots and home videos lent by neighbours, and from city archives. In Estarreja, Portugal, he painted the doctor Egas Moniz with his assistant Deolinda, from a 1930s photograph taken at Santa Marta Hospital in Lisbon and kept in Moniz's archive.</p>\n<h2>What the pictures say</h2>\n<p>Some walls carry a point of view. In Ostend he painted a woman cutting a birthday cake. The city's art route says he wanted to show the mother as an important member of the family, and saw the cake as a sign of how things get divided unequally. That painting can no longer be seen.</p>\n<p>In Vienna, for Calle Libre's 2025 walls, he painted a family at a meal while plants grow over the scene. The festival describes it as almost a fading memory, and as a small utopia within reach.</p>\n<h2>Walls that do not last</h2>\n<p>Murals are exposed to weather, building work and new paint, and the Ostend wall shows how quickly one can go. Our reading is that the short life suits the material. A picture kept for decades in a drawer spends a few years where the whole street can see it.</p>",
+      "sources": [
+        {
+          "title": "Mohamed L'Ghacham in Can Picafort, Mallorca",
+          "publisher": "Street Art United States",
+          "date": "11 October 2017",
+          "href": "https://streetartunitedstates.com/mohamed-lghacham-in-can-picafort-mallorca/"
+        },
+        {
+          "title": "Mohamed L'Ghacham (MA)",
+          "publisher": "Nuart Aberdeen",
+          "date": "2022",
+          "href": "https://2022.nuartaberdeen.co.uk/artists/mohamed-lghacham-ma/"
+        },
+        {
+          "title": "Mohamed L'Ghacham (MAR)",
+          "publisher": "North West Walls",
+          "date": "2018",
+          "href": "https://northwestwalls.be/history/2018/mohamedlghacham"
+        },
+        {
+          "title": "Vintage Family Photos Painted As Large Scale Murals by Mohamed L'Ghacham",
+          "publisher": "Colossal",
+          "date": "21 April 2019",
+          "href": "https://www.thisiscolossal.com/2019/04/vintage-photo-murals-by-mohamed-lghacham/"
+        },
+        {
+          "title": "Candid Moments Captured in Vintage Photos Are Magnified in Mohamed L'Ghacham's Murals",
+          "publisher": "Colossal",
+          "date": "13 April 2021",
+          "href": "https://www.thisiscolossal.com/2021/04/mohamed-lghacham-photo-murals/"
+        },
+        {
+          "title": "Projects",
+          "publisher": "mohamedlghacham.com",
+          "date": "",
+          "href": "http://www.mohamedlghacham.com/"
+        },
+        {
+          "title": "Mohamed L'Ghacham",
+          "publisher": "The Crystal Ship, Ostend",
+          "date": "",
+          "href": "https://thecrystalship.org/artworks/mohamed-lghacham/?upage=2"
+        },
+        {
+          "title": "the table is set",
+          "publisher": "Calle Libre",
+          "date": "2025",
+          "href": "https://www.callelibre.at/walls-2025/mohamed-lghacham"
+        }
+      ],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "how": "This is a reported story. It draws on the festival pages, magazine articles and the artist's own website listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false
+    },
+    {
       "slug": "rene-matic-the-people-in-the-pictures",
       "title": "Rene Matić and the People in the Pictures",
       "kicker": "Artist Stories",
@@ -2670,6 +2739,44 @@
           "publisher": "Andrew Kreps Gallery",
           "date": "",
           "href": "https://andrewkreps.com/artists/jes-fan"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "mohamed-lghacham",
+      "name": "Mohamed L'Ghacham",
+      "line": "Our reporting on Mohamed L'Ghacham: family photographs painted as murals, from Mallorca to Vienna.",
+      "about": "<p>A painter and muralist born in Tangier, Morocco, in 1993 and based in Mataró, near Barcelona. He paints old family and archive photographs across whole walls.</p>",
+      "details": [
+        [
+          "Born",
+          "1993"
+        ],
+        [
+          "Based",
+          "Mataró, near Barcelona"
+        ],
+        [
+          "Known for",
+          "Murals from old photographs"
+        ]
+      ],
+      "image": "",
+      "alt": "",
+      "credit": "",
+      "sources": [
+        {
+          "title": "Mohamed L'Ghacham (MA)",
+          "publisher": "Nuart Aberdeen",
+          "date": "2022",
+          "href": "https://2022.nuartaberdeen.co.uk/artists/mohamed-lghacham-ma/"
+        },
+        {
+          "title": "Mohamed L'Ghacham (MAR)",
+          "publisher": "North West Walls",
+          "date": "2018",
+          "href": "https://northwestwalls.be/history/2018/mohamedlghacham"
         }
       ],
       "hidden": false
