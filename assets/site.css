@@ -429,6 +429,29 @@ p.wordmark{display:flex;align-items:center;margin-bottom:var(--s1)}
 .feature-grid .blurb{margin-top:var(--s2);font-size:calc(var(--t-small) * var(--b-scale, 1));color:var(--soft)}
 .feature-grid.is-filtered .where{display:none}
 
+
+/* The front page's lead story, shown while no lead photograph is chosen */
+.lead-cover{padding-bottom:var(--s2)}
+.cover{display:grid;grid-template-columns:7fr 5fr;gap:var(--s5);align-items:center}
+.cover-pic{display:block;background:var(--accent)}
+.cover-pic img{display:block;width:100%;height:clamp(300px,40vw,520px);object-fit:cover}
+.cover-words .label{margin-bottom:var(--s2)}
+.cover-words h2{font-size:calc(var(--t-heading) * var(--h-scale, 1));line-height:1.1}
+.cover-words h2 a{text-decoration:none}
+.cover-words h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:8px}
+.cover-blurb{margin-top:var(--s3);color:var(--soft);font-size:calc(1.125rem * var(--b-scale, 1))}
+.cover-words .text-link{margin-top:var(--s1)}
+.cover-credit{margin-top:var(--s1);max-width:62ch;font-size:calc(var(--t-label) * var(--b-scale, 1));color:var(--quiet)}
+
+/* Story cards with a photograph */
+.feature-grid li.has-pic{padding-top:0}
+.card-pic{order:-2;width:calc(100% + 2 * var(--s4));max-width:none;margin:0 calc(-1 * var(--s4)) var(--s3);aspect-ratio:16/9;object-fit:contain;background:var(--page)}
+.feature-grid .when{margin-top:auto;padding-top:var(--s3);font-size:calc(var(--t-label) * var(--b-scale, 1));color:var(--quiet)}
+.contents .blurb{margin-top:var(--s1);font-size:calc(var(--t-small) * var(--b-scale, 1))}
+
+/* Read by subject, split into artists and themes */
+.topic-kind{margin-top:var(--s3);font-size:calc(var(--t-small) * var(--b-scale, 1));color:var(--quiet)}
+
 /* Soft fade-up. Only hides content when the script is running. */
 .js [data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease;transition-delay:var(--wait,0ms)}
 .js [data-reveal].in{opacity:1;transform:none}
@@ -440,6 +463,7 @@ p.wordmark{display:flex;align-items:center;margin-bottom:var(--s1)}
   .hero h1{font-size:calc(var(--t-page) * var(--h-scale, 1))}
   .issue{padding-top:var(--s7)}
   .feature-grid{grid-template-columns:repeat(2,1fr)}
+  .cover{grid-template-columns:1fr;gap:var(--s3)}
 }
 /* large phone */
 @media (max-width:720px){
@@ -469,6 +493,8 @@ p.wordmark{display:flex;align-items:center;margin-bottom:var(--s1)}
   .more{padding-left:calc(var(--s3) + var(--s2))}
   .feature-grid{grid-template-columns:1fr;gap:var(--s2)}
   .feature-grid li{padding:var(--s3)}
+  .card-pic{width:calc(100% + 2 * var(--s3));margin:0 calc(-1 * var(--s3)) var(--s2)}
+  .cover-words h2{font-size:calc(var(--t-title) * var(--h-scale, 1))}
   .feature-grid .where{margin-bottom:var(--s1)}
   .feature-grid .blurb{display:none}
   .details{padding:var(--s2) var(--s3)}
