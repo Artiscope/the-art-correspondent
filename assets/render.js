@@ -117,8 +117,27 @@
       return out;
     }
     var AO_KIND = "page";
+    // ----- for search engines: structured data, a picture to share and titles short enough to show in full -----
+    var MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+    function isoDate(s) { var m = /^(\d{1,2}) ([A-Za-z]+) (\d{4})$/.exec(String(s || "").trim()), i = m ? MONTHS.indexOf(m[2].toLowerCase()) : -1; return i < 0 ? "" : m[3] + "-" + ("0" + (i + 1)).slice(-2) + "-" + ("0" + m[1]).slice(-2); }
+    function plainText(s, n) { var t = String(s || "").replace(/<[^>]*>/g, " ").replace(/&amp;/g, "&").replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim(); return n && t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; }
+    function shortTitle(t) { t = String(t || ""); var i = t.lastIndexOf(" | "); return t.length > 60 && i > 0 ? t.slice(0, i) : t; }
+    function ldTag(o) { return '<script type="application/ld+json">' + JSON.stringify(o).replace(/</g, "\\u003c") + '</script>\n'; }
+    function shareTag(file) { return /^[A-Za-z0-9._-]{1,120}\.(png|jpe?g)$/.test(String(file || "")) ? '<meta property="og:image" content="' + esc(SITE_URL + "assets/images/" + file) + '">\n<meta name="twitter:card" content="summary_large_image">\n' : ""; }
+    function orgLd() { return { "@type": "Organization", name: plainText(NAME()), url: SITE_URL }; }
+    function siteLd(desc) { return ldTag({ "@context": "https://schema.org", "@type": "WebSite", name: plainText(NAME()), url: SITE_URL, description: plainText(desc), publisher: orgLd() }); }
+    function articleLd(type, urlPath, title, desc, date, file, about) {
+      var o = { "@context": "https://schema.org", "@type": type, headline: plainText(title, 110), description: plainText(desc), url: SITE_URL + urlPath, mainEntityOfPage: SITE_URL + urlPath, author: orgLd(), publisher: orgLd(), isPartOf: { "@type": "WebSite", name: plainText(NAME()), url: SITE_URL } };
+      if (isoDate(date)) o.datePublished = isoDate(date);
+      if (/^[A-Za-z0-9._-]{1,120}\.(png|jpe?g)$/.test(String(file || ""))) o.image = SITE_URL + "assets/images/" + file;
+      if (about && about.length) o.about = about.map(function (n) { return { "@type": "Thing", name: plainText(n) }; });
+      return ldTag(o);
+    }
+    function listLd(urlPath, name, desc) { return ldTag({ "@context": "https://schema.org", "@type": "CollectionPage", name: plainText(name), description: plainText(desc), url: SITE_URL + urlPath, isPartOf: { "@type": "WebSite", name: plainText(NAME()), url: SITE_URL } }); }
     function page(path, title, desc, main, o) {
       o = o || {};
+      title = shortTitle(title);
+      if (path === "index.html" && !o.file) o.head = (o.head || "") + siteLd(desc);
       var urlPath = /index\.html$/.test(path) ? path.slice(0, -"index.html".length) : (o.file ? "" : path);
       var ao = aoHtml(PAGES.addons, AO_KIND, SITE_URL + urlPath, String(title || "").split(" | ")[0], esc, function (x) { return /^(https?:|mailto:|#|\/)/.test(x) ? x : "@@" + x; }); AO_KIND = "page";
       // a page with its own layout has no menu bar, footer or shared sections; popups show on every page
@@ -129,7 +148,7 @@
       // the site's own mark beside its name, drawn from the outline kept in the site's details
       var markSvg = /^[MLHVCSQTAZmlhvcsqtaz0-9 .,-]{1,600}$/.test(SITE.mark || "") ? '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="currentColor" d="' + SITE.mark + '"></path></svg>' : "";
       var icons = /^assets\/[a-z0-9-]+\/$/.test(SITE.icons || "") && !iconOk() ? '<link rel="icon" href="' + r + SITE.icons + 'favicon.svg" type="image/svg+xml">\n<link rel="icon" href="' + r + SITE.icons + 'favicon.png" type="image/png" sizes="32x32">\n<link rel="apple-touch-icon" href="' + r + SITE.icons + 'apple-touch-icon.png">\n' : "";
-      var share = /^assets\/[a-z0-9\/._-]+\.(png|jpe?g)$/.test(SITE.share || "") ? '<meta property="og:image" content="' + esc(SITE_URL + SITE.share) + '">\n<meta name="twitter:card" content="summary_large_image">\n' : "";
+      var share = o.image && shareTag(o.image) ? shareTag(o.image) : /^assets\/[a-z0-9\/._-]+\.(png|jpe?g)$/.test(SITE.share || "") ? '<meta property="og:image" content="' + esc(SITE_URL + SITE.share) + '">\n<meta name="twitter:card" content="summary_large_image">\n' : "";
       main = String(main).split("@@").join(r);
       var links = navLinks().map(function (l) { return '<a href="' + esc(hrefOf(l[1]).split("@@").join(r)) + '"' + (l[1] && urlPath === String(l[1]).replace(/^\.?\/?/, "") ? ' aria-current="page"' : "") + '>' + txt(l[0]) + '</a>'; }).join("\n    ");
       var logosL = headLogos(st, r, "L"), logosR = headLogos(st, r, "C") + headLogos(st, r, "R");
@@ -154,7 +173,7 @@
         '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261125b">\n' + (THEME || "") + secCssTag() + wordsTag() +
         '</head>\n<body>\n<a class="skip" href="#main">' + W("menu.skip", "Skip to the stories") + '</a>\n' + (o.top ? String(o.top).split("@@").join(r) + "\n" : "") + nav + '\n<main id="main">\n' + main + '\n</main>\n' + foot + '\n' +
         '<script src="' + r + 'assets/site.js" defer></script>\n</body>\n</html>\n';
-      return { path: o.file || path, url: urlPath, html: html };
+      return { path: o.file || path, url: urlPath, html: html, lastmod: o.lastmod || "" };
     }
 
     // ----- sections -----
@@ -179,7 +198,7 @@
     // ----- the six sections of this design -----
     function textLink(words, h) { return words && addrOk(h) ? '<p data-reveal><a class="text-link" href="' + esc(hrefOf(h)) + '"' + (/^https?:/i.test(String(h)) ? ' rel="noopener"' : "") + '>' + txt(words) + '</a></p>' : ""; }
     function storyCard(a, where) {
-      var pic = a.image ? '<img class="card-pic" src="' + esc(opts.imageSrc ? opts.imageSrc(a.image) : "@@assets/images/" + a.image) + '" alt="" loading="lazy">' : "";
+      var pic = a.image ? '<img class="card-pic" src="' + esc(opts.imageSrc ? opts.imageSrc(a.image) : "@@assets/images/" + a.image) + '" alt="' + esc(a.alt || "") + '" loading="lazy">' : "";
       var date = String(a.date || "").trim();
       return '<li' + (pic ? ' class="has-pic"' : "") + '>' + pic + '<a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (where && String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") +
         (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + (date ? '<p class="when">' + txt(date) + '</p>' : "") + '</li>';
@@ -521,7 +540,9 @@
         M('<footer class="filed">' + (how ? '<p class="how" data-reveal>' + txt(how) + '</p>' : (opts.mark ? '<p class="how">[A line on how the story was reported]</p>' : "")) + sourceList(a.sources) +
           (subs.length ? '<p class="label" data-reveal>' + W("item.filed", "Filed under") + '</p><p class="topic-links" data-reveal>' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("\n") + '</p>' : "") + '</footer>', "sources") + '\n  </article>';
       main = tplWrap("article", a.slug, main); AO_KIND = "article";
-      return page(P.articles + "/" + a.slug + "/index.html", or(a.title, "[Story title]") + " | " + NAME(), String(a.description || "").trim() || String(a.summary || ""), main);
+      var aDesc = String(a.description || "").trim() || String(a.summary || "");
+      return page(P.articles + "/" + a.slug + "/index.html", or(a.title, "[Story title]") + " | " + NAME(), aDesc, main,
+        { head: articleLd("Article", P.articles + "/" + a.slug + "/", a.title, aDesc, a.date, a.image, subs.map(function (x) { return x.name; })), image: a.image, lastmod: isoDate(a.date) });
     }
     // A subject page: its name and introduction, then every story filed under it.
     function artistPage(x) {
@@ -536,7 +557,7 @@
         '\n    <section class="all-features" aria-label="' + W("item.stories-about", "Stories filed under {name}", { name: esc(or(x.name, "the subject")) }) + '">' + (about.length ? '<ul class="feature-grid">' + about.map(function (a) { return storyCard(a, true); }).join("") + '</ul>' : '<p class="where">[Stories filed under this subject appear here]</p>') + '</section>' +
         (srcs ? '\n    ' + M('<footer class="filed">' + srcs + '</footer>', "sources") : "") + '\n  </article>';
       main = tplWrap("artist", x.slug, main); AO_KIND = "artist";
-      return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main);
+      return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main, { head: listLd(P.artists + "/" + x.slug + "/", x.name, x.line), image: x.image });
     }
     // All the stories as cards, with a word for each small line to show only those; or every artist.
     function listPage(k) {
@@ -549,7 +570,7 @@
         var filter = kinds.length > 1 ? '<div class="filter" role="group" aria-label="' + W("sr.filter", "Show stories from") + '"><button type="button" data-filter="" aria-pressed="true">' + W("btn.all", "All") + '</button>' + kinds.map(function (t) { return '<button type="button" data-filter="' + esc(t.toLowerCase()) + '" aria-pressed="false">' + txt(t) + '</button>'; }).join("") + '</div>' : "";
         grid = filter + '<ul class="feature-grid" data-stories>' + items.map(function (a) { return storyCard(a, true).replace("<li>", '<li data-kind="' + esc(String(a.kicker || "").trim().toLowerCase()) + '">'); }).join("") + '</ul>';
       } else grid = '<ul class="feature-grid">' + items.map(function (x) { return '<li><a class="story" href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>' + (String(x.line || "").trim() ? '<p class="blurb">' + txt(x.line) + '</p>' : "") + '</li>'; }).join("") + '</ul>';
-      return page(P[k] + "/index.html", w.name + " | " + NAME(), String(w.intro || ""), head + '\n  <section class="all-features">' + grid + '</section>');
+      return page(P[k] + "/index.html", w.name + " | " + NAME(), String(w.intro || ""), head + '\n  <section class="all-features">' + grid + '</section>', { head: listLd(P[k] + "/", w.name, w.intro) });
     }
     function notFound() {
       var base = SITE_URL.replace(/^https:\/\/[^\/]+/, "") || "/";
