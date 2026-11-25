@@ -2065,7 +2065,7 @@
       "slug": "banksy",
       "name": "Banksy",
       "line": "Our reporting on Banksy: the anonymous artist from Bristol, his stencil work, and how his work is authenticated.",
-      "about": "<p>An artist who works anonymously, first seen on walls and trains in Bristol in the 1990s. The work is authenticated by Pest Control, the artist's own office, and auction houses do not agree on a year of birth.</p>",
+      "about": "<p>An artist who works anonymously, first seen on walls and trains in Bristol in the 1990s. The work is authenticated by Pest Control, the artist's own office, and auction houses do not agree on a year of birth.</p><h2>Bristol, 2009</h2><p>In the summer of 2009 the artist took over Bristol Museum in his home city. The show, Banksy Versus Bristol Museum, had about 100 works, was free, and ran until 31 August. It had been planned in secret since the October before. Visitors found an ice-cream van and portable toilets set out like Stonehenge among the paintings.</p><p>Our reading: the joke was about who pays. A council that had spent money cleaning his work off walls was now hanging it.</p><h2>In their own words</h2><blockquote>This is the first show I’ve ever done where taxpayers’ money is being used to hang my pictures up rather than scrape them off.<cite>Banksy, statement on the Bristol show, 2009, reported by the Mail & Guardian</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../kaws/\">KAWS</a>, who also started by painting over adverts</li><li><a href=\"../vhils/\">Vhils</a>, who shared the Cans Festival with Banksy in 2008</li></ul>",
       "details": [
         [
           "Working since",
@@ -2082,6 +2082,10 @@
         [
           "Authenticated by",
           "Pest Control"
+        ],
+        [
+          "Museum show",
+          "Banksy Versus Bristol Museum, 2009"
         ]
       ],
       "image": "banksy-statue-waterloo-place.jpg",
@@ -2111,6 +2115,12 @@
           "publisher": "Wikipedia",
           "date": "",
           "href": "https://en.wikipedia.org/wiki/Girl_with_Balloon"
+        },
+        {
+          "title": "Banksy's great and secret show",
+          "publisher": "Mail & Guardian (Sapa-DPA, Anna Tomforde)",
+          "date": "13 June 2009",
+          "href": "https://mg.co.za/friday/2009-06-13-banksy-s-great-and-secret-show/"
         }
       ],
       "hidden": false
@@ -2119,7 +2129,7 @@
       "slug": "yayoi-kusama",
       "name": "Yayoi Kusama",
       "line": "Our reporting on Yayoi Kusama: the Infinity Nets, the dots and the mirror rooms.",
-      "about": "<p>Born in Matsumoto in 1929, she trained in Kyoto, spent fifteen years in New York and returned to Tokyo in 1973. The repeated mark of the Infinity Nets became the dots, the pumpkins and the mirror rooms. She died in August 2026, aged 97.</p>",
+      "about": "<p>Born in Matsumoto in 1929, she trained in Kyoto, spent fifteen years in New York and returned to Tokyo in 1973. The repeated mark of the Infinity Nets became the dots, the pumpkins and the mirror rooms. She died in August 2026, aged 97.</p><h2>A painter first</h2><p>Kusama said that her wish, from early on, was simply to be a painter. In New York in the 1960s she knew Donald Judd, Andy Warhol, Joseph Cornell and Claes Oldenburg, and painted net canvases up to 33 feet long. She painted so much that she began to feel ill.</p><p>Her first mirrored room, Kusama's Peep Show or Endless Love Show, dates from 1966. In 1977, back in Japan, she chose to live in a psychiatric hospital in Tokyo, and kept a studio where she painted from nine in the morning until six. She wrote novels and poems there too, and called her work her saviour.</p><h2>In their own words</h2><blockquote>My wish was to be a painter one day.<cite>Yayoi Kusama, Tate film, 2012</cite></blockquote><blockquote>I write novels and poems, and I also paint in the hospital. They are my saviours.<cite>Yayoi Kusama, quoted by Tate</cite></blockquote><blockquote>I would stand up to them all with a single polka dot.<cite>Yayoi Kusama, quoted by Tate</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../el-anatsui/\">El Anatsui</a>, another artist who repeats one small unit across a huge surface</li><li><a href=\"../beatriz-milhazes/\">Beatriz Milhazes</a>, a painter of pattern and colour</li></ul>",
       "details": [
         [
           "Born",
@@ -2136,6 +2146,10 @@
         [
           "Venice Biennale",
           "1966, and for Japan in 1993"
+        ],
+        [
+          "First mirror room",
+          "Kusama's Peep Show or Endless Love Show, 1966"
         ]
       ],
       "image": "yayoi-kusama-c2004.jpg",
@@ -2153,6 +2167,18 @@
           "publisher": "Wikipedia",
           "date": "",
           "href": "https://en.wikipedia.org/wiki/Yayoi_Kusama"
+        },
+        {
+          "title": "Yayoi Kusama: Obsessed with Polka Dots",
+          "publisher": "Tate",
+          "date": "6 February 2012",
+          "href": "https://www.tate.org.uk/art/artists/yayoi-kusama-8094/obsessed-polka-dots"
+        },
+        {
+          "title": "Yayoi Kusama: Infinity Mirror Rooms, exhibition guide",
+          "publisher": "Tate Modern",
+          "date": "2021",
+          "href": "https://www.tate.org.uk/whats-on/tate-modern/yayoi-kusama-infinity-mirror-rooms/exhibition-guide"
         }
       ],
       "hidden": false
@@ -2161,7 +2187,7 @@
       "slug": "el-anatsui",
       "name": "El Anatsui",
       "line": "Our reporting on El Anatsui: the sculptor of bottle caps and copper wire, and his years in Nsukka.",
-      "about": "<p>A Ghanaian sculptor who taught for decades at the University of Nigeria, Nsukka. For more than two decades he has made vast, flexible hangings from liquor bottle caps joined with copper wire, hung differently each time they are shown.</p>",
+      "about": "<p>A Ghanaian sculptor who taught for decades at the University of Nigeria, Nsukka. For more than two decades he has made vast, flexible hangings from liquor bottle caps joined with copper wire, hung differently each time they are shown.</p><h2>Teacher, then sculptor of cloth</h2><p>Anatsui trained in Kumasi from 1965 to 1968 and taught sculpture at Nsukka for more than four decades. Before the bottle caps came driftwood: Akua's Surviving Children, from 1996, is made of it. The bottle-cap hangings reached London in 2002, at the October Gallery, and the British Museum bought two of them.</p><p>He has said he has a hidden aim of waking up the artist in everybody, and that used things carry a charge from their past. His studio in Ghana is about 80 metres long, and he likes it quiet: no music while the work is made.</p><h2>In their own words</h2><blockquote>When something has been used, there is a certain charge, a certain energy.<cite>El Anatsui, The Art Newspaper, 2023</cite></blockquote><blockquote>Freedom is so very important, it can ameliorate so many things.<cite>El Anatsui, The Art Newspaper, 2023</cite></blockquote><blockquote>I don’t want music in the studio.<cite>El Anatsui, Studio International, 2023</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../yayoi-kusama/\">Yayoi Kusama</a>, repetition on a vast scale</li><li><a href=\"../dana-awartani/\">Dana Awartani</a>, craft done by many hands</li></ul>",
       "details": [
         [
           "Born",
@@ -2178,6 +2204,14 @@
         [
           "Turbine Hall",
           "Behind the Red Moon, 2023 to 2024"
+        ],
+        [
+          "Taught",
+          "Sculpture at Nsukka, for more than four decades"
+        ],
+        [
+          "Golden Lion",
+          "Venice, 2015"
         ]
       ],
       "image": "el-anatsui-ambivalent-hold-nsukka.jpg",
@@ -2201,6 +2235,18 @@
           "publisher": "",
           "date": "",
           "href": "https://ocula.com/art-galleries/axel-vervoordt-gallery/exhibitions/el-anatsui-solo-exhibition/"
+        },
+        {
+          "title": "El Anatsui, the sculptor, on making art from waste",
+          "publisher": "The Art Newspaper (Louisa Buck)",
+          "date": "9 October 2023",
+          "href": "https://www.theartnewspaper.com/2023/10/09/el-anatsui-the-sculptor-on-making-art-from-waste-and-waking-up-the-artist-in-all-of-us"
+        },
+        {
+          "title": "El Anatsui interview: Behind the Red Moon",
+          "publisher": "Studio International (Veronica Simpson)",
+          "date": "27 October 2023",
+          "href": "https://www.studiointernational.com/el-anatsui-interview-behind-the-red-moon-turbine-hall-tate-modern/"
         }
       ],
       "hidden": false
@@ -2209,7 +2255,7 @@
       "slug": "beatriz-milhazes",
       "name": "Beatriz Milhazes",
       "line": "Our reporting on Beatriz Milhazes: the Rio painter, her plastic-sheet method and her Brazilian sources.",
-      "about": "<p>A Rio de Janeiro painter of the 1980s Generation. She paints motifs on plastic sheets and transfers them to canvas, building crowded pictures of circles, bands and flowers.</p>",
+      "about": "<p>A Rio de Janeiro painter of the 1980s Generation. She paints motifs on plastic sheets and transfers them to canvas, building crowded pictures of circles, bands and flowers.</p><h2>From journalism to the studio</h2><p>Milhazes studied journalism before she turned to painting at the Parque Lage school in Rio. She grew up under Brazil's military dictatorship, which lasted from 1964 to 1985. She worked out her transfer method in 1989, and her studio is next to Rio's botanical garden.</p><p>She calls herself an abstract geometric artist, and says she feels like a scientist in the studio. Peeling a single painted layer off its plastic sheet can take up to ten hours. In 2023 Turner Contemporary in Margate gave her first UK museum show in over 20 years.</p><h2>In their own words</h2><blockquote>I feel like a scientist; it’s about experimenting and challenging myself.<cite>Beatriz Milhazes, Studio International, 2023</cite></blockquote><blockquote>Colour is something you can never learn enough about.<cite>Beatriz Milhazes, Ocula, 2015</cite></blockquote><blockquote>Yes, I’m shifting low art into high art.<cite>Beatriz Milhazes, Ocula, 2015</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../osgemeos/\">OSGEMEOS</a>, Brazilian artists of the same years</li><li><a href=\"../s-h-raza/\">S.H. Raza</a>, circles and colour at the heart of the picture</li></ul>",
       "details": [
         [
           "Born",
@@ -2226,6 +2272,10 @@
         [
           "Venice Biennale",
           "Brazil pavilion, 2003"
+        ],
+        [
+          "Studied",
+          "Journalism, then painting at Parque Lage, Rio"
         ]
       ],
       "image": "",
@@ -2243,6 +2293,18 @@
           "publisher": "Phillips",
           "date": "May 2026",
           "href": "https://www.phillips.com/detail/beatriz-milhazes/233914"
+        },
+        {
+          "title": "Beatriz Milhazes interview: Maresias at Turner Contemporary",
+          "publisher": "Studio International (David Trigg)",
+          "date": "12 July 2023",
+          "href": "https://www.studiointernational.com/beatriz-milhazes-interview-maresias-turner-contemporary-margate/"
+        },
+        {
+          "title": "Beatriz Milhazes in conversation",
+          "publisher": "Ocula (Diana d’Arenberg)",
+          "date": "7 April 2015",
+          "href": "https://ocula.com/magazine/conversations/beatriz-milhazes/"
         }
       ],
       "hidden": false
@@ -2251,7 +2313,7 @@
       "slug": "s-h-raza",
       "name": "S.H. Raza",
       "line": "Our reporting on S.H. Raza: the Progressive Artists' Group, the French landscapes and the bindu.",
-      "about": "<p>An Indian painter and a founder of the Progressive Artists' Group in Bombay. He moved to Paris in 1950, painted the landscapes of France, and from 1980 built his work around the bindu. He returned to India late in life and died in New Delhi in 2016.</p>",
+      "about": "<p>An Indian painter and a founder of the Progressive Artists' Group in Bombay. He moved to Paris in 1950, painted the landscapes of France, and from 1980 built his work around the bindu. He returned to India late in life and died in New Delhi in 2016.</p><h2>The forest and the dot</h2><p>Raza was the son of a forest ranger. In 2001 he said his most lasting memory was the fear and fascination of the Indian forests. He went to Bombay in 1943, and in 1950 to Paris, where he met the gallerist Lara Vincy in 1955. In 1962 he taught at Berkeley.</p><p>He married the French artist Janine Mongillat, and went home to India after her death. Of the bindu, the dot at the centre of the late paintings, he said in 2010: it is the centre of my life. Ashok Vajpeyi has passed on another of his lines: how he painted he learned from France, what he painted came from India.</p><h2>In their own words</h2><blockquote>The most tenacious memory of my childhood is the fear and fascination of Indian forests.<cite>S.H. Raza, 2001, quoted by Christie's</cite></blockquote><blockquote>Rothko’s work opened up lots of interesting associations for me.<cite>S.H. Raza, quoted by Christie's</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../wassily-kandinsky/\">Wassily Kandinsky</a>, abstraction with a spiritual aim</li><li><a href=\"../gerhard-richter/\">Gerhard Richter</a>, a painter who also moved from landscape to abstraction</li></ul>",
       "details": [
         [
           "Born",
@@ -2268,6 +2330,14 @@
         [
           "Prix de la Critique",
           "1956"
+        ],
+        [
+          "Taught",
+          "Berkeley, California, 1962"
+        ],
+        [
+          "Foundation",
+          "Raza Foundation, set up 2001"
         ]
       ],
       "image": "s-h-raza-delhi-2011.jpg",
@@ -2285,6 +2355,24 @@
           "publisher": "Saffronart",
           "date": "19 September 2026",
           "href": "https://www.saffronart.com/auctions/DefaultController.aspx?pt=1&l=55068&eid=4984&a=S%20H%20Raza"
+        },
+        {
+          "title": "10 things to know about Sayed Haider Raza",
+          "publisher": "Christie's",
+          "date": "3 September 2023",
+          "href": "https://www.christies.com.cn/en/stories/10-things-to-know-about-s-h-raza-168c5715e514415ea3b92229a01cd1f6"
+        },
+        {
+          "title": "Sayed Haider Raza, les lieux de l’abstraction",
+          "publisher": "Centre Pompidou (Catherine David and Diane Toubert)",
+          "date": "15 December 2022",
+          "href": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/sayed-haider-raza-les-lieux-de-labstraction"
+        },
+        {
+          "title": "Leading Indian modernist S.H. Raza gets first public museum retrospective at Centre Pompidou in Paris",
+          "publisher": "The Art Newspaper (Kabir Jhala)",
+          "date": "16 March 2023",
+          "href": "https://www.theartnewspaper.com/2023/03/16/leading-indian-modernist-sh-raza-gets-first-public-museum-retrospective-at-centre-pompidou-in-paris"
         }
       ],
       "hidden": false
@@ -2293,7 +2381,7 @@
       "slug": "gerhard-richter",
       "name": "Gerhard Richter",
       "line": "Our reporting on Gerhard Richter: the photo paintings, the squeegee abstracts and the move west.",
-      "about": "<p>A German painter who left Dresden for the West in 1961. He has worked for decades in two strands at once: blurred paintings made from photographs, and abstracts dragged across the canvas with a squeegee.</p>",
+      "about": "<p>A German painter who left Dresden for the West in 1961. He has worked for decades in two strands at once: blurred paintings made from photographs, and abstracts dragged across the canvas with a squeegee.</p><h2>Leaving at 29</h2><p>Richter was 29 when he left East Germany in 1961 to study in Düsseldorf. More than half a century later he made Birkenau (2014), working from four photographs smuggled out of the death camp in 1944. Photographs record the paintings in progress over six weeks that summer.</p><p>He has said that helplessness is the great theme of painting, and that it is not unusual for him to start with a figure and end with an abstract. The Met's 2020 show, Painting After All, put more than 100 works together, from 1962 to 2020.</p><h2>In their own words</h2><blockquote>Helplessness is the great theme in painting, or rather the strongest motivation for and during painting.<cite>Gerhard Richter, 2014, quoted by the Met</cite></blockquote><blockquote>Art requires freedom … in dictatorships there is no art, not even bad art.<cite>Gerhard Richter, quoted by the Met</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../s-h-raza/\">S.H. Raza</a>, another painter who left home to work abroad</li><li><a href=\"../rene-matic/\">Rene Matić</a>, who also works from photographs</li></ul>",
       "details": [
         [
           "Born",
@@ -2306,6 +2394,10 @@
         [
           "Known for",
           "Photo paintings and squeegee abstracts"
+        ],
+        [
+          "Left East Germany",
+          "1961, aged 29"
         ]
       ],
       "image": "gerhard-richter-prague-2017.jpg",
@@ -2323,6 +2415,12 @@
           "publisher": "The Art Newspaper",
           "date": "21 May 2026",
           "href": "https://www.theartnewspaper.com/2026/05/21/christies-marian-goodman-richters-henry-mcneil-minimalism-auction-report-new-york"
+        },
+        {
+          "title": "Gerhard Richter: Painting After All, primer",
+          "publisher": "The Metropolitan Museum of Art",
+          "date": "2020",
+          "href": "https://www.metmuseum.org/de/primer/gerhard-richter"
         }
       ],
       "hidden": false
@@ -2331,7 +2429,7 @@
       "slug": "osgemeos",
       "name": "OSGEMEOS",
       "line": "Our reporting on OSGEMEOS, the twin brothers from São Paulo: graffiti, murals and the world they paint.",
-      "about": "<p>Gustavo and Otavio Pandolfo, twin brothers born in 1974, who began in graffiti and work as one. Their long-limbed yellow figures appear on walls, a Scottish castle and gallery canvases.</p>",
+      "about": "<p>Gustavo and Otavio Pandolfo, twin brothers born in 1974, who began in graffiti and work as one. Their long-limbed yellow figures appear on walls, a Scottish castle and gallery canvases.</p><h2>Two people, one artist</h2><p>The twins grew up in Cambuci, a working-class part of São Paulo. As children they made up a world of their own, which they call Tritrez, and the yellow of their figures is said to be a colour both of them see in dreams. Their teenage notebooks were shown for the first time at the Pinacoteca de São Paulo in 2020.</p><p>They describe themselves as one artist. Otavio has said the two of them talk in a way only they can hear. In 2024 the Hirshhorn in Washington opened Endless Story, their first major museum survey in the United States.</p><h2>In their own words</h2><blockquote>We are like one artist.<cite>Gustavo Pandolfo, NPR, 2024</cite></blockquote><blockquote>There is a conversation in the air flying there, but only we can listen [to] each other.<cite>Otavio Pandolfo, NPR, 2024</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../beatriz-milhazes/\">Beatriz Milhazes</a>, a Brazilian painter of the same generation</li><li><a href=\"../faith-xlvii/\">Faith XLVII</a>, from graffiti to the museum</li></ul>",
       "details": [
         [
           "Born",
@@ -2344,6 +2442,14 @@
         [
           "Represented by",
           "Fortes D'Aloia & Gabriel, Lehmann Maupin"
+        ],
+        [
+          "Grew up",
+          "Cambuci, São Paulo"
+        ],
+        [
+          "US survey",
+          "Endless Story, Hirshhorn, 2024"
         ]
       ],
       "image": "osgemeos-new-york-2007.jpg",
@@ -2379,6 +2485,24 @@
           "publisher": "Phillips",
           "date": "14 May 2025",
           "href": "https://www.phillips.com/detail/osgemeos/216474"
+        },
+        {
+          "title": "'We are like one artist': these identical twins are in sync from graffiti to gallery",
+          "publisher": "NPR",
+          "date": "19 September 2024",
+          "href": "https://www.npr.org/2024/09/19/nx-s1-4967480/osgemeos-twins-brazil-hirshhorn-pandolfo"
+        },
+        {
+          "title": "OSGEMEOS reveal their secrets in major homecoming museum show in Sao Paulo",
+          "publisher": "Juxtapoz (Sasha Bogojev)",
+          "date": "2020",
+          "href": "https://juxtapoz.com/news/installation/osgemeos-reveal-their-secrets-in-major-homecoming-museum-show-in-sao-paulo/"
+        },
+        {
+          "title": "OSGEMEOS research guide",
+          "publisher": "Jordan Schnitzer Museum of Art",
+          "date": "2025",
+          "href": "https://jsma.uoregon.edu/sites/default/files/2025-09/jsma-research-guide-osgemeos.pdf"
         }
       ],
       "hidden": false
@@ -2387,7 +2511,7 @@
       "slug": "vhils",
       "name": "Vhils",
       "line": "Our reporting on Vhils, Alexandre Farto: carved walls, street posters and a method built on removal.",
-      "about": "<p>Alexandre Farto, who grew up in Seixal on the edge of Lisbon and started writing graffiti at thirteen. He makes portraits by taking material away: carving plaster, cutting posters and etching metal.</p>",
+      "about": "<p>Alexandre Farto, who grew up in Seixal on the edge of Lisbon and started writing graffiti at thirteen. He makes portraits by taking material away: carving plaster, cutting posters and etching metal.</p><h2>Destroying to reveal</h2><p>At 16 or 17 Vhils began to question the graffiti he had been writing since 13. He tried painting billboards white and carving back into them, and found that taking away showed what was underneath. He calls himself a kind of urban archaeologist.</p><p>He went to London to study at about 19. His studio now sits in Barreiro, outside Lisbon, with a team of about 15. In Rio he worked with an NGO on houses in a favela that was being torn down. He has said he tries to give dignity to places that were left behind.</p><h2>In their own words</h2><blockquote>I felt that by destroying I was revealing.<cite>Vhils, designboom, 2017</cite></blockquote><blockquote>All of the layers in my work were a part of someone’s life before.<cite>Vhils, Hypebeast, 2020</cite></blockquote><blockquote>I say that I’m kind of an urban archaeologist because I basically carve on the walls of the city.<cite>Vhils, Euronews</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../mohamed-lghacham/\">Mohamed L'Ghacham</a>, portraits of everyday people on walls</li><li><a href=\"../banksy/\">Banksy</a>, with whom he painted at the Cans Festival</li></ul>",
       "details": [
         [
           "Born",
@@ -2400,6 +2524,10 @@
         [
           "Known for",
           "Portraits carved into walls"
+        ],
+        [
+          "Studio",
+          "Barreiro, outside Lisbon"
         ]
       ],
       "image": "vhils-berlin-chausseestrasse.jpg",
@@ -2423,6 +2551,24 @@
           "publisher": "Bonhams",
           "date": "17 October 2025",
           "href": "https://www.bonhams.com/auction/31240/lot/231/vhils-b-1987-attrition-series-01-executed-in-2018/"
+        },
+        {
+          "title": "Alexandre Farto aka Vhils: studio visit and interview",
+          "publisher": "designboom (Hollie Smith)",
+          "date": "19 May 2017",
+          "href": "https://www.designboom.com/art/alexandre-farto-vhils-studio-visit-interview-05-19-2017/"
+        },
+        {
+          "title": "Exploding identity with Vhils",
+          "publisher": "Hypebeast (Kevin Wong)",
+          "date": "9 March 2020",
+          "href": "https://hypebeast.com/2020/3/exploding-identity-with-vhils"
+        },
+        {
+          "title": "Street art made with explosives and chisels: meet Vhils, Portugal's urban archaeologist",
+          "publisher": "Euronews (Charlotte Cullen)",
+          "date": "14 May 2024",
+          "href": "https://www.euronews.com/2024/05/14/street-art-made-with-explosives-and-chisels-meet-vhils-portugal-s-urban-archaeologist"
         }
       ],
       "hidden": false
@@ -2431,7 +2577,7 @@
       "slug": "kaws",
       "name": "KAWS",
       "line": "Our reporting on KAWS, Brian Donnelly: graffiti, cartoons, COMPANION and sculpture.",
-      "about": "<p>Brian Donnelly, born in 1974, who painted backgrounds for television cartoons and repainted bus shelter adverts before making COMPANION, the figure with crossed-out eyes, in 1999.</p>",
+      "about": "<p>Brian Donnelly, born in 1974, who painted backgrounds for television cartoons and repainted bus shelter adverts before making COMPANION, the figure with crossed-out eyes, in 1999.</p><h2>From bus shelters to Victoria Harbour</h2><p>KAWS made his first New York museum show, WHAT PARTY, at the Brooklyn Museum in 2021. In an interview that year he said he wants people to look at the form of his figures, not guess at what they might say. He has also said that, whatever he puts on canvas, people do not think of him as a painter.</p><p>The figures have grown huge: an inflatable about 121 feet long in Hong Kong's Victoria Harbour in 2019, and a hot air balloon of about 140 feet over Bristol in 2021. He has worked with Nike, Uniqlo and Dior.</p><h2>In their own words</h2><blockquote>I want you to look at the form. I don’t want you to think about what they might say.<cite>KAWS, The Brooklyn Rail, 2021</cite></blockquote><blockquote>When I make new works I’m thinking of it as adding a family member into this sort of dialogue with everything.<cite>KAWS, The Brooklyn Rail, 2021</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../banksy/\">Banksy</a>, another artist who began on adverts in the street</li><li><a href=\"../eko-nugroho/\">Eko Nugroho</a>, cartoon figures with a serious edge</li></ul>",
       "details": [
         [
           "Born",
@@ -2444,6 +2590,10 @@
         [
           "Known for",
           "COMPANION"
+        ],
+        [
+          "First New York museum show",
+          "WHAT PARTY, Brooklyn Museum, 2021"
         ]
       ],
       "image": "",
@@ -2461,6 +2611,18 @@
           "publisher": "Christie's",
           "date": "25 June 2026",
           "href": "https://www.christies.com.cn/en/lot/lot-6594586"
+        },
+        {
+          "title": "KAWS with Jason Rosenfeld",
+          "publisher": "The Brooklyn Rail",
+          "date": "June 2021",
+          "href": "https://brooklynrail.org/2021/06/art/KAWS-with-Jason-Rosenfeld/"
+        },
+        {
+          "title": "The big review: KAWS: What Party at the Brooklyn Museum",
+          "publisher": "The Art Newspaper (Paddy Johnson)",
+          "date": "9 April 2021",
+          "href": "https://www.theartnewspaper.com/review/the-big-review-kaws-what-party-at-the-brooklyn-museum"
         }
       ],
       "hidden": false
@@ -2469,7 +2631,7 @@
       "slug": "eko-nugroho",
       "name": "Eko Nugroho",
       "line": "Our reporting on Eko Nugroho: Yogyakarta, masked figures, embroidery and community work.",
-      "about": "<p>An artist from Yogyakarta who works in painting, embroidery and sculpture, often with communities. His masked figures come from comics.</p>",
+      "about": "<p>An artist from Yogyakarta who works in painting, embroidery and sculpture, often with communities. His masked figures come from comics.</p><h2>A teacher, a zine and a studio of 30</h2><p>Nugroho was 20 when Suharto fell in 1998. He studied at the Indonesian Institute of the Arts in Yogyakarta, once worked as a primary school teacher, and in June 2000 started a comic zine, Daging Tumbuh. His first solo show, Bercerobong, was at Cemeti Art House in 2002.</p><p>He now runs a studio of about 30 people and an art class with about 50 students. In 2013 he showed in Indonesia's pavilion at Venice. The masks on his figures are deliberate: he has said he does not want to pass judgement on anyone.</p><h2>In their own words</h2><blockquote>I don’t want to pass judgment on somebody. Such cases can happen to anybody in the future.<cite>Eko Nugroho on the masks, The Jakarta Post, 2017</cite></blockquote><blockquote>I must understand the overall situation of the place where the mural will be.<cite>Eko Nugroho, quoted in Art + Australia</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../kaws/\">KAWS</a>, cartoon characters in serious art</li><li><a href=\"../osgemeos/\">OSGEMEOS</a>, a world of their own characters</li></ul>",
       "details": [
         [
           "Born",
@@ -2482,6 +2644,14 @@
         [
           "Known for",
           "Masked figures, embroidery"
+        ],
+        [
+          "Venice Biennale",
+          "Indonesian Pavilion, 2013"
+        ],
+        [
+          "Zine",
+          "Daging Tumbuh, from 2000"
         ]
       ],
       "image": "",
@@ -2499,6 +2669,24 @@
           "publisher": "Phillips",
           "date": "2 May 2025",
           "href": "https://www.phillips.com/detail/eko-nugroho/215603"
+        },
+        {
+          "title": "Getting personal: Eko Nugroho recording history through art",
+          "publisher": "The Jakarta Post (Bambang Muryanto)",
+          "date": "14 January 2017",
+          "href": "https://www.thejakartapost.com/news/2017/01/14/getting-personal-eko-nugroho-recording-history-through-art.html"
+        },
+        {
+          "title": "Reality in the world of Eko Nugroho",
+          "publisher": "Art + Australia (Rifky Effendy)",
+          "date": "about 2013",
+          "href": "https://artandaustralia.com/A_A/p255/reality-in-the-world-of-eko-nugroho"
+        },
+        {
+          "title": "Eko Nugroho, biography",
+          "publisher": "DANYSZ",
+          "date": "2026",
+          "href": "https://danyszgallery.com/artists/10977-eko-nugroho/biography/"
         }
       ],
       "hidden": false
@@ -2507,7 +2695,7 @@
       "slug": "faith-xlvii",
       "name": "Faith XLVII",
       "line": "Our reporting on Faith XLVII: South African graffiti, murals in 39 countries and work beyond the wall.",
-      "about": "<p>A South African artist who began writing graffiti as Faith47 in 1997 and has since painted murals in 39 countries. Her work now includes tapestries, bronzes, paintings and prints.</p>",
+      "about": "<p>A South African artist who began writing graffiti as Faith47 in 1997 and has since painted murals in 39 countries. Her work now includes tapestries, bronzes, paintings and prints.</p><h2>From Clovelly station to the world</h2><p>Faith XLVII was born in Cape Town. Her first wall was at the old Clovelly train station, painted with the writer Wealz130, and by the early 2000s she was one of the busiest names in South African graffiti. By 2020 she had been living in Los Angeles for three years.</p><p>She has said her works are not made to be pretty, but to make people think and question. She paints animals often: a zebra in Johannesburg, horses in Los Angeles, swans on a Brooklyn roof. And she accepts that walls do not last.</p><h2>In their own words</h2><blockquote>These are not works made to be pretty or decorative; these are works made to consider, to dismantle, to question.<cite>Faith XLVII, Daily Maverick, 2020</cite></blockquote><blockquote>We are not islands.<cite>Faith XLVII, Daily Maverick, 2020</cite></blockquote><blockquote>One can’t stop the clouds from moving. Nothing is permanent.<cite>Faith XLVII, Brooklyn Street Art, 2018</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../osgemeos/\">OSGEMEOS</a>, graffiti writers who moved into museums</li><li><a href=\"../mohamed-lghacham/\">Mohamed L'Ghacham</a>, another muralist painting people</li></ul>",
       "details": [
         [
           "Born",
@@ -2520,6 +2708,10 @@
         [
           "Known for",
           "Murals, tapestries, bronzes"
+        ],
+        [
+          "First wall",
+          "Old Clovelly train station, Cape Town"
         ]
       ],
       "image": "faith47-cologne.jpg",
@@ -2543,6 +2735,18 @@
           "publisher": "Strauss & Co",
           "date": "10 June 2024",
           "href": "https://www.straussart.co.za/auctions/lot/315-10-jun-2024/332"
+        },
+        {
+          "title": "CHANT: Faith XLVII's public practice",
+          "publisher": "Daily Maverick (Dave Mann)",
+          "date": "22 April 2020",
+          "href": "https://www.dailymaverick.co.za/article/2020-04-22-chant-faith-xlviis-public-practice/"
+        },
+        {
+          "title": "FaithXLVII x Moniker x BSA",
+          "publisher": "Brooklyn Street Art",
+          "date": "25 April 2018",
+          "href": "https://brooklynstreetart.com/2018/04/25/faithxlvii-x-moniker-x-bsa"
         }
       ],
       "hidden": false
@@ -2551,31 +2755,113 @@
       "slug": "vincent-van-gogh",
       "name": "Vincent van Gogh",
       "line": "Our reporting on Vincent van Gogh: the last weeks at Auvers, the chestnut trees and the long lives of his paintings after him.",
-      "about": "",
-      "details": [],
+      "about": "<p>Van Gogh was born in Zundert, in the south of the Netherlands, in 1853. In just over ten years of painting he made about 2,100 works and had little success while he lived. In May 1890 he left the asylum at Saint-Rémy for Auvers-sur-Oise, north of Paris. He painted about 70 pictures there in roughly as many days, and died in the village on 29 July 1890.</p><h2>The last letters</h2><p>His letters to his brother Theo show a painter thinking hard about what each picture should do. In July 1890 he wrote of new canvases of wide fields under troubled skies, made to express sadness and loneliness, and yet, he said, also how healthy the countryside made him feel. Six days before he died he sent Theo a sketch of Daubigny's garden and called it one of his most carefully thought-out canvases.</p><h2>In their own words</h2><blockquote>I’m fairly sure that these canvases will tell you what I cannot say in words, that is, how healthy and invigorating I find the countryside.<cite>Vincent van Gogh to Theo and Jo, July 1890</cite></blockquote><blockquote>Perhaps you will take a look at this sketch of Daubigny’s garden - it is one of my most carefully thought-out canvases.<cite>Vincent van Gogh to Theo, 23 July 1890</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../wassily-kandinsky/\">Wassily Kandinsky</a>, colour used for feeling, a generation later</li><li><a href=\"../mohamed-lghacham/\">Mohamed L'Ghacham</a>, ordinary life as the subject</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Zundert, the Netherlands, 1853"
+        ],
+        [
+          "Died",
+          "Auvers-sur-Oise, France, 29 July 1890"
+        ],
+        [
+          "Last months",
+          "About 70 paintings at Auvers"
+        ]
+      ],
       "image": "",
       "alt": "",
       "credit": "",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Vincent van Gogh",
+          "publisher": "Wikipedia",
+          "date": "2026",
+          "href": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+        },
+        {
+          "title": "Vincent van Gogh, Blossoming Chestnut Trees",
+          "publisher": "Kröller-Müller Museum",
+          "date": "",
+          "href": "https://www.krollermuller.nl/en/collection/vincent-van-gogh-blossoming-chestnut-trees-km-105-479"
+        },
+        {
+          "title": "Van Gogh in Auvers. His Final Months opens 12 May",
+          "publisher": "Van Gogh Museum",
+          "date": "10 May 2023",
+          "href": "https://www.vangoghmuseum.nl/en/about/news-and-press/press-releases/20230510-van-gogh-in-auvers-his-final-months-opens-12-may"
+        },
+        {
+          "title": "Letter 649 to Theo and Jo van Gogh, Auvers, about 10 July 1890",
+          "publisher": "WebExhibits (Johanna van Gogh-Bonger translation)",
+          "date": "1890",
+          "href": "https://www.webexhibits.org/vangogh/letter/21/649.htm"
+        },
+        {
+          "title": "Letter 651 to Theo van Gogh, Auvers, 23 July 1890",
+          "publisher": "WebExhibits (Johanna van Gogh-Bonger translation)",
+          "date": "1890",
+          "href": "https://webexhibits.org/vangogh/letter/21/651.htm"
+        }
+      ],
       "hidden": false
     },
     {
       "slug": "wassily-kandinsky",
       "name": "Wassily Kandinsky",
       "line": "Our reporting on Wassily Kandinsky: the move to abstraction, the Bauhaus years and the Guggenheim connection.",
-      "about": "",
-      "details": [],
+      "about": "<p>Kandinsky was born in Moscow in 1866 and studied law and economics. At 30 he gave up law for art and moved to Munich. In 1911 he founded the Blue Rider with Franz Marc, and in 1912 published On the Spiritual in Art. He returned to Germany in 1921 and joined the Bauhaus, then moved to France when the school closed under Nazi pressure in 1933. He died there in 1944.</p><h2>A writer as well as a painter</h2><p>He wrote as well as painted: Klänge (1913), with 56 woodcuts, and Point and Line to Plane (1926). Between 1909 and 1914 he wrote four stage works built on colour and sound, among them The Yellow Sound. None was produced while he lived.</p><h2>In their own words</h2><blockquote>Every work of art is the child of its age and, in many cases, the mother of our emotions.<cite>Wassily Kandinsky, On the Spiritual in Art, translated by Michael Sadler</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../s-h-raza/\">S.H. Raza</a>, abstraction with a spiritual aim</li><li><a href=\"../vincent-van-gogh/\">Vincent van Gogh</a>, colour as feeling</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Moscow, 1866"
+        ],
+        [
+          "Died",
+          "Neuilly-sur-Seine, France, 1944"
+        ],
+        [
+          "Known for",
+          "Early abstract painting, the Blue Rider, the Bauhaus"
+        ]
+      ],
       "image": "",
       "alt": "",
       "credit": "",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Kandinsky",
+          "publisher": "Guggenheim Museum Bilbao",
+          "date": "2020",
+          "href": "https://guggenheim-bilbao.eus/en/exhibitions/kandinsky"
+        },
+        {
+          "title": "Kandinsky: learning resource",
+          "publisher": "Art Gallery of New South Wales",
+          "date": "",
+          "href": "https://www.artgallery.nsw.gov.au/learn/learning-resources/kandinsky"
+        },
+        {
+          "title": "Influential writings",
+          "publisher": "Guggenheim Museum Bilbao",
+          "date": "2026",
+          "href": "https://guggenheim-bilbao.eus/en/did-you-know/influential-writings"
+        },
+        {
+          "title": "Concerning the Spiritual in Art (tr. Michael Sadler)",
+          "publisher": "Project Gutenberg",
+          "date": "1912 text",
+          "href": "https://www.gutenberg.org/ebooks/5321"
+        }
+      ],
       "hidden": false
     },
     {
       "slug": "rene-matic",
       "name": "Rene Matić",
       "line": "Our reporting on Rene Matić: photographs of family, friends and community, the Turner Prize shortlist and the Deutsche Börse prize.",
-      "about": "<p>A London photographer, born in Peterborough in 1997, whose pictures of the people closest to them are shown with sound, flags and banners. Shortlisted for the Turner Prize 2025; winner of the Deutsche Börse Photography Foundation Prize 2026.</p>",
+      "about": "<p>A London photographer, born in Peterborough in 1997, whose pictures of the people closest to them are shown with sound, flags and banners. Shortlisted for the Turner Prize 2025; winner of the Deutsche Börse Photography Foundation Prize 2026.</p><h2>The work so far</h2><p>Matić is an artist and writer who works in photography, film and sculpture. The solo shows have come quickly: Arcadia Missa in 2021, Studio Voltaire and the South London Gallery in 2022, the Martin Parr Foundation in 2023, and JAZZ, made with Oscar Murillo, at Kunsthalle Wien in 2024. The work is now in the collections of Tate, the Fondation Louis Vuitton and the Government Art Collection.</p><p>We have not yet found an interview we could quote with confidence, so this page gives the record rather than the artist's own words.</p><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../jes-fan/\">Jes Fan</a>, identity and the body, in sculpture</li><li><a href=\"../ana-segovia/\">Ana Segovia</a>, how men are pictured, in paint</li></ul>",
       "details": [
         [
           "Born",
@@ -2588,6 +2874,10 @@
         [
           "Known for",
           "Photography and installation"
+        ],
+        [
+          "Deutsche Börse prize",
+          "AS OPPOSED TO THE TRUTH, 2026"
         ]
       ],
       "image": "",
@@ -2605,6 +2895,12 @@
           "publisher": "1854 Photography",
           "date": "2026",
           "href": "https://www.1854.photography/?p=79103"
+        },
+        {
+          "title": "Rene Matić wins the Deutsche Börse Photography Foundation Prize 2026",
+          "publisher": "Deutsche Börse",
+          "date": "15 May 2026",
+          "href": "https://www.deutsche-boerse.com/dbg-en/media/news-stories/press-releases/Rene-Mati-wins-the-Deutsche-B-rse-Photography-Foundation-Prize-2026-5130514"
         }
       ],
       "hidden": false
@@ -2613,7 +2909,7 @@
       "slug": "raven-halfmoon",
       "name": "Raven Halfmoon",
       "line": "Our reporting on Raven Halfmoon: coil-built stoneware figures, Caddo history and a show that toured five venues.",
-      "about": "<p>A ceramic sculptor and citizen of the Caddo Nation, born in Norman, Oklahoma, in 1991. She builds stoneware figures by coiling clay, some more than 12 feet tall.</p>",
+      "about": "<p>A ceramic sculptor and citizen of the Caddo Nation, born in Norman, Oklahoma, in 1991. She builds stoneware figures by coiling clay, some more than 12 feet tall.</p><h2>Clay by hand</h2><p>Halfmoon is Caddo, and also has Choctaw, Delaware and Otoe heritage. At 13 she met the Caddo potter Jeri Redcorn, and went on to study anthropology and studio art at the University of Arkansas. She has said she went through about 8,000 pounds of clay with her hands, and that a firing can take two to three weeks.</p><p>She wants the making to show in the finished work, and calls galleries and museums her churches. She now works in bronze and stone as well: The Guardians (2024) is a bronze nine feet tall.</p><h2>In their own words</h2><blockquote>Clay is my most intimate relationship.<cite>Raven Halfmoon, Southwest Contemporary, 2023</cite></blockquote><blockquote>Galleries and museums are my churches.<cite>Raven Halfmoon, The Creative Independent, 2024</cite></blockquote><blockquote>Art is our cultural preservation, it’s how we talk about what’s happening.<cite>Raven Halfmoon, The Creative Independent, 2024</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../el-anatsui/\">El Anatsui</a>, large sculpture made by hand</li><li><a href=\"../dana-awartani/\">Dana Awartani</a>, inherited craft in new forms</li></ul>",
       "details": [
         [
           "Born",
@@ -2626,6 +2922,10 @@
         [
           "Known for",
           "Stoneware sculpture"
+        ],
+        [
+          "Studied",
+          "Anthropology and studio art, University of Arkansas"
         ]
       ],
       "image": "",
@@ -2637,6 +2937,18 @@
           "publisher": "The Contemporary Austin",
           "date": "2025",
           "href": "https://thecontemporaryaustin.org/exhibitions/raven-halfmoon-flags-of-our-mothers/"
+        },
+        {
+          "title": "8,000 pounds of clay with my hands: an interview with Raven Halfmoon",
+          "publisher": "Southwest Contemporary (Coco Picard)",
+          "date": "1 September 2023",
+          "href": "https://southwestcontemporary.com/8000-pounds-of-clay-with-my-hands-an-interview-with-raven-halfmoon/"
+        },
+        {
+          "title": "Visual artist Raven Halfmoon on being true to who you are",
+          "publisher": "The Creative Independent (as told to Katy Diamond Hamer)",
+          "date": "24 October 2024",
+          "href": "https://thecreativeindependent.com/people/visual-artist-raven-halfmoon-on-being-true-to-who-you-are/"
         }
       ],
       "hidden": false
@@ -2645,7 +2957,7 @@
       "slug": "dana-awartani",
       "name": "Dana Awartani",
       "line": "Our reporting on Dana Awartani: traditional crafts, loss and repair, and Venice in 2024 and 2026.",
-      "about": "<p>A Palestinian-Saudi artist, born in Jeddah in 1987, who uses embroidery, natural dyes and geometry. She represented Saudi Arabia at the 2026 Venice Biennale.</p>",
+      "about": "<p>A Palestinian-Saudi artist, born in Jeddah in 1987, who uses embroidery, natural dyes and geometry. She represented Saudi Arabia at the 2026 Venice Biennale.</p><h2>Craft as a kind of prayer</h2><p>Awartani studied at Central Saint Martins and then at the Prince's School of Traditional Arts in London. Her textiles are dyed with natural dyes by craftspeople in Trivandrum, India, and she commissions embroidery from Syrian women living as refugees in Jordan.</p><p>She does not make copies of her work. A recent sand piece grew out of Jeddah's old district, Al-Balad, and takes its title from the poet Mahmoud Darwish.</p><h2>In their own words</h2><blockquote>Some people see craft as a form of prayer.<cite>Dana Awartani, Berlin Art Link, 2025</cite></blockquote><blockquote>Nothing is mass-produced and I don’t make duplicates.<cite>Dana Awartani, Berlin Art Link, 2025</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../el-anatsui/\">El Anatsui</a>, cloth-like works made by many hands</li><li><a href=\"../raven-halfmoon/\">Raven Halfmoon</a>, craft passed down and made new</li></ul>",
       "details": [
         [
           "Born",
@@ -2658,6 +2970,10 @@
         [
           "Known for",
           "Installation, textile and craft"
+        ],
+        [
+          "Studied",
+          "Central Saint Martins; Prince's School of Traditional Arts"
         ]
       ],
       "image": "",
@@ -2675,6 +2991,12 @@
           "publisher": "e-flux",
           "date": "15 November 2025",
           "href": "https://www.e-flux.com/announcements/6785038/dana-awartani-at-the-venice-biennale-2026"
+        },
+        {
+          "title": "Interview: Dana Awartani, Goodword Art Foundation, Erasure",
+          "publisher": "Berlin Art Link (Eve Rogers)",
+          "date": "28 November 2025",
+          "href": "https://www.berlinartlink.com/2025/11/28/interview-dana-awartani-goodword-art-foundation-erasure/"
         }
       ],
       "hidden": false
@@ -2683,7 +3005,7 @@
       "slug": "ana-segovia",
       "name": "Ana Segovia",
       "line": "Our reporting on Ana Segovia: Mexican cowboy imagery, golden-age cinema and a fast-moving career.",
-      "about": "<p>A painter born in Mexico City in 1991, who reworks images from Mexican cowboy culture and film. Represented by kurimanzutto since 2023.</p>",
+      "about": "<p>A painter born in Mexico City in 1991, who reworks images from Mexican cowboy culture and film. Represented by kurimanzutto since 2023.</p><h2>Pausing the film</h2><p>Segovia's paintings start from film stills, many from the golden age of Mexican cinema and from Westerns. The artist has joked about being the worst person to watch a film with, pausing every few seconds. Three things guide the work: humour, eros and aggression.</p><p>At the 2024 Venice Biennale Segovia showed a first film, about two charros, with suits made by the grandson of Jorge Negrete's tailor. The 2025 series Ramón follows one invented man, whom Segovia has called a fantasy of who the artist wants to be.</p><h2>In their own words</h2><blockquote>Heroes are always these tough guys.<cite>Ana Segovia, Galerie, 2025</cite></blockquote><blockquote>I’m always thinking about three things in art that are important to my process: humor, eros, and aggression.<cite>Ana Segovia, AnOther, 2025</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../rene-matic/\">Rene Matić</a>, identity in pictures</li><li><a href=\"../kaws/\">KAWS</a>, borrowed popular images, made strange</li></ul>",
       "details": [
         [
           "Born",
@@ -2696,6 +3018,10 @@
         [
           "Known for",
           "Painting and video"
+        ],
+        [
+          "Venice Biennale",
+          "Nucleo Contemporaneo, 2024"
         ]
       ],
       "image": "",
@@ -2707,6 +3033,24 @@
           "publisher": "kurimanzutto",
           "date": "",
           "href": "https://www.kurimanzutto.com/artists/ana-segovia"
+        },
+        {
+          "title": "The next big thing: Ana Segovia",
+          "publisher": "Galerie (Jacoba Urist)",
+          "date": "28 November 2025",
+          "href": "https://galeriemagazine.com/next-big-thing-ana-segovia/"
+        },
+        {
+          "title": "Ana Segovia: Ramón",
+          "publisher": "AnOther (Julianne Escobedo Shepherd)",
+          "date": "24 October 2025",
+          "href": "https://www.anothermag.com/another-man/16714/ana-segovia-ramon-artist-interview-another-man"
+        },
+        {
+          "title": "Ana Segovia, Nucleo Contemporaneo",
+          "publisher": "La Biennale di Venezia",
+          "date": "2024",
+          "href": "https://labiennale.org/en/art/2024/nucleo-contemporaneo/ana-segovia"
         }
       ],
       "hidden": false
@@ -2715,7 +3059,7 @@
       "slug": "jes-fan",
       "name": "Jes Fan",
       "line": "Our reporting on Jes Fan: glass, resin and biological materials, from Venice to a museum survey at Yale.",
-      "about": "<p>A sculptor born in Toronto in 1990 and raised in Hong Kong, who trained in glass and works with resin and materials such as melanin and testosterone.</p>",
+      "about": "<p>A sculptor born in Toronto in 1990 and raised in Hong Kong, who trained in glass and works with resin and materials such as melanin and testosterone.</p><h2>Questions, not technique</h2><p>Fan studied glass at the Rhode Island School of Design, but has said the interest is in process rather than technique. On a residency in 2018 Fan worked with melanin produced by E. coli bacteria. Since 2020 Fan has worked with agarwood, and used 3D scans of the artist's own body, for Sites of Wounding, shown in the Sigg Prize exhibition at M+ in 2023.</p><p>For Fan, art and science are both ways of asking questions, and craft was once a technology in its own right.</p><h2>In their own words</h2><blockquote>Art and sciences are essentially just ways of questioning. They are not opposing in my world.<cite>Jes Fan, M+, 2023</cite></blockquote><blockquote>I’m not interested in technique, I’m interested in process.<cite>Jes Fan, Wallpaper*, 2022</cite></blockquote><blockquote>Craft used to be technological; back in the day, the loom was the first computer.<cite>Jes Fan, Wallpaper*, 2022</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../rene-matic/\">Rene Matić</a>, the body and identity</li><li><a href=\"../dana-awartani/\">Dana Awartani</a>, craft and natural materials</li></ul>",
       "details": [
         [
           "Born",
@@ -2728,6 +3072,10 @@
         [
           "Known for",
           "Sculpture in glass and resin"
+        ],
+        [
+          "Studied",
+          "Glass, Rhode Island School of Design"
         ]
       ],
       "image": "",
@@ -2739,6 +3087,18 @@
           "publisher": "Andrew Kreps Gallery",
           "date": "",
           "href": "https://andrewkreps.com/artists/jes-fan"
+        },
+        {
+          "title": "Jes Fan, artist interview, Sigg Prize 2023",
+          "publisher": "M+",
+          "date": "25 September 2023",
+          "href": "https://www.mplus.org.hk/en/magazine/jes-fan-artist-interview-sigg-prize-2023/"
+        },
+        {
+          "title": "Jes Fan, artist profile",
+          "publisher": "Wallpaper* (Drew Zeiba)",
+          "date": "1 August 2022",
+          "href": "https://www.wallpaper.com/art/jes-fan-artist-profile"
         }
       ],
       "hidden": false
@@ -2747,7 +3107,7 @@
       "slug": "mohamed-lghacham",
       "name": "Mohamed L'Ghacham",
       "line": "Our reporting on Mohamed L'Ghacham: family photographs painted as murals, from Mallorca to Vienna.",
-      "about": "<p>A painter and muralist born in Tangier, Morocco, in 1993 and based in Mataró, near Barcelona. He paints old family and archive photographs across whole walls.</p>",
+      "about": "<p>A painter and muralist born in Tangier, Morocco, in 1993 and based in Mataró, near Barcelona. He paints old family and archive photographs across whole walls.</p><h2>Painting what is real</h2><p>L'Ghacham's parents moved from Tangier to Spain a few months after he was born, and he grew up in Mataró. He started painting in the street in 2008, as factories closed after the financial crisis. His first murals went on abandoned or half-demolished buildings and on the edges of towns. Juxtapoz reported in about 2022 that he had moved to Madrid.</p><p>He avoids posed scenes and looks for moments of calm and reunion. Murals are a race against the clock, he says, and if he were not a painter he would probably make films.</p><h2>In their own words</h2><blockquote>I almost never depict acted scenes with people posing, I am keen on conveying what is authentic.<cite>Mohamed L'Ghacham, Street Art United States, 2017</cite></blockquote><blockquote>My paintings usually represent moments of calm and reunion.<cite>Mohamed L'Ghacham, Juxtapoz</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../vhils/\">Vhils</a>, portraits of ordinary people on walls</li><li><a href=\"../faith-xlvii/\">Faith XLVII</a>, figures painted on walls around the world</li></ul>",
       "details": [
         [
           "Born",
@@ -2760,6 +3120,10 @@
         [
           "Known for",
           "Murals from old photographs"
+        ],
+        [
+          "Started painting walls",
+          "2008"
         ]
       ],
       "image": "",
@@ -2777,6 +3141,24 @@
           "publisher": "North West Walls",
           "date": "2018",
           "href": "https://northwestwalls.be/history/2018/mohamedlghacham"
+        },
+        {
+          "title": "Mohamed l'Ghacham: The Time Traveller",
+          "publisher": "Juxtapoz (Evan Pricco)",
+          "date": "about 2022",
+          "href": "https://la.juxtapoz.com/news/magazine/features/mohamed-l-ghacham-the-time-traveler/"
+        },
+        {
+          "title": "Interview: Mohamed L'Ghacham",
+          "publisher": "Street Art United States (Sami Wakim)",
+          "date": "1 August 2017",
+          "href": "https://streetartunitedstates.com/interview-mohamed-lghacham/"
+        },
+        {
+          "title": "Candid Moments Captured in Vintage Photos Are Magnified in Mohamed L'Ghacham's Murals",
+          "publisher": "Colossal (Grace Ebert)",
+          "date": "13 April 2021",
+          "href": "https://www.thisiscolossal.com/2021/04/mohamed-lghacham-photo-murals/"
         }
       ],
       "hidden": false
