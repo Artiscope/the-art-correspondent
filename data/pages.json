@@ -110,7 +110,7 @@
             "size": "large",
             "eyebrow": "The people, practice and culture magazine",
             "heading": "Behind Every Work, There Is a Story.",
-            "text": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Through studio reporting, interviews, cultural essays and visual storytelling, we examine the ideas, experiences and creative decisions behind today's artistic practices.",
+            "text": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Through reported profiles, studio notes and cultural essays, we look at the ideas, experiences and creative decisions behind today's artistic practices.",
             "link": "Read the stories",
             "href": "stories/"
           }
@@ -576,7 +576,7 @@
             "heading": "",
             "standfirst": "The Art Correspondent explores contemporary art through the people who make, present and collect it.",
             "paras": [
-              "Through studio reporting, interviews, cultural essays and visual storytelling, we examine the ideas, experiences and creative decisions behind today's artistic practices."
+              "Through reported profiles, studio notes and cultural essays, we look at the ideas, experiences and creative decisions behind today's artistic practices."
             ],
             "parts": [
               {

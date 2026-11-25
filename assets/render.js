@@ -151,7 +151,7 @@
         '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n' +
         '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Karla:wght@400;500;600&family=Reenie+Beanie&display=swap" rel="stylesheet">\n' +
         (o.head || "") + (iconOk() ? '<link rel="icon" href="' + r + opts.favicon + '">\n' : "") +
-        '<link rel="stylesheet" href="' + r + 'assets/site.css">\n' + (THEME || "") + secCssTag() + wordsTag() +
+        '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261125">\n' + (THEME || "") + secCssTag() + wordsTag() +
         '</head>\n<body>\n<a class="skip" href="#main">' + W("menu.skip", "Skip to the stories") + '</a>\n' + (o.top ? String(o.top).split("@@").join(r) + "\n" : "") + nav + '\n<main id="main">\n' + main + '\n</main>\n' + foot + '\n' +
         '<script src="' + r + 'assets/site.js" defer></script>\n</body>\n</html>\n';
       return { path: o.file || path, url: urlPath, html: html };
@@ -179,8 +179,20 @@
     // ----- the six sections of this design -----
     function textLink(words, h) { return words && addrOk(h) ? '<p data-reveal><a class="text-link" href="' + esc(hrefOf(h)) + '"' + (/^https?:/i.test(String(h)) ? ' rel="noopener"' : "") + '>' + txt(words) + '</a></p>' : ""; }
     function storyCard(a, where) {
-      return '<li><a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (where && String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") +
-        (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + '</li>';
+      var pic = a.image ? '<img class="card-pic" src="' + esc(opts.imageSrc ? opts.imageSrc(a.image) : "@@assets/images/" + a.image) + '" alt="" loading="lazy">' : "";
+      var date = String(a.date || "").trim();
+      return '<li' + (pic ? ' class="has-pic"' : "") + '>' + pic + '<a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (where && String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") +
+        (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + (date ? '<p class="when">' + txt(date) + '</p>' : "") + '</li>';
+    }
+    // The newest story that has a photograph, shown large on the front page until a lead photograph is chosen.
+    function coverStory() {
+      var a = ARTICLES.filter(function (x) { return x.image; })[0];
+      if (!a) return "";
+      var href = '@@' + P.articles + '/' + esc(a.slug) + '/';
+      return '<div class="cover" data-reveal><a class="cover-pic" href="' + href + '" tabindex="-1" aria-hidden="true"><img src="' + esc(opts.imageSrc ? opts.imageSrc(a.image) : "@@assets/images/" + a.image) + '" alt=""></a>' +
+        '<div class="cover-words">' + (String(a.kicker || "").trim() ? '<p class="label">' + txt(a.kicker) + '</p>' : "") + '<h2><a href="' + href + '">' + txt(a.title) + '</a></h2>' +
+        (String(a.summary || "").trim() ? '<p class="cover-blurb">' + txt(a.summary) + '</p>' : "") + '<p><a class="text-link" href="' + href + '">' + W("btn.read-story", "Read the story") + '</a></p></div></div>' +
+        (String(a.credit || "").trim() ? '<p class="cover-credit">' + txt(a.credit) + '</p>' : "");
     }
     // The words at the top of a page: large on the home page, smaller on the others.
     S["tac-opening"] = function (st) {
@@ -189,8 +201,13 @@
         (t ? '<p class="intro" data-reveal>' + txt(t) + '</p>' : "") + textLink(get(st, "link", ""), get(st, "href", "")) + '</section>';
     };
     // One wide photograph, with a line in handwriting under it.
-    S["tac-lead"] = function (st) {
+    S["tac-lead"] = function (st, ctx) {
       var hand = get(st, "hand", ""), alt = get(st, "alt", "");
+      if (!st.image && !opts.mark) {
+        // no photograph chosen yet: the front page shows a story with its photograph, other pages show nothing
+        var cover = ctx && ctx.page === "home" ? coverStory() : "";
+        return cover ? '<section class="lead lead-cover">' + cover + (hand ? '<p class="hand" data-reveal>' + txt(hand) + '</p>' : "") + '</section>' : "";
+      }
       var pic = st.image ? '<img src="' + esc(opts.imageSrc ? opts.imageSrc(st.image) : "@@assets/images/" + st.image) + '" alt="' + esc(alt) + '">'
         : '<div class="photo photo-lead" role="img" aria-label="' + W("sr.photo", "Photograph to come: {what}", { what: esc(alt || "Photograph") }) + '"><span>' + W("missing.photo", "Photograph to come.") + (alt ? " " + txt(alt) : "") + '</span></div>';
       return '<section class="lead"><div data-reveal>' + pic + '</div>' + (hand ? '<p class="hand" data-reveal>' + txt(hand) + '</p>' : "") + '</section>';
@@ -203,7 +220,7 @@
       var body = !shown.length ? '<p class="where" data-reveal>[Stories appear here once you add them]</p>'
         : cards ? '<ul class="feature-grid">' + shown.map(function (a) { return storyCard(a, !only); }).join("") + '</ul>'
         : '<ol class="contents">' + shown.map(function (a, k) {
-          return '<li data-reveal><span class="num">' + (k + 1) + '</span><div><a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") + '</div></li>';
+          return '<li data-reveal><span class="num">' + (k + 1) + '</span><div><a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (String(a.kicker || "").trim() || String(a.date || "").trim() ? '<p class="where">' + [a.kicker, a.date].filter(function (y) { return String(y || "").trim(); }).map(txt).join(", ") + '</p>' : "") + (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + '</div></li>';
         }).join("") + '</ol>';
       var more = m && list.length ? '<p class="more' + (cards ? " more--cards" : "") + '" data-reveal><a class="text-link" href="' + storiesHref() + '">' + txt(m).split("{n}").join(String(ARTICLES.length)) + '</a></p>' : "";
       return '<section class="' + (cards ? "all-features" : "issue") + '"' + (h ? ' aria-labelledby="h-' + id + '"' : "") + '>' + (h ? '<h2 class="label" id="h-' + id + '" data-reveal>' + txt(h) + '</h2>' : "") + body + more + '</section>';
@@ -211,7 +228,12 @@
     // Links to the subjects the stories are filed under: every artist's page, then any links added here.
     S["tac-subjects"] = function (st, ctx) {
       var id = esc((ctx && ctx.id) || "subjects"), h = get(st, "heading", "");
-      var people = get(st, "artists", true) !== false ? ARTISTS.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(String(x.name || "").trim() || "[Subject]") + '</a>'; }) : [];
+      var one = function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(String(x.name || "").trim() || "[Subject]") + '</a>'; };
+      var on = get(st, "artists", true) !== false, themes = on ? ARTISTS.filter(function (x) { return x.kind === "theme"; }) : [];
+      var people = on ? ARTISTS.filter(function (x) { return x.kind !== "theme"; }).map(one) : [];
+      if (themes.length && people.length) return '<section class="topics"' + (h ? ' aria-labelledby="h-' + id + '"' : "") + '>' + (h ? '<h2 class="label" id="h-' + id + '" data-reveal>' + txt(h) + '</h2>' : "") +
+        '<p class="topic-kind" data-reveal>' + W("item.artists", "Artists") + '</p><p class="topic-links" data-reveal>' + people.join("\n") + '</p>' +
+        '<p class="topic-kind" data-reveal>' + W("item.themes", "Themes") + '</p><p class="topic-links" data-reveal>' + themes.map(one).concat(liveRows(get(st, "links", [])).filter(function (r) { return r.x.label && addrOk(r.x.href); }).map(function (r) { return '<a href="' + esc(hrefOf(r.x.href)) + '" data-adh-b="links.' + r.i + '">' + txt(r.x.label) + '</a>'; })).join("\n") + '</p></section>';
       var rows = liveRows(get(st, "links", [])).filter(function (r) { return r.x.label && addrOk(r.x.href); }).map(function (r) { return '<a href="' + esc(hrefOf(r.x.href)) + '" data-adh-b="links.' + r.i + '">' + txt(r.x.label) + '</a>'; });
       var all = people.concat(rows);
       return '<section class="topics"' + (h ? ' aria-labelledby="h-' + id + '"' : "") + '>' + (h ? '<h2 class="label" id="h-' + id + '" data-reveal>' + txt(h) + '</h2>' : "") +
