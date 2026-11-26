@@ -266,15 +266,17 @@
         (t ? '<p data-reveal>' + txt(t) + '</p>' : "") + textLink(get(st, "link", ""), get(st, "href", "")) + '</div></section>';
     };
     // Words in the reading column, as on About: a larger first paragraph, paragraphs, then parts each with a heading.
+    // [words](address) in plain text becomes a link, so text pages such as Privacy can point to other pages
+    function linked(t) { return txt(t).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:|\.\.\/|#)[^\s)"]*)\)/g, function (m, w, h) { return '<a href="' + h + '">' + w + '</a>'; }); }
     S["tac-text"] = function (st) {
-      var ps = function (t) { return String(t || "").split(/\n\s*\n/).map(function (x) { return x.trim(); }).filter(Boolean).map(function (x) { return '<p data-reveal>' + txt(x).replace(/\n/g, "<br>") + '</p>'; }).join(""); };
+      var ps = function (t) { return String(t || "").split(/\n\s*\n/).map(function (x) { return x.trim(); }).filter(Boolean).map(function (x) { return '<p data-reveal>' + linked(x).replace(/\n/g, "<br>") + '</p>'; }).join(""); };
       var lines = (Array.isArray(get(st, "paras", [])) ? st.paras : []).filter(function (x) { return typeof x === "string" && x.trim(); });
       var sf = String(get(st, "standfirst", "") || "").trim(), h = get(st, "heading", "");
       var parts = liveRows(get(st, "parts", [])).filter(function (r) { return r.x.heading || r.x.text; }).map(function (r) {
         return '<div class="prose-part" data-adh-b="parts.' + r.i + '">' + (r.x.heading ? '<h2 data-reveal>' + txt(r.x.heading) + '</h2>' : "") + ps(r.x.text) + '</div>';
       }).join("");
       return '<section class="prose' + (get(st, "align", "left") === "centre" ? " prose-centre" : "") + '">' + (h ? '<h2 data-reveal>' + txt(h) + '</h2>' : "") + (sf ? '<p class="standfirst" data-reveal>' + txt(sf) + '</p>' : "") +
-        lines.map(function (x) { return '<p data-reveal>' + txt(x.trim()).replace(/\n/g, "<br>") + '</p>'; }).join("") + parts + textLink(get(st, "link", ""), get(st, "href", "")) + '</section>';
+        lines.map(function (x) { return '<p data-reveal>' + linked(x.trim()).replace(/\n/g, "<br>") + '</p>'; }).join("") + parts + textLink(get(st, "link", ""), get(st, "href", "")) + '</section>';
     };
     // A list made by hand, such as the shows in the site's reporting: each with a title, a line on where and when, and a few words.
     S["tac-entries"] = function (st, ctx) {
