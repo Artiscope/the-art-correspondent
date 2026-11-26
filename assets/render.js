@@ -171,7 +171,7 @@
         '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n' +
         '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Karla:wght@400;500;600&family=Reenie+Beanie&display=swap" rel="stylesheet">\n' +
         (o.head || "") + (iconOk() ? '<link rel="icon" href="' + r + opts.favicon + '">\n' : "") +
-        '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261125b">\n' + (THEME || "") + secCssTag() + wordsTag() +
+        '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261126a">\n' + (THEME || "") + secCssTag() + wordsTag() +
         '</head>\n<body>\n<a class="skip" href="#main">' + W("menu.skip", "Skip to the stories") + '</a>\n' + (o.top ? String(o.top).split("@@").join(r) + "\n" : "") + nav + '\n<main id="main">\n' + main + '\n</main>\n' + foot + '\n' +
         '<script src="' + r + 'assets/site.js" defer></script>\n</body>\n</html>\n';
       return { path: o.file || path, url: urlPath, html: html, lastmod: o.lastmod || "" };

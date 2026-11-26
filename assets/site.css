@@ -513,3 +513,25 @@ form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
 /* Palette, Nov 2026: text on the burgundy band is cream, which passes AA (7.8:1) */
 .sessions,.sessions *{color:var(--page)}
 .sessions a,.sessions .btn{border-color:var(--page)}
+
+/* Tighter spacing, 26 November 2026: the larger spacing steps are smaller,
+   so there is less empty space between sections, around headings and
+   pictures, and in the footer. Small spacing inside lines is unchanged. */
+:root{--s5:36px;--s6:44px;--s7:64px;--s8:88px}
+.sec--empty{padding-block:72px}
+.sec--lib{padding-block:clamp(36px,4.2vw,60px)}
+.sec-head{margin-bottom:clamp(18px,2.4vw,30px)}
+@media (max-width:720px){
+  :root{--s5:28px;--s6:36px;--s7:48px;--s8:64px}
+  .sec--empty{padding-block:48px}
+}
+/* On wide screens the story lists use the full page width in columns,
+   instead of one narrow column with empty space beside it */
+@media (min-width:981px){
+  .issue,.topics{max-width:var(--wide)}
+  .contents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4) var(--s5)}
+  .contents-plain{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .contents .story{padding-top:0}
+  .topic-links{gap:0 var(--s3)}
+}
+.topic-links a{padding:4px 0}
