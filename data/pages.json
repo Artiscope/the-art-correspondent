@@ -85,6 +85,14 @@
           [
             "Write to us",
             "contact/"
+          ],
+          [
+            "Privacy",
+            "privacy/"
+          ],
+          [
+            "Terms",
+            "terms/"
           ]
         ],
         "legal": "© {year} The Art Correspondent. theartcorrespondent.com"
@@ -689,6 +697,152 @@
             "text": "",
             "topics": [],
             "button": "Send message"
+          }
+        }
+      ]
+    },
+    "privacy": {
+      "path": "privacy/index.html",
+      "title": "Privacy | The Art Correspondent",
+      "description": "What The Art Correspondent does with information about readers and the people who write to us.",
+      "sections": [
+        {
+          "id": "privacy-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "Last updated 26 November 2026",
+            "heading": "Privacy",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "privacy-text",
+          "type": "tac-text",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "standfirst": "",
+            "paras": [
+              "This page explains what happens to information about you when you use The Art Correspondent. The short version: there is no advertising and no analytics, the site sets no cookies, and the only personal details we keep are the ones you send us yourself."
+            ],
+            "parts": [
+              {
+                "heading": "Who is responsible",
+                "text": "The Art Correspondent is published by Artiscope Ltd, which is responsible for personal information collected through this site. For anything on this page, write to [info@artiscope.co.uk](mailto:info@artiscope.co.uk?subject=Privacy)."
+              },
+              {
+                "heading": "If you use the contact form",
+                "text": "The [contact form](../contact/) sends us your name, your email address, any topic you pick, and your message, with the time it was sent and which of our sites it came from. We use them to read your message and reply. We do not add you to a mailing list and we do not pass your details to anyone else.\n\nThe law calls our reason for keeping them legitimate interests: you have written to us, and we need your message and address to answer you.\n\nThe messages are kept for us by Supabase, a database service, on servers in Ireland. Supabase also keeps short-lived technical records of each request so it can run and secure its service. Only the Artiscope team can read the messages.\n\nWe delete form messages 12 months after our last reply, sooner if you ask. The only exception is a message we need to keep to deal with a complaint or a legal claim, and then only for as long as that takes."
+              },
+              {
+                "heading": "If you email us or ask to join a list",
+                "text": "If you email us, we see your address and whatever you write, and use them to reply.\n\nThe subscribe boxes on our sites do not send anything themselves. They open your own email app with a message to us. If you send it, we keep your name and email address in our email inbox and use them only to send you what you asked for. That rests on your consent, and you can withdraw it at any time by writing to us. We keep your address until you leave the list."
+              },
+              {
+                "heading": "What happens when a page loads",
+                "text": "Whenever your browser fetches a web page, the server it asks sees some technical details, such as your IP address, your browser and the page you wanted. These services are involved here:\n\n[GitHub Pages](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) hosts the site, and GitHub keeps server records to run and protect its service.\n\n[Google Fonts](https://policies.google.com/privacy) supplies the typefaces, so your browser asks Google's servers for them.\n\n[Supabase](https://supabase.com/privacy) receives anything you send through the contact form, as described above.\n\nWe use them because a website needs them to work, which again counts as legitimate interests. GitHub and Google are based in the United States, so some of these details may be handled there. Each company's privacy policy explains how it looks after them."
+              },
+              {
+                "heading": "Cookies and your browser",
+                "text": "The site sets no cookies and contains no tracking or advertising code.\n\nThe site keeps a small note in your own browser for the length of your visit when you have already seen a pop-up, so it does not keep coming back. These notes stay on your device and are never sent to us. Closing the tab clears the short-lived ones, and you can clear the rest in your browser settings at any time."
+              },
+              {
+                "heading": "Links to other sites",
+                "text": "Our pages link to their sources. Those sites have their own privacy policies, and what happens there is up to them."
+              },
+              {
+                "heading": "Your rights",
+                "text": "You can ask us for a copy of the personal information we hold about you, and ask us to correct it, delete it or limit how we use it. Where we rely on your consent, you can withdraw it at any time.\n\nYou also have the right to object to us using your information where we rely on legitimate interests. If you object, we will stop unless we have a strong reason to carry on that outweighs yours.\n\nTo use any of these rights, write to [info@artiscope.co.uk](mailto:info@artiscope.co.uk?subject=My%20information). We will answer within one month. We do not sell your information and we do not make automated decisions about you."
+              },
+              {
+                "heading": "If you are unhappy",
+                "text": "Please tell us first, at [info@artiscope.co.uk](mailto:info@artiscope.co.uk?subject=Data%20protection%20complaint). We will acknowledge your complaint within 30 days, look into it and tell you what we found.\n\nYou can also complain to the Information Commissioner's Office, the UK's data protection regulator, at [ico.org.uk/make-a-complaint](https://ico.org.uk/make-a-complaint/) or on 0303 123 1113."
+              },
+              {
+                "heading": "Changes to this page",
+                "text": "If we change how we handle information, we will update this page. The date at the top shows when it last changed."
+              }
+            ],
+            "align": "left",
+            "link": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "terms": {
+      "path": "terms/index.html",
+      "title": "Terms | The Art Correspondent",
+      "description": "The terms for reading The Art Correspondent: what our pages are for, using our writing and the law that applies.",
+      "sections": [
+        {
+          "id": "terms-opening",
+          "type": "tac-opening",
+          "visible": true,
+          "settings": {
+            "size": "page",
+            "eyebrow": "Last updated 26 November 2026",
+            "heading": "Terms",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "terms-text",
+          "type": "tac-text",
+          "visible": true,
+          "settings": {
+            "heading": "",
+            "standfirst": "",
+            "paras": [
+              "These terms cover your use of The Art Correspondent. By using the site you accept them, so please read them. They are short."
+            ],
+            "parts": [
+              {
+                "heading": "Who we are",
+                "text": "The Art Correspondent is published by Artiscope Ltd. You can reach us at [info@artiscope.co.uk](mailto:info@artiscope.co.uk)."
+              },
+              {
+                "heading": "What our pages are for",
+                "text": "Our articles are general information. They are not financial, legal, tax or investment advice, and nothing here is a valuation. An auction result is a past price and does not tell you what a work will fetch next time. Before you buy, sell or insure a work of art, take advice from someone who knows your circumstances."
+              },
+              {
+                "heading": "Accuracy",
+                "text": "We take every fact and figure from a published source and show where it came from. Sources can be wrong, and things change after we write about them. If you spot a mistake, please [tell us](../contact/) and we will look into it."
+              },
+              {
+                "heading": "Using our content",
+                "text": "The writing on The Art Correspondent belongs to Artiscope Ltd. You are welcome to quote short passages, as long as you name The Art Correspondent and link to the page. Please ask us before copying whole articles or republishing them anywhere else.\n\nPictures belong to the artists and photographers named with them. Some are used under a licence, such as Creative Commons, and where that is so the licence is named in the credit. Check it before you reuse a picture. A licence for a photograph of an artwork covers the photograph, not the artwork, which may still be protected by the artist's copyright.\n\nNames of artists, galleries, auction houses and other businesses belong to their owners. Mentioning them does not mean they endorse us or are connected with us."
+              },
+              {
+                "heading": "Writing to us",
+                "text": "Please do not send us anything unlawful, or anything confidential you would not want us to keep. If you send a correction, we may use it to fix the page, without naming you unless you agree. [Our privacy page](../privacy/) explains what happens to your message."
+              },
+              {
+                "heading": "Links to other sites",
+                "text": "We link to our sources so you can check them. We do not run those sites and are not responsible for what they publish. A link is not an endorsement."
+              },
+              {
+                "heading": "Our responsibility",
+                "text": "We work hard to keep the site accurate and available, but we provide it as it is, and we cannot promise it will always be free of mistakes or interruptions. As far as the law allows, we are not responsible for any loss caused by relying on it.\n\nNothing in these terms limits any responsibility that cannot be limited by law, such as for death or personal injury caused by negligence, or for fraud."
+              },
+              {
+                "heading": "Changes",
+                "text": "We may update these terms. The date at the top shows when they last changed."
+              },
+              {
+                "heading": "Law",
+                "text": "These terms are governed by the law of England and Wales, and the courts of England and Wales deal with any dispute."
+              }
+            ],
+            "align": "left",
+            "link": "",
+            "href": ""
           }
         }
       ]
