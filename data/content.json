@@ -9,6 +9,76 @@
   },
   "articles": [
     {
+      "slug": "jr-the-boy-with-the-found-camera",
+      "title": "JR, the Boy With the Found Camera",
+      "kicker": "Artist Stories",
+      "summary": "A Paris teenager picked up a camera someone had left on the Métro. Twenty-five years later he has pasted faces on four continents, made a film with Agnès Varda and wrapped the Pont-Neuf in paper rock.",
+      "description": "The story of JR: graffiti as Face 3, a camera found on the Paris Métro, the friendship with Ladj Ly, Faces Places with Agnès Varda, the choice to stay anonymous and the cave on the Pont-Neuf.",
+      "date": "26 November 2026",
+      "subjects": [
+        "jr",
+        "art-in-public",
+        "art-and-identity"
+      ],
+      "next": "ben-eine-the-graffiti-writer-downing-street-called",
+      "body": "<p>In 2001 a teenager in Paris found a camera that someone had left behind on the Métro (Galleria Continua). He had been writing graffiti since he was thirteen, under the name Face 3 (Brooklyn Museum). Now he had a way to take pictures too.</p>\n<h2>A kid from two places</h2>\n<p>JR was born in Paris in 1983. His parents had come to France as immigrants, one from Eastern Europe and one from Tunisia (Brooklyn Museum). He kept his life private for a long time. The Art Story notes that even his full name was not widely known until 2020, though Wikipedia gives the initials as short for Jean-René.</p>\n<p>He has explained the name as a kind of promise to himself. “JR stands for the fact that I'm still the same kid who is trying to see the world from different perspectives,” he told The Art Story.</p>\n<h2>The friend from Les Bosquets</h2>\n<p>His first big project was made with a friend. Portrait of a Generation, which ran from 2004 to 2006, was a collaboration with Ladj Ly, and the faces in it belonged to young people from the Les Bosquets estate in Montfermeil and La Forestière in Clichy-sous-Bois (Brooklyn Museum). In 2005 two teenagers from the area, Zyed Benna and Bouna Traoré, died, and riots spread from there (Brooklyn Museum).</p>\n<p>When the Brooklyn Museum showed JR's work in 2019, the first large print visitors saw was a portrait of Ly. The New York Times called it a sly answer to the way the media picture black men. The friendship has lasted. A lithograph of Portrait of a Generation published in 2025 is signed by both men (MutualArt sale record).</p>\n<h2>Agnès Varda</h2>\n<p>The partnership most people know is with Agnès Varda, the French filmmaker. Together they made the film <em>Faces Places</em> (<em>Visages Villages</em>), which won the Golden Eye for best documentary at Cannes in 2017 and was nominated for an Oscar (Wikipedia). The photograph above was taken that October in New York, at a question-and-answer session after a screening.</p>\n<h2>Paying his own way</h2>\n<p>JR has resisted corporate sponsorship for his public work (The Art Story). “Because we arrived without sponsorship or political agenda, people always received us with open arms,” he told the Brooklyn Museum. His website says the main way he pays for the public projects is by selling studio works, such as photographs and lithographs (jr-art.net).</p>\n<p>Not everyone is convinced by what the money buys. The New York Times, reviewing the Brooklyn show, found the work “skimming the surface of deeply intractable social problems rather than engaging with them fully.” It is a fair question to ask of any artist who works with other people's lives. JR's answer has always been to bring the people in, to paste with them, and since 2011, through the Inside Out Project, to let them choose their own pictures (Brooklyn Museum).</p>\n<h2>Back to Paris</h2>\n<p>This summer he came home with his biggest piece yet. In June 2026 he covered the Pont-Neuf with a 120-metre cave of printed fabric, in homage to Christo and Jeanne-Claude, who wrapped the same bridge in 1985 (Associated Press). “I had the chance to meet Christo along the years,” he told the Associated Press before it opened, and he added that he was doing it “in my own way.”</p>\n<p>The boy with the found camera is now in his forties. He still does not frame his pictures, and he still lets the weather take them down.</p>",
+      "sources": [
+        {
+          "title": "JR, biography",
+          "publisher": "Galleria Continua",
+          "date": "",
+          "href": "https://galleriacontinua.com/artists/jr-258/biography"
+        },
+        {
+          "title": "JR: Chronicles, exhibition text",
+          "publisher": "Brooklyn Museum",
+          "date": "2019",
+          "href": "https://brooklynmuseum.org/opencollection/exhibitions/3380"
+        },
+        {
+          "title": "JR",
+          "publisher": "The Art Story",
+          "date": "",
+          "href": "https://www.theartstory.org/artist/jr/"
+        },
+        {
+          "title": "JR (artist)",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/JR_(artist)"
+        },
+        {
+          "title": "JR's Street Gallery Comes Indoors",
+          "publisher": "The New York Times",
+          "date": "11 December 2019",
+          "href": "https://www.nytimes.com/2019/12/11/arts/design/jr-brooklyn-museum.html"
+        },
+        {
+          "title": "JR and Ladj Ly, Portrait of a Generation, lithograph (sale record)",
+          "publisher": "MutualArt",
+          "date": "19 July 2026",
+          "href": "https://www.mutualart.com/Artwork/Portrait-of-a-Generation/E0078A528F755C797130AB7AAB86FF55"
+        },
+        {
+          "title": "About JR",
+          "publisher": "jr-art.net",
+          "date": "",
+          "href": "https://www.jr-art.net/about"
+        },
+        {
+          "title": "French artist JR's installation will transform Paris' oldest bridge into a giant cave",
+          "publisher": "Associated Press, via KSAT",
+          "date": "23 February 2026",
+          "href": "https://www.ksat.com/entertainment/2026/02/23/french-artist-jrs-installation-will-transform-paris-oldest-bridge-into-a-giant-cave/"
+        }
+      ],
+      "image": "jr-agnes-varda-2017.jpg",
+      "alt": "JR, in a dark hat and sunglasses, and Agnès Varda, with a white bob and a patterned jacket, sitting side by side on stage in front of a white screen.",
+      "credit": "JR and Agnès Varda at a Faces Places Q&A at Lincoln Center, New York, October 2017. Photo: hinnk, CC BY-SA 3.0, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the museum texts, interviews, reviews and news reports listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false
+    },
+    {
       "slug": "ben-eine-the-graffiti-writer-downing-street-called",
       "title": "Ben Eine, the Graffiti Writer Downing Street Called",
       "kicker": "Artist Stories",
@@ -1270,6 +1340,7 @@
       "description": "Working names, pseudonyms and collectives: how contemporary artists use a name as a shield, a signature and a brand.",
       "date": "19 November 2026",
       "subjects": [
+        "jr",
         "art-and-identity",
         "zen-xander"
       ],
@@ -1395,6 +1466,7 @@
       "description": "Public art is made with permission, without it, or somewhere in between. A feature on JR, Vhils, Konn Artiss and the question of who gets to decide.",
       "date": "19 November 2026",
       "subjects": [
+        "jr",
         "art-in-public"
       ],
       "next": "the-gallery-in-residence",
@@ -1571,6 +1643,7 @@
       "description": "How JR makes his giant street portraits: black-and-white photographs, large-format paper and paste. A note on the craft and on the Inside Out Project.",
       "date": "19 November 2026",
       "subjects": [
+        "jr",
         "artist-studios",
         "art-in-public"
       ],
@@ -3823,6 +3896,72 @@
           "publisher": "Wonderland",
           "date": "26 January 2018",
           "href": "https://www.wonderlandmagazine.com/2018/01/26/ben-eine-an-unconventional-canvas/"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "jr",
+      "name": "JR",
+      "line": "Our reporting on JR, the Paris photographer who pastes giant portraits onto walls, bridges and rooftops.",
+      "about": "<p>French artist, born in Paris in 1983, who works under his initials. He began as a graffiti writer and turned to photography after finding a camera on the Paris Métro in 2001. He prints portraits at the size of buildings and pastes them up, often with the people in them.</p><h2>The projects</h2><p>Portrait of a Generation with Ladj Ly (2004 to 2006), Face 2 Face in Israel and Palestine (2007), Women Are Heroes from 2008, and the Inside Out Project, started with his 2011 TED Prize. With Agnès Varda he made the film <em>Faces Places</em>, nominated for an Oscar. In June 2026 he covered the Pont-Neuf in Paris with a cave of printed fabric.</p><h2>In their own words</h2><blockquote>JR stands for the fact that I'm still the same kid who is trying to see the world from different perspectives.<cite>JR, quoted by The Art Story</cite></blockquote><blockquote>We're about to leave something pretty incredible in the middle of Paris.<cite>JR to the Associated Press, February 2026</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../vhils/\">Vhils</a>, who carves giant faces into walls</li><li><a href=\"../banksy/\">Banksy</a>, another artist who works without asking</li><li><a href=\"../art-in-public/\">Art in public</a>, our reporting on work made for the street</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Paris, 1983"
+        ],
+        [
+          "Works as",
+          "JR, his initials"
+        ],
+        [
+          "Known for",
+          "Giant pasted portraits"
+        ],
+        [
+          "Started",
+          "Graffiti at 13, photography from 2001"
+        ]
+      ],
+      "image": "jr-cesar-2020.jpg",
+      "alt": "JR in a black hat and dark glasses at the César awards in Paris.",
+      "credit": "JR at the César awards, February 2020. Photo: Georges Biard, CC BY-SA 3.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "JR: Chronicles, exhibition text",
+          "publisher": "Brooklyn Museum",
+          "date": "2019",
+          "href": "https://brooklynmuseum.org/opencollection/exhibitions/3380"
+        },
+        {
+          "title": "JR, biography",
+          "publisher": "Galleria Continua",
+          "date": "",
+          "href": "https://galleriacontinua.com/artists/jr-258/biography"
+        },
+        {
+          "title": "JR (artist)",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/JR_(artist)"
+        },
+        {
+          "title": "JR",
+          "publisher": "The Art Story",
+          "date": "",
+          "href": "https://www.theartstory.org/artist/jr/"
+        },
+        {
+          "title": "French artist JR's installation will transform Paris' oldest bridge into a giant cave",
+          "publisher": "Associated Press, via KSAT",
+          "date": "23 February 2026",
+          "href": "https://www.ksat.com/entertainment/2026/02/23/french-artist-jrs-installation-will-transform-paris-oldest-bridge-into-a-giant-cave/"
+        },
+        {
+          "title": "About JR",
+          "publisher": "jr-art.net",
+          "date": "",
+          "href": "https://www.jr-art.net/about"
         }
       ],
       "hidden": false
