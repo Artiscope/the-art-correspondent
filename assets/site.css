@@ -4,18 +4,18 @@
    to change the look. Font sizes are multiplied by --h-scale, --b-scale and
    --nav-scale, which Theme settings can change. */
 :root{
-  --page:#F6F1E8;        /* Warm Plaster: the page */
-  --band:#24231F;        /* Soft Black: buttons, the footer and dark bands */
-  --accent:#D9BE91;      /* Pale Oak: the feature band, photograph frames and story cards */
-  --ink:#24231F;         /* reading text */
+  --page:#F3EBDD;        /* Cream: the page */
+  --band:#16161A;        /* Near-black: buttons, the footer and dark bands */
+  --accent:#7A2E3A;      /* Burgundy: the one accent (Studio Sessions band, frames, markers) */
+  --ink:#16161A;         /* reading text */
   --display:"EB Garamond",Georgia,"Times New Roman",serif;
   --text:"Karla",Arial,Helvetica,sans-serif;
   --sans:"Karla",Arial,Helvetica,sans-serif;
   --hand:"Reenie Beanie","Bradley Hand",cursive;
   --soft:color-mix(in srgb, var(--ink) 88%, var(--page));
   --quiet:color-mix(in srgb, var(--ink) 74%, var(--page));
-  --card:color-mix(in srgb, var(--accent) 26%, var(--page));
-  --card-hover:color-mix(in srgb, var(--accent) 50%, var(--page));
+  --card:#EADFCC;
+  --card-hover:#E2D3BC;
   --frame:var(--accent);
   --muted:var(--quiet);
   --on-band:var(--page);
@@ -509,3 +509,7 @@ p.wordmark{display:flex;align-items:center;margin-bottom:var(--s1)}
 /* Contact form: the box only spam robots fill in stays off screen, and the button rests while a message is sending */
 .hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
 form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
+
+/* Palette, Nov 2026: text on the burgundy band is cream, which passes AA (7.8:1) */
+.sessions,.sessions *{color:var(--page)}
+.sessions a,.sessions .btn{border-color:var(--page)}

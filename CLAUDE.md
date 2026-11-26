@@ -45,8 +45,9 @@ in the repository, so there is nothing to edit by hand.
   `_site`. Do not edit `.github/workflows/` unless the owner asks.
 
 ## The look of this site
-- Colours: Warm Plaster #F6F1E8 (60%), Pale Oak #D9BE91 (30%), Soft Black
-  #24231F (10%).
+- Colours (the owner's choice, 26 November 2026): cream #F3EBDD pages,
+  near-black #16161A text and footer, deep burgundy #7A2E3A as the one
+  accent. Text on burgundy is always cream.
 - Typefaces: EB Garamond for headings, Karla for reading text and labels,
   Reenie Beanie for the one handwritten line under the lead photograph.
 - Quiet and text-led: centred openings, story cards in pale oak, one oak

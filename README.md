@@ -28,4 +28,4 @@ feature or a reported essay.
 
 ## Colours
 
-Warm Plaster #F6F1E8, Pale Oak #D9BE91, Soft Black #24231F.
+Cream #F3EBDD, near-black #16161A, burgundy #7A2E3A.
