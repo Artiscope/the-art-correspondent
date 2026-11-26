@@ -550,12 +550,15 @@
       var rows = (x.details || []).filter(function (d) { return Array.isArray(d) && String(d[0] || "").trim(); });
       var dl = rows.length ? '<dl class="details">' + rows.map(function (d, i) { return '<div data-adh-b="details.' + i + '"><dt>' + txt(d[0]) + '</dt><dd>' + txt(d[1] || "") + '</dd></div>'; }).join("") + '</dl>' : (opts.mark ? '<dl class="details"><div><dt>[Detail, such as Based in]</dt><dd>[What it is]</dd></div></dl>' : "");
       var hasAbout = String(x.about || "").replace(/<[^>]*>/g, "").trim(), srcs = sourceList(x.sources);
+      // further reading: the same artist on the other four sites, without naming the publisher
+      var ewl = (elsewhereFor("tac", P.artists + "/" + x.slug + "/")[0] || { links: [] }).links;
+      var ew = ewl.length ? '<p class="label" data-reveal>' + txt(elsewhereHeading("tac", String(x.name || ""))) + '</p><ul class="sources" data-reveal>' + ewl.map(function (l) { return '<li><a href="' + esc(l.href) + '">' + txt(l.text) + '</a> ' + l.on + ' ' + txt(l.site) + '</li>'; }).join("") + '</ul>' : "";
       var main = '<article class="subject">\n    ' + M('<section class="page-head"><p class="label" data-reveal>' + W("item.subject", "Read by subject") + '</p><h1 data-reveal>' + txt(or(x.name, "[Subject]")) + '</h1><p class="intro" data-reveal>' + txt(or(x.line, "[A line about what is filed here]")) + '</p></section>', "words") + '\n    ' +
         M(figure(x, "Picture for " + or(x.name, "the subject")), "picture") +
         (hasAbout || opts.mark ? '\n    ' + M('<div class="prose">' + (hasAbout ? x.about : "<p>[More about the subject, if it needs it]</p>") + '</div>', "about") : "") +
         (dl ? '\n    ' + M('<div class="prose prose-details">' + dl + '</div>', "details") : "") +
         '\n    <section class="all-features" aria-label="' + W("item.stories-about", "Stories filed under {name}", { name: esc(or(x.name, "the subject")) }) + '">' + (about.length ? '<ul class="feature-grid">' + about.map(function (a) { return storyCard(a, true); }).join("") + '</ul>' : '<p class="where">[Stories filed under this subject appear here]</p>') + '</section>' +
-        (srcs ? '\n    ' + M('<footer class="filed">' + srcs + '</footer>', "sources") : "") + '\n  </article>';
+        (ew || srcs ? '\n    ' + M('<footer class="filed">' + ew + srcs + '</footer>', "sources") : "") + '\n  </article>';
       main = tplWrap("artist", x.slug, main); AO_KIND = "artist";
       return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main, { head: listLd(P.artists + "/" + x.slug + "/", x.name, x.line), image: x.image });
     }
@@ -624,6 +627,32 @@
     };
   }
 
-  var TAC = { fromFiles: fromFiles, Site: Site, slug: slug, addressOf: addressOf };
+  // Links to the same artist on the other Artiscope sites. The list is data/artiscope-links.json,
+  // the same file in all five repositories; tools/build.mjs hands it over with setElsewhere().
+  var ELSEWHERE = null;
+  function setElsewhere(x) { ELSEWHERE = x && typeof x === "object" && x.artists && x.sites ? x : null; }
+  // here is this site's key, path this page's address (such as "artists/banksy/").
+  // Gives one entry per artist on the page: { name, links: [{ href, text, site, on }] }, where on is "in" for a magazine.
+  function elsewhereFor(here, path) {
+    if (!ELSEWHERE) return [];
+    var sites = ELSEWHERE.sites, out = [];
+    Object.keys(ELSEWHERE.artists).forEach(function (k) {
+      var e = ELSEWHERE.artists[k] || {}, mine = e[here];
+      var on = Array.isArray(mine) ? mine.some(function (t) { return t && t.path === path; }) : mine === path;
+      if (!on) return;
+      var links = [];
+      ["war", "gam", "tac", "sad", "tawr"].forEach(function (s) {
+        var site = sites[s] || {}, base = String(site.url || "");
+        if (s === here || !e[s] || !/^https:\/\/[a-z0-9.-]+\/$/.test(base)) return;
+        (Array.isArray(e[s]) ? e[s] : [{ path: e[s], title: site.link }]).forEach(function (t) {
+          if (t && /^[a-z0-9-]+\/[a-z0-9-]+\/$/.test(String(t.path || "")) && t.title) links.push({ href: base + t.path, text: String(t.title), site: String(site.name || ""), on: s === "tac" || s === "tawr" ? "in" : "on" });
+        });
+      });
+      if (links.length) out.push({ name: String(e.name || ""), links: links });
+    });
+    return out;
+  }
+  function elsewhereHeading(here, name) { return String(((ELSEWHERE || {}).sites || {})[here] && ELSEWHERE.sites[here].heading || "Elsewhere").split("{name}").join(name); }
+  var TAC = { fromFiles: fromFiles, setElsewhere: setElsewhere, Site: Site, slug: slug, addressOf: addressOf };
   if (typeof module !== "undefined" && module.exports) module.exports = TAC; else root.TAC = TAC;
 })(typeof window !== "undefined" ? window : this);
