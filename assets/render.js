@@ -143,7 +143,7 @@
       // a page with its own layout has no menu bar, footer or shared sections; popups show on every page
       o.top = o.own ? "" : [groupHtml("top", true), o.top || ""].filter(Boolean).join("\n");
       main = (o.own ? [main, groupHtml("popups"), ao.fixed] : [groupHtml("top", false), main, ao.share, groupHtml("bottom"), groupHtml("popups"), ao.fixed]).filter(Boolean).join("\n  ");
-      var depth = (urlPath.match(/\//g) || []).length, r = o.file ? "" : new Array(depth + 1).join("../");
+      var depth = (urlPath.match(/\//g) || []).length, r = o.file ? (o.root || "") : new Array(depth + 1).join("../");
       var name = txt(NAME()), st = hd(), hon = shared("header")[1];
       // the site's own mark beside its name, drawn from the outline kept in the site's details
       var markSvg = /^[MLHVCSQTAZmlhvcsqtaz0-9 .,-]{1,600}$/.test(SITE.mark || "") ? '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="currentColor" d="' + SITE.mark + '"></path></svg>' : "";
@@ -572,10 +572,12 @@
       return page(P[k] + "/index.html", w.name + " | " + NAME(), String(w.intro || ""), head + '\n  <section class="all-features">' + grid + '</section>', { head: listLd(P[k] + "/", w.name, w.intro) });
     }
     function notFound() {
-      var base = SITE_URL.replace(/^https:\/\/[^\/]+/, "") || "/";
-      var head = "<script>document.write('<base href=\"'+(location.hostname.slice(-9)==='github.io'?'" + esc(base) + "':'/')+'\">')</script>\n";
-      var main = '<section class="page-head page-head-tall"><p class="label">' + W("nf.eyebrow", "Page not found") + '</p><h1>' + W("nf.title", "This page has wandered off.") + '</h1><p class="intro">' + W("nf.lede", "The address may have changed, or the story may not be published yet.") + '</p><p><a class="text-link" href="./">' + W("nf.home", "Back to the front page") + '</a></p></section>';
-      return page("", "Page not found | " + NAME(), "This page could not be found.", main, { file: "404.html", head: head });
+      var main = '<section class="page-head page-head-tall"><p class="label">' + W("nf.eyebrow", "Page not found") + '</p><h1>' + W("nf.title", "This page has wandered off.") + '</h1><p class="intro">' + W("nf.lede", "The address may have changed, or the story may not be published yet.") + '</p><p><a class="text-link" href="/">' + W("nf.home", "Back to the front page") + '</a></p></section>';
+      var pg = page("", "Page not found | " + NAME(), "This page could not be found.", main, { file: "404.html", root: "/" });
+      // A missing page should never be indexed or point search engines at another address.
+      pg.html = pg.html.replace(/<link rel="canonical"[^>]*>\n/, "").replace(/<meta property="og:url"[^>]*>\n/, "");
+      if (!/<meta name="robots"/.test(pg.html)) pg.html = pg.html.replace("<head>\n", "<head>\n<meta name=\"robots\" content=\"noindex\">\n");
+      return pg;
     }
     // Every published page: the pages from the page list, then the page for a wrong address.
     function all() {
