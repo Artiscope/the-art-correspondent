@@ -201,7 +201,7 @@
       var pic = a.image ? '<img class="card-pic" src="' + esc(opts.imageSrc ? opts.imageSrc(a.image) : "@@assets/images/" + a.image) + '" alt="' + esc(a.alt || "") + '" loading="lazy">' : "";
       var date = String(a.date || "").trim();
       return '<li' + (pic ? ' class="has-pic"' : "") + '>' + pic + '<a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (where && String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") +
-        (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + (date ? '<p class="when">' + txt(date) + '</p>' : "") + '</li>';
+        (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + '</li>';
     }
     // The newest story that has a photograph, shown large on the front page until a lead photograph is chosen.
     function coverStory() {
@@ -239,7 +239,7 @@
       var body = !shown.length ? '<p class="where" data-reveal>[Stories appear here once you add them]</p>'
         : cards ? '<ul class="feature-grid">' + shown.map(function (a) { return storyCard(a, !only); }).join("") + '</ul>'
         : '<ol class="contents">' + shown.map(function (a, k) {
-          return '<li data-reveal><span class="num">' + (k + 1) + '</span><div><a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (String(a.kicker || "").trim() || String(a.date || "").trim() ? '<p class="where">' + [a.kicker, a.date].filter(function (y) { return String(y || "").trim(); }).map(txt).join(", ") + '</p>' : "") + (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + '</div></li>';
+          return '<li data-reveal><span class="num">' + (k + 1) + '</span><div><a class="story" href="@@' + P.articles + '/' + esc(a.slug) + '/">' + txt(String(a.title || "").trim() || "[Story title]") + '</a>' + (String(a.kicker || "").trim() ? '<p class="where">' + txt(a.kicker) + '</p>' : "") + (String(a.summary || "").trim() ? '<p class="blurb">' + txt(a.summary) + '</p>' : "") + '</div></li>';
         }).join("") + '</ol>';
       var more = m && list.length ? '<p class="more' + (cards ? " more--cards" : "") + '" data-reveal><a class="text-link" href="' + storiesHref() + '">' + txt(m).split("{n}").join(String(ARTICLES.length)) + '</a></p>' : "";
       return '<section class="' + (cards ? "all-features" : "issue") + '"' + (h ? ' aria-labelledby="h-' + id + '"' : "") + '>' + (h ? '<h2 class="label" id="h-' + id + '" data-reveal>' + txt(h) + '</h2>' : "") + body + more + '</section>';
@@ -531,9 +531,8 @@
       if (nxt === a) nxt = null;
       var kick = String(a.kicker || "").trim(), date = String(a.date || "").trim(), how = String(a.how || "").trim(), when = Date.parse(date + " 12:00 UTC");
       var label = kick ? '<a href="' + sectionHref(kick) + '">' + txt(kick) + '</a>' : "";
-      var dateHtml = date ? (isNaN(when) ? txt(date) : '<time datetime="' + new Date(when).toISOString().slice(0, 10) + '">' + txt(date) + '</time>') : "";
       var main = '<article class="article">\n    ' + M('<header class="article-head">' + (label ? '<p class="label" data-reveal>' + label + '</p>' : "") + '<h1 data-reveal>' + txt(or(a.title, "[Story title]")) + '</h1>' +
-        '<p class="byline" data-reveal>' + (date ? W("item.byline-date", "By {site}. Published {date}.", { site: txt(NAME()), date: dateHtml }) : W("item.byline", "By {site}.", { site: txt(NAME()) })) + '</p></header>', "words") + '\n    ' +
+        '<p class="byline" data-reveal>' + W("item.byline", "By {site}.", { site: txt(NAME()) }) + '</p></header>', "words") + '\n    ' +
         M(figure(a, or(a.alt, "[What the photograph shows]")), "picture") + '\n    ' +
         M('<div class="prose"><p class="standfirst" data-reveal>' + txt(or(a.summary, "[One or two sentences that sum up the story]")) + '</p>' + (String(a.body || "").replace(/<[^>]*>/g, "").trim() ? a.body : "<p>[Write the story here]</p>") + '</div>', "body") +
         (nxt ? '\n    <aside class="next" aria-labelledby="next-title"><p class="label" id="next-title" data-reveal>' + W("btn.read-next", "Read next") + '</p><p data-reveal><a class="story" href="@@' + P.articles + '/' + esc(nxt.slug) + '/">' + txt(or(nxt.title, "[Story title]")) + '</a></p>' + (String(nxt.kicker || "").trim() ? '<p class="where" data-reveal>' + txt(nxt.kicker) + '</p>' : "") + '</aside>' : "") + '\n    ' +
