@@ -110,7 +110,7 @@
             "size": "large",
             "eyebrow": "The people, practice and culture magazine",
             "heading": "Behind Every Work, There Is a Story.",
-            "text": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Through reported profiles, studio notes and cultural essays, we look at the ideas, experiences and creative decisions behind today's artistic practices.",
+            "text": "The Art Correspondent explores contemporary art through the people who make, present and collect it. Through studio reporting, cultural essays, artist stories and, once they are recorded, interviews, we examine the ideas, experiences and creative decisions behind today's artistic practices.",
             "link": "Read the stories",
             "href": "stories/"
           }
@@ -139,6 +139,54 @@
           }
         },
         {
+          "id": "sections",
+          "type": "tac-entries",
+          "visible": true,
+          "settings": {
+            "heading": "In the magazine",
+            "numbered": false,
+            "note": "",
+            "entries": [
+              {
+                "title": "Features",
+                "href": "features/",
+                "where": "",
+                "blurb": "Longer reported essays on how art is made, shown and valued."
+              },
+              {
+                "title": "Artist Stories",
+                "href": "artist-stories/",
+                "where": "",
+                "blurb": "Reported profiles of the artists we follow, from London to Rio de Janeiro to Tokyo."
+              },
+              {
+                "title": "Studio Notes",
+                "href": "studio-notes/",
+                "where": "",
+                "blurb": "Materials, methods and the working day, seen from inside the studio."
+              },
+              {
+                "title": "Conversations",
+                "href": "conversations/",
+                "where": "",
+                "blurb": "Interviews with artists, published only once they have taken place and the transcript is approved. None yet."
+              },
+              {
+                "title": "Culture",
+                "href": "culture/",
+                "where": "",
+                "blurb": "Art's place in celebrity, luxury, the street and public memory."
+              },
+              {
+                "title": "Exhibitions",
+                "href": "exhibitions/",
+                "where": "",
+                "blurb": "Shows, openings and installations that appear in our reporting."
+              }
+            ]
+          }
+        },
+        {
           "id": "subjects",
           "type": "tac-subjects",
           "visible": true,
@@ -155,7 +203,7 @@
           "settings": {
             "eyebrow": "The Studio Sessions",
             "heading": "Interviews, photographs and short films, made in the room where the work is made.",
-            "text": "The first sessions are being recorded now. Every conversation we publish is a real one, with a transcript the artist has approved. Until then, you will find reported features and essays here.",
+            "text": "Every conversation we publish will be a real one, with a transcript the artist has approved. None has been published yet, so for now you will find reported features and essays here.",
             "link": "About the Studio Sessions",
             "href": "studio-sessions/"
           }
@@ -540,7 +588,7 @@
               },
               {
                 "heading": "Where things stand",
-                "text": "The first sessions are being recorded now. Until they are ready, you will find reported features and essays across the magazine."
+                "text": "No session has been published yet. Until the first one is, you will find reported features and essays across the magazine."
               }
             ],
             "align": "left",
