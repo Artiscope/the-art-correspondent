@@ -505,3 +505,7 @@ p.wordmark{display:flex;align-items:center;margin-bottom:var(--s1)}
 }
 .prose blockquote{margin-top:var(--s3);padding-left:20px;border-left:3px solid var(--accent);font:italic 400 1.25rem/1.45 var(--text);font-size:calc(1.25rem * var(--b-scale, 1))}
 .prose blockquote cite{display:block;margin-top:8px;font:500 .875rem/1.4 var(--sans);color:var(--muted)}
+
+/* Contact form: the box only spam robots fill in stays off screen, and the button rests while a message is sending */
+.hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
