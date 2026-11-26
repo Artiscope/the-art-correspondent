@@ -9,6 +9,274 @@
   },
   "articles": [
     {
+      "slug": "five-studios-a-factory-a-bed-a-river-wall-a-street-and-a-dig",
+      "title": "Five Studios: a Factory, a Bed, a River Wall, a Street and a Dig",
+      "kicker": "Artist Stories",
+      "summary": "Where an artist works shapes what they make. Takashi Murakami built a company, Frida Kahlo started in bed, William Kentridge drew on a river wall, Jenny Holzer used the street and Daniel Arsham invented an excavation.",
+      "description": "How five artists worked: Murakami's Kaikai Kiki, Kahlo painting in bed after her accident, Kentridge's Tiber frieze, Holzer's street posters and Arsham's fictional archaeology.",
+      "date": "26 November 2026",
+      "subjects": [
+        "takashi-murakami",
+        "frida-kahlo",
+        "william-kentridge",
+        "jenny-holzer",
+        "daniel-arsham",
+        "artist-studios"
+      ],
+      "body": "<p>Ask an artist where they work and the answer often explains the work. Here are five answers, none of them a quiet room with a north light.</p>\n<h2>A factory in Tokyo</h2>\n<p>Takashi Murakami trained in Nihonga, the traditional Japanese painting style, and earned a doctorate in it in 1993 (Ocula). Three years later he set up the Hiropon Factory, a workshop that became the company Kaikai Kiki in 2001 (Wikipedia). Christie's places his studio in Miyoshi.</p>\n<p>The factory explains a lot about the art. Murakami has designed handbags for Louis Vuitton and an album cover for Kanye West (Wikipedia). On mixing art and commerce, he said: “I don't think of it as straddling. I think of it as changing the line” (Wikipedia, quoting a 2006 interview).</p>\n<h2>A bed in Coyoacán</h2>\n<p>On 17 September 1925, Frida Kahlo, then 18, was badly hurt in a bus accident. She began to paint while she was confined to bed (Wikipedia). Most of what followed were small self-portraits, and she gave her reason plainly: “I paint myself because I am often alone and I am the subject I know best” (Wikipedia).</p>\n<p>She painted a bed again in 1940. <em>El sueño (La cama)</em> shows her asleep in a bed floating in the clouds, with a skeleton wrapped in dynamite lying above her (NPR). In November 2025 it sold for $54.7 million, more than any work by a woman had made at auction (Al Jazeera). She did not want it called a dream. “I never painted dreams... I painted my own reality,” she said (Al Jazeera).</p>\n<h2>A river wall in Rome</h2>\n<p>William Kentridge's usual studio method is slow: draw in charcoal, film the drawing, rub part of it out, change it, film again (Wikipedia). In 2016 he took the idea outside. On the Tiber embankment, teams sprayed water through giant stencils to clean a procession of more than 80 figures, some 12 metres tall, into the grime on the wall (The Art Newspaper).</p>\n<p>It was meant to fade within three to five years (The Art Newspaper). When vandals painted between the figures a year later, Kentridge said: “The fact that the work is destined to disappear is part of the concept” (The Art Newspaper, 2017).</p>\n<h2>A street in Manhattan</h2>\n<p>Jenny Holzer was a student on the Whitney Museum's study programme in 1977 when she began writing her Truisms (MoMA). She printed them as anonymous broadsheets and pasted them on walls and fences around Manhattan (Wikipedia). No name, no gallery, just sentences such as “Abuse of power comes as no surprise” (MoMA).</p>\n<p>The street stayed her studio even as the materials changed. In 1982 her words ran on the big electronic board in Times Square (Wikipedia), and from 1996 she projected them in light onto rivers and buildings (Britannica). “I like placing content wherever people look,” she has said (Guggenheim Bilbao).</p>\n<h2>A dig that has not happened yet</h2>\n<p>Daniel Arsham's turning point was a trip to Easter Island in 2011, after which he began what he calls fictional archaeology (Ocula). His Future Relics are ordinary things cast in sand, selenite, volcanic ash or quartz so that they look as though they were dug up in the future (Ocula; Sotheby's).</p>\n<p>His palette has a reason too. He is colour blind. “Most of the work I've made has been in that scope,” he told Wallpaper, and lenses he tried in 2015 let pinks and purples into the work (Sotheby's).</p>\n<h2>What the five have in common</h2>\n<p>Our view: none of these places was chosen for comfort. A company, a sickbed, a dirty wall, a city street and an imaginary dig site each set limits, and each artist made the limits part of the work.</p>",
+      "sources": [
+        {
+          "title": "Takashi Murakami",
+          "publisher": "Ocula",
+          "date": "",
+          "href": "https://ocula.com/artists/takashi-murakami/"
+        },
+        {
+          "title": "Takashi Murakami",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Takashi_Murakami"
+        },
+        {
+          "title": "Takashi Murakami collecting guide",
+          "publisher": "Christie's",
+          "date": "",
+          "href": "https://www.christies.com.cn/en/stories/takashi-murakami-collecting-guide-12271754976f49af969ee0b510b6e328"
+        },
+        {
+          "title": "Frida Kahlo",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+        },
+        {
+          "title": "Frida Kahlo painting sets auction record",
+          "publisher": "NPR",
+          "date": "November 2025",
+          "href": "https://www.npr.org/2025/11/19/nx-s1-5584087/frida-kahlo-auction-record-sothebys-el-sueno-la-cama"
+        },
+        {
+          "title": "Frida Kahlo painting sells for $54.7m, breaking record for female artists",
+          "publisher": "Al Jazeera",
+          "date": "21 November 2025",
+          "href": "https://www.aljazeera.com/news/2025/11/21/frida-kahlo-painting-sells-for-54-7m-breaking-record-for-female-artists"
+        },
+        {
+          "title": "William Kentridge",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/William_Kentridge"
+        },
+        {
+          "title": "William Kentridge unveils 550-metre frieze along Rome's river Tiber",
+          "publisher": "The Art Newspaper",
+          "date": "22 April 2016",
+          "href": "https://www.theartnewspaper.com/2016/04/22/william-kentridge-unveils-550-metre-frieze-along-romes-river-tiber"
+        },
+        {
+          "title": "Rome to remove graffiti defacing Kentridge's graffiti",
+          "publisher": "The Art Newspaper",
+          "date": "6 April 2017",
+          "href": "https://theartnewspaper.com/2017/04/06/rome-to-remove-graffiti-defacing-kentridges-graffiti"
+        },
+        {
+          "title": "Jenny Holzer, Truisms",
+          "publisher": "MoMA",
+          "date": "",
+          "href": "https://www.moma.org/collection/works/63755"
+        },
+        {
+          "title": "Jenny Holzer",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Jenny_Holzer"
+        },
+        {
+          "title": "Jenny Holzer",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Jenny-Holzer"
+        },
+        {
+          "title": "From the 1970s to today: Jenny Holzer in context",
+          "publisher": "Guggenheim Museum Bilbao",
+          "date": "",
+          "href": "https://guggenheim-bilbao.eus/en/did-you-know/desde-la-decada-de-1970-hasta-hoy-jenny-holzer-en-contexto"
+        },
+        {
+          "title": "Daniel Arsham in conversation",
+          "publisher": "Ocula Magazine",
+          "date": "",
+          "href": "https://ocula.com/magazine/conversations/daniel-arsham/"
+        },
+        {
+          "title": "Daniel Arsham",
+          "publisher": "Ocula",
+          "date": "",
+          "href": "https://ocula.com/artists/daniel-arsham/"
+        },
+        {
+          "title": "Daniel Arsham: modern polymath",
+          "publisher": "Sotheby's",
+          "date": "2020",
+          "href": "https://www.sothebys.com/en/articles/daniel-arsham-modern-polymath-moonraker-musee-guimet"
+        },
+        {
+          "title": "Corrective lenses have lent colour to Daniel Arsham",
+          "publisher": "Wallpaper",
+          "date": "",
+          "href": "https://wallpaper.com/art/corrective-lenses-have-lent-colour-to-artist-daniel-arsham-of-snarkitectures-monochromatic-output"
+        }
+      ],
+      "image": "frida-kahlo-frissell-1937.jpg",
+      "alt": "Black and white photograph of Frida Kahlo in a long skirt, seated on rocky ground beside a large agave plant.",
+      "credit": "Frida Kahlo photographed by Toni Frissell in 1937. Library of Congress, public domain, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the museum texts, encyclopedias, interviews and news reports listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false,
+      "next": "far-from-home-zao-wou-ki-mai-trung-thu-mona-hatoum-ai-weiwei"
+    },
+    {
+      "slug": "far-from-home-zao-wou-ki-mai-trung-thu-mona-hatoum-ai-weiwei",
+      "title": "Far From Home: Four Artists Who Made Their Work Elsewhere",
+      "kicker": "Artist Stories",
+      "summary": "A 36-day voyage to Marseille, a move to Paris in 1937, a visit to London that could not end, and a passport held for four years. How leaving home shaped Zao Wou-Ki, Mai Trung Thứ, Mona Hatoum and Ai Weiwei.",
+      "description": "Zao Wou-Ki in Paris from 1948, Mai Trung Thứ in Paris from 1937, Mona Hatoum stranded in London in 1975, and Ai Weiwei's years abroad.",
+      "date": "26 November 2026",
+      "subjects": [
+        "zao-wou-ki",
+        "mai-trung-thu",
+        "mona-hatoum",
+        "ai-weiwei",
+        "art-and-identity"
+      ],
+      "body": "<p>Many artists move for their work. For these four the move, or the lack of a choice about it, became part of the work itself.</p>\n<h2>Mai Trung Thứ: Hanoi to Paris, 1937</h2>\n<p>Mai Trung Thứ was born in 1906 near Hải Phòng, the son of a provincial governor (Wikipedia; Sotheby's). In 1925 he joined the first class of the new École des Beaux-Arts de l'Indochine in Hanoi. Aguttes says only six of 266 candidates got in.</p>\n<p>He moved to Paris in 1937 (Sotheby's) and stayed. There he played the đàn bầu, a Vietnamese stringed instrument, and in 1946 filmed Hồ Chí Minh's visit to the city (Wikipedia). For more than forty years he painted Vietnamese women and children in ink and gouache on silk, and made his own gilded frames (Wikipedia; Aguttes).</p>\n<h2>Zao Wou-Ki: Shanghai to Marseille, 1948</h2>\n<p>Zao Wou-Ki was born in Beijing in 1920 and trained in Hangzhou under Lin Fengmian, then taught there (Sotheby's). In 1948 he left. The boat from Shanghai to Marseille took 36 days (Sotheby's).</p>\n<p>In Paris, Joan Miró and Pablo Picasso supported him, and the poet Henri Michaux wrote poems for his lithographs (Sotheby's). Seeing the work of Paul Klee in 1951 moved him towards abstraction (CNN). He did not go back to China until 1972 (CNN). His summary of it all was short: “Everybody is bound by tradition. I am bound by two” (Sotheby's; CNN).</p>\n<h2>Mona Hatoum: a visit to London, 1975</h2>\n<p>Mona Hatoum was born in Beirut in 1952 to a Palestinian family (Tate). In 1975 she was in London when civil war broke out in Lebanon. “I got stranded there because the war broke out in Lebanon,” she told BOMB magazine in 1998 (quoted by Tate).</p>\n<p>She stayed, studied at the Byam Shaw School of Art and the Slade, and made performances and videos until 1988 (Tate). <em>Measures of Distance</em> (1988) is built around images of her mother (Tate). Since 1989 she has made installations from familiar things (lockers, graters, a map of glass marbles) that no longer feel safe (Tate; Praemium Imperiale). “My roots are in the Middle-East,” she has said (Praemium Imperiale).</p>\n<h2>Ai Weiwei: a family in exile, then his own</h2>\n<p>Ai Weiwei knew exile before he knew art. His father, the poet Ai Qing, was sent with the family to a labour camp in 1958 and to Xinjiang in 1961 (Britannica; Wikipedia). Ai lived in the United States from 1981 to 1993 and went home when his father fell ill (Wikipedia).</p>\n<p>In 2011 he was arrested at Beijing airport and held for 81 days (Smarthistory). His passport was taken and only returned in July 2015. He has since lived in Berlin, Cambridge and Portugal (Wikipedia). His 2017 film <em>Human Flow</em> follows people forced to leave their homes (Wikipedia).</p>\n<h2>What travelled with them</h2>\n<p>Our view: none of the four left their first home behind. Mai kept painting Vietnam from Paris, Zao spent decades joining Chinese ink to French abstraction, Hatoum's objects carry the unease of a place that is unsafe, and Ai's work keeps returning to China. Distance gave each of them a way to look back.</p>",
+      "sources": [
+        {
+          "title": "Mai Thứ",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Mai_Th%E1%BB%A9"
+        },
+        {
+          "title": "Mai Trung Thu",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://www.sothebys.com/en/artists/mai-trung-thu"
+        },
+        {
+          "title": "Mai Trung Thu, Grand-mère, 1976",
+          "publisher": "Aguttes",
+          "date": "",
+          "href": "https://www.aguttes.com/en/lot/160379/28022297-mai-trung-thu-1906-1980-deg-grand-mere-1976-encre-et"
+        },
+        {
+          "title": "21 facts about Zao Wou-Ki",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://www.sothebys.com/en/articles/21-facts-about-zao-wou-ki"
+        },
+        {
+          "title": "Zao Wou-Ki by the numbers",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://sothebys.com/en/articles/zao-wou-ki-by-the-numbers"
+        },
+        {
+          "title": "Zao Wou-Ki, abstract painter",
+          "publisher": "CNN Style",
+          "date": "",
+          "href": "https://amp.cnn.com/cnn/style/article/zao-wou-ki-abstract-painter"
+        },
+        {
+          "title": "Mona Hatoum",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/mona-hatoum-2365"
+        },
+        {
+          "title": "Who is Mona Hatoum?",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/mona-hatoum-2365/who-is-mona-hatoum"
+        },
+        {
+          "title": "Mona Hatoum",
+          "publisher": "Praemium Imperiale",
+          "date": "",
+          "href": "https://praemiumimperiale.org/en/laureate-en/laureates-en/hatoum-en"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Ai-Weiwei"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Ai_Weiwei"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Smarthistory",
+          "date": "",
+          "href": "https://smarthistory.org/?p=32841"
+        }
+      ],
+      "image": "mai-trung-thu-and-father.jpg",
+      "alt": "Black and white photograph of the young Mai Trung Thứ standing beside his father, an older man with a white beard.",
+      "credit": "Mai Trung Thứ with his father, Mai Trung Cát, before 1945. Photographer unknown, public domain, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the museum texts, encyclopedias, interviews and news reports listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false,
+      "next": "zanele-muholi-turns-the-camera-around"
+    },
+    {
+      "slug": "zanele-muholi-turns-the-camera-around",
+      "title": "Zanele Muholi Turns the Camera Around",
+      "kicker": "Artist Stories",
+      "summary": "For years Zanele Muholi photographed other people, Black lesbian, trans and gender non-conforming South Africans who were rarely pictured on their own terms. Then they made themself the subject.",
+      "description": "The story of Zanele Muholi, the South African visual activist behind Faces and Phases and the Somnyama Ngonyama self-portraits.",
+      "date": "26 November 2026",
+      "subjects": [
+        "zanele-muholi",
+        "art-and-identity"
+      ],
+      "body": "<p>Zanele Muholi does not call themself an artist. The word they use is visual activist (Britannica; Tate). Muholi's pronouns are they, them and their (Tate).</p>\n<h2>Umlazi and Newtown</h2>\n<p>Muholi was born in Umlazi, near Durban, in 1972 (Britannica). They trained at the Market Photo Workshop in Newtown, Johannesburg (Tate Etc), and in 2002 co-founded the Forum for the Empowerment of Women (Britannica). In 2009 they finished a master's degree in documentary media at Ryerson University in Toronto and founded Inkanyiso (Britannica).</p>\n<h2>Faces and Phases</h2>\n<p>In 2006 Muholi began <em>Faces and Phases</em>, black and white portraits of Black lesbian, trans and gender non-conforming people (Britannica; Tate). Other series followed: <em>Brave Beauties</em>, of trans women and non-binary people, many of them winners of Miss Gay Beauty pageants, and <em>Being</em>, of couples (Tate).</p>\n<p>Muholi has explained who these pictures are for. “These are not [just] subjects, these are my people,” they told Tate Etc. They also describe the aim as being “to queer, to blacken, to open, and to occupy spaces” (Tate Etc).</p>\n<h2>Hail the Dark Lioness</h2>\n<p>In 2014 Muholi started photographing themself. The series is called <em>Somnyama Ngonyama</em>, Hail the Dark Lioness (Britannica). In each picture they wear something improvised, from scouring pads and latex gloves to tyres and cable ties, and they raise the contrast so their skin prints darker (Britannica; Tate).</p>\n<p>One of the best known, <em>Bester I, Mayotte</em> (2015), shows Muholi with clothes pegs, made in honour of their mother's labour (Britannica).</p>\n<h2>London, twice</h2>\n<p>The museums followed. Muholi showed at the 58th Venice Biennale in 2019, and Tate Modern gave them a major exhibition from November 2020 to March 2021 (Tate). Tate Modern showed their work again from June 2024 to January 2025 (Tate Modern). Their awards include the Prince Claus Award in 2013 and the ICP Infinity Award in 2016 (Tate).</p>\n<p>Our view: the self-portraits work because of the years of portraits before them. Having photographed a community, Muholi put themself in front of the same camera, on the same terms.</p>",
+      "sources": [
+        {
+          "title": "Zanele Muholi",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Zanele-Muholi"
+        },
+        {
+          "title": "Zanele Muholi, press release",
+          "publisher": "Tate",
+          "date": "2020",
+          "href": "https://www.tate.org.uk/press/press-releases/zanele-muholi"
+        },
+        {
+          "title": "Zanele Muholi: repertoires of resistance",
+          "publisher": "Tate Etc",
+          "date": "Autumn 2020",
+          "href": "https://www.tate.org.uk/tate-etc/issue-50-autumn-2020/zanele-muholi-repertoires-resistance"
+        },
+        {
+          "title": "Zanele Muholi",
+          "publisher": "Tate Modern",
+          "date": "2024",
+          "href": "https://www.tate.org.uk/whats-on/tate-modern/zanele-muholi"
+        }
+      ],
+      "image": "zanele-muholi-2011.jpg",
+      "alt": "Zanele Muholi, in a dark hat and patterned top, speaking in a gallery while people with cameras listen.",
+      "credit": "Zanele Muholi, left, at the Side by Side LGBT Film Festival, 22 October 2011. Photo: Side by Side LGBT Film Festival, CC BY-SA 3.0, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the museum texts, encyclopedias, interviews and news reports listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false,
+      "next": "jr-the-boy-with-the-found-camera"
+    },
+    {
       "slug": "jr-the-boy-with-the-found-camera",
       "title": "JR, the Boy With the Found Camera",
       "kicker": "Artist Stories",
@@ -919,7 +1187,8 @@
         "kaws",
         "humour-and-satire",
         "art-in-public",
-        "keith-haring"
+        "keith-haring",
+        "takashi-murakami"
       ],
       "next": "eko-nugroho-masks-and-thread",
       "image": "",
@@ -2153,7 +2422,8 @@
       "date": "19 November 2026",
       "subjects": [
         "artist-studios",
-        "art-and-identity"
+        "art-and-identity",
+        "frida-kahlo"
       ],
       "next": "konn-artiss-object-and-spectacle",
       "image": "",
@@ -4006,6 +4276,525 @@
           "publisher": "Artsy",
           "date": "June 2024",
           "href": "https://www.artsy.net/show/grove-gallery-society-falling-by-zen-xander"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "takashi-murakami",
+      "name": "Takashi Murakami",
+      "line": "Our reporting on Takashi Murakami, the Tokyo painter and sculptor who named his style Superflat.",
+      "about": "<p>Japanese artist, born in Tokyo in 1962, with a doctorate in Nihonga, the traditional Japanese painting style. He published his Superflat theory in 2000 and runs his studio as a company, Kaikai Kiki.</p><h2>The work</h2><p>Smiling flowers, mushrooms, skulls and a character called Mr. DOB, painted with hard outlines and flat colour. He has designed for Louis Vuitton and made Kanye West's <em>Graduation</em> cover. After the 2011 earthquake and tsunami he painted <em>The 500 Arhats</em>, more than 100 metres long.</p><h2>In their own words</h2><blockquote>I don't think of it as straddling. I think of it as changing the line.<cite>Murakami, 2006, quoted on Wikipedia</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../kaws/\">KAWS</a>, who also turns cartoon characters into sculpture</li><li><a href=\"../yayoi-kusama/\">Yayoi Kusama</a>, another Japanese artist with a global following</li><li><a href=\"../artist-studios/\">Artist studios</a>, our reporting on where artists work</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Tokyo, 1962"
+        ],
+        [
+          "Trained in",
+          "Nihonga, to doctorate level"
+        ],
+        [
+          "Studio",
+          "Kaikai Kiki"
+        ],
+        [
+          "Known for",
+          "Superflat"
+        ]
+      ],
+      "image": "takashi-murakami-geisai-2006.jpg",
+      "alt": "Takashi Murakami in a dark jacket and glasses, seated on a tall stool at a small table on a stage.",
+      "credit": "Takashi Murakami at GEISAI#10, Tokyo, September 2006. Photo: Yamashita Yohei, CC BY 2.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Takashi Murakami",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Takashi_Murakami"
+        },
+        {
+          "title": "Takashi Murakami",
+          "publisher": "Ocula",
+          "date": "",
+          "href": "https://ocula.com/artists/takashi-murakami/"
+        },
+        {
+          "title": "Takashi Murakami collecting guide",
+          "publisher": "Christie's",
+          "date": "",
+          "href": "https://www.christies.com.cn/en/stories/takashi-murakami-collecting-guide-12271754976f49af969ee0b510b6e328"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "daniel-arsham",
+      "name": "Daniel Arsham",
+      "line": "Our reporting on Daniel Arsham, the American artist who makes everyday objects look like archaeological finds.",
+      "about": "<p>American artist, born in Cleveland in 1980 and raised in Miami. He studied at the Cooper Union, designed sets for Merce Cunningham and co-founded the design studio Snarkitecture.</p><h2>The work</h2><p>After a trip to Easter Island in 2011 he began the Future Relics, familiar objects cast in sand, selenite, volcanic ash or quartz. He is colour blind, and lenses he tried in 2015 brought pinks and purples into the work. In 2020 he showed <em>Moonraker</em> at the Musée Guimet in Paris.</p><h2>In their own words</h2><blockquote>There is a sense in my works that they can float in time.<cite>Arsham, quoted by Sotheby's, 2020</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../kaws/\">KAWS</a>, another artist working between art and brands</li><li><a href=\"../takashi-murakami/\">Takashi Murakami</a>, who also works with fashion houses</li><li><a href=\"../artist-studios/\">Artist studios</a>, our reporting on where artists work</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Cleveland, Ohio, 1980"
+        ],
+        [
+          "Raised in",
+          "Miami"
+        ],
+        [
+          "Series",
+          "Future Relics"
+        ],
+        [
+          "Gallery",
+          "Perrotin"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Daniel Arsham biography",
+          "publisher": "Highsnobiety",
+          "date": "",
+          "href": "https://www.highsnobiety.com/p/daniel-arsham-biography"
+        },
+        {
+          "title": "Daniel Arsham",
+          "publisher": "Ocula",
+          "date": "",
+          "href": "https://ocula.com/artists/daniel-arsham/"
+        },
+        {
+          "title": "Daniel Arsham in conversation",
+          "publisher": "Ocula Magazine",
+          "date": "",
+          "href": "https://ocula.com/magazine/conversations/daniel-arsham/"
+        },
+        {
+          "title": "Daniel Arsham: modern polymath",
+          "publisher": "Sotheby's",
+          "date": "2020",
+          "href": "https://www.sothebys.com/en/articles/daniel-arsham-modern-polymath-moonraker-musee-guimet"
+        },
+        {
+          "title": "Corrective lenses have lent colour to Daniel Arsham",
+          "publisher": "Wallpaper",
+          "date": "",
+          "href": "https://wallpaper.com/art/corrective-lenses-have-lent-colour-to-artist-daniel-arsham-of-snarkitectures-monochromatic-output"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "ai-weiwei",
+      "name": "Ai Weiwei",
+      "line": "Our reporting on Ai Weiwei, the Chinese artist and activist.",
+      "about": "<p>Chinese artist, born in Beijing in 1957, son of the poet Ai Qing. He lived in the United States from 1981 to 1993 and, after being detained for 81 days in 2011 and having his passport held until 2015, has lived in Berlin, Cambridge and Portugal.</p><h2>The work</h2><p>In 2010 he filled Tate Modern's Turbine Hall with 100 million porcelain sunflower seeds painted by hand in Jingdezhen. After the 2008 Sichuan earthquake he led a citizens' investigation into the schoolchildren who died. His 2017 film <em>Human Flow</em> follows the refugee crisis.</p><h2>In their own words</h2><blockquote>Basically, you use life to punish life.<cite>Ai Weiwei, quoted on Wikipedia from Art &amp; Object, 2021</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../banksy/\">Banksy</a>, another artist whose work takes political sides</li><li><a href=\"../mona-hatoum/\">Mona Hatoum</a>, who also made her life and work away from home</li><li><a href=\"../art-and-identity/\">Art and identity</a>, our reporting on where artists come from</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Beijing, 1957"
+        ],
+        [
+          "Father",
+          "The poet Ai Qing"
+        ],
+        [
+          "Known for",
+          "Sunflower Seeds, Tate Modern, 2010"
+        ],
+        [
+          "Lives",
+          "Outside China since 2015"
+        ]
+      ],
+      "image": "ai-weiwei-sao-paulo-2018.jpg",
+      "alt": "Ai Weiwei, grey-bearded, in a blue-grey shirt, seated in front of a purple stage curtain.",
+      "credit": "Ai Weiwei in São Paulo, October 2018. Photo: Greg Salibian for Fronteiras do Pensamento, CC BY-SA 2.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/ai-weiwei-8208"
+        },
+        {
+          "title": "Ai Weiwei: Sunflower Seeds",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/ai-weiwei-8208/ai-weiwei-sunflower-seeds"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Ai-Weiwei"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Smarthistory",
+          "date": "",
+          "href": "https://smarthistory.org/?p=32841"
+        },
+        {
+          "title": "Ai Weiwei",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Ai_Weiwei"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "william-kentridge",
+      "name": "William Kentridge",
+      "line": "Our reporting on William Kentridge, the Johannesburg artist who draws, erases and films.",
+      "about": "<p>South African artist, born in Johannesburg in 1955 to two lawyers who represented people marginalised by apartheid. He studied politics, then art, then theatre in Paris.</p><h2>The work</h2><p>Animated films made by drawing in charcoal, filming, rubbing out and filming again, beginning in 1989 with <em>Johannesburg, 2nd Greatest City After Paris</em>. In 2016 he cleaned a 550-metre procession of figures into the grime of the Tiber embankment in Rome. He won the Kyoto Prize in 2010 and an Olivier Award in 2023.</p><h2>In their own words</h2><blockquote>The fact that the work is destined to disappear is part of the concept.<cite>Kentridge to La Repubblica, quoted by The Art Newspaper, 2017</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../zanele-muholi/\">Zanele Muholi</a>, another South African artist</li><li><a href=\"../vhils/\">Vhils</a>, who also makes images by taking material away</li><li><a href=\"../art-in-public/\">Art in public</a>, our reporting on work made for the street</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Johannesburg, 1955"
+        ],
+        [
+          "Medium",
+          "Charcoal and film"
+        ],
+        [
+          "In Rome",
+          "Triumphs and Laments, 2016"
+        ],
+        [
+          "Prizes",
+          "Kyoto Prize, Olivier Award"
+        ]
+      ],
+      "image": "william-kentridge-2025.jpg",
+      "alt": "William Kentridge, white-haired, in a white open-necked shirt, smiling slightly.",
+      "credit": "William Kentridge in 2025. Photo: Mozamaniac, CC BY-SA 4.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "William Kentridge",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/William_Kentridge"
+        },
+        {
+          "title": "William Kentridge unveils 550-metre frieze along Rome's river Tiber",
+          "publisher": "The Art Newspaper",
+          "date": "22 April 2016",
+          "href": "https://www.theartnewspaper.com/2016/04/22/william-kentridge-unveils-550-metre-frieze-along-romes-river-tiber"
+        },
+        {
+          "title": "Rome to remove graffiti defacing Kentridge's graffiti",
+          "publisher": "The Art Newspaper",
+          "date": "6 April 2017",
+          "href": "https://theartnewspaper.com/2017/04/06/rome-to-remove-graffiti-defacing-kentridges-graffiti"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "zao-wou-ki",
+      "name": "Zao Wou-Ki",
+      "line": "Our reporting on Zao Wou-Ki, the Chinese-born painter who made his life in Paris.",
+      "about": "<p>Painter, born in Beijing in 1920, who studied and taught in Hangzhou, sailed to France in 1948 and died in Switzerland in 2013.</p><h2>The work</h2><p>Large abstract oils that join Chinese ink painting to Western abstraction, titled from the late 1950s only by the date he finished them. His triptych <em>Juin-Octobre 1985</em>, made for the architect I.M. Pei, sold for $65 million in Hong Kong in 2018.</p><h2>In their own words</h2><blockquote>Everybody is bound by tradition. I am bound by two.<cite>Zao Wou-Ki, quoted by Sotheby's and CNN</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../s-h-raza/\">S.H. Raza</a>, another painter who left Asia for Paris</li><li><a href=\"../mai-trung-thu/\">Mai Trung Thứ</a>, a Vietnamese painter in Paris in the same years</li><li><a href=\"../art-and-identity/\">Art and identity</a>, our reporting on where artists come from</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Beijing, 1920"
+        ],
+        [
+          "Moved",
+          "Paris, 1948"
+        ],
+        [
+          "Died",
+          "Nyon, Switzerland, 2013"
+        ],
+        [
+          "Known for",
+          "Abstract oils titled by date"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "21 facts about Zao Wou-Ki",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://www.sothebys.com/en/articles/21-facts-about-zao-wou-ki"
+        },
+        {
+          "title": "Zao Wou-Ki by the numbers",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://sothebys.com/en/articles/zao-wou-ki-by-the-numbers"
+        },
+        {
+          "title": "Zao Wou-Ki, abstract painter",
+          "publisher": "CNN Style",
+          "date": "",
+          "href": "https://amp.cnn.com/cnn/style/article/zao-wou-ki-abstract-painter"
+        },
+        {
+          "title": "Zao Wou-Ki",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Zao_Wou-Ki"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "mai-trung-thu",
+      "name": "Mai Trung Thứ",
+      "line": "Our reporting on Mai Trung Thứ, the Vietnamese painter of ink and gouache on silk.",
+      "about": "<p>Vietnamese painter, born in 1906 near Hải Phòng, the son of a provincial governor. He was in the first class of the École des Beaux-Arts de l'Indochine in Hanoi and moved to Paris in 1937. He died in 1980.</p><h2>The work</h2><p>Women, children and daily life, almost always in ink and gouache on silk, in frames he gilded himself. In Paris he also played the đàn bầu and filmed Hồ Chí Minh's 1946 visit.</p><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../zao-wou-ki/\">Zao Wou-Ki</a>, another Asian painter who settled in Paris</li><li><a href=\"../s-h-raza/\">S.H. Raza</a>, who moved from India to France</li><li><a href=\"../art-and-identity/\">Art and identity</a>, our reporting on where artists come from</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Near Hải Phòng, 1906"
+        ],
+        [
+          "Trained",
+          "Hanoi, 1925 to 1930"
+        ],
+        [
+          "Moved",
+          "Paris, 1937"
+        ],
+        [
+          "Medium",
+          "Ink and gouache on silk"
+        ]
+      ],
+      "image": "mai-trung-thu-and-father.jpg",
+      "alt": "Black and white photograph of the young Mai Trung Thứ standing beside his father, an older man with a white beard.",
+      "credit": "Mai Trung Thứ with his father, Mai Trung Cát, before 1945. Photographer unknown, public domain, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Mai Thứ",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Mai_Th%E1%BB%A9"
+        },
+        {
+          "title": "Mai Trung Thu",
+          "publisher": "Sotheby's",
+          "date": "",
+          "href": "https://www.sothebys.com/en/artists/mai-trung-thu"
+        },
+        {
+          "title": "Mai Trung Thu, Grand-mère, 1976",
+          "publisher": "Aguttes",
+          "date": "",
+          "href": "https://www.aguttes.com/en/lot/160379/28022297-mai-trung-thu-1906-1980-deg-grand-mere-1976-encre-et"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "frida-kahlo",
+      "name": "Frida Kahlo",
+      "line": "Our reporting on Frida Kahlo, the Mexican painter of small, unflinching self-portraits.",
+      "about": "<p>Mexican painter, born in Coyoacán in 1907, who began painting in bed after a bus accident at 18 and married Diego Rivera in 1929. She died in 1954. Her house, La Casa Azul, is now the Frida Kahlo Museum.</p><h2>The work</h2><p>Mostly small self-portraits, drawing on Mexican folk art. Mexico has declared her works in the country an artistic monument, so they cannot be sold abroad. In November 2025 <em>El sueño (La cama)</em> sold for $54.7 million, a record for a woman artist at auction.</p><h2>In their own words</h2><blockquote>I paint myself because I am often alone and I am the subject I know best.<cite>Kahlo, quoted on Wikipedia</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../yayoi-kusama/\">Yayoi Kusama</a>, another artist whose life and work are closely tied</li><li><a href=\"../pablo-picasso/\">Pablo Picasso</a>, a contemporary who painted himself often</li><li><a href=\"../artist-studios/\">Artist studios</a>, our reporting on where artists work</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Coyoacán, 1907"
+        ],
+        [
+          "Died",
+          "1954"
+        ],
+        [
+          "Known for",
+          "Self-portraits"
+        ],
+        [
+          "Home",
+          "La Casa Azul, now a museum"
+        ]
+      ],
+      "image": "frida-kahlo-frissell-1937.jpg",
+      "alt": "Black and white photograph of Frida Kahlo in a long skirt, seated on rocky ground beside a large agave plant.",
+      "credit": "Frida Kahlo photographed by Toni Frissell in 1937. Library of Congress, public domain, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Frida Kahlo",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+        },
+        {
+          "title": "Frida Kahlo painting sells for $54.7m, breaking record for female artists",
+          "publisher": "Al Jazeera",
+          "date": "21 November 2025",
+          "href": "https://www.aljazeera.com/news/2025/11/21/frida-kahlo-painting-sells-for-54-7m-breaking-record-for-female-artists"
+        },
+        {
+          "title": "Frida Kahlo painting sets auction record",
+          "publisher": "NPR",
+          "date": "November 2025",
+          "href": "https://www.npr.org/2025/11/19/nx-s1-5584087/frida-kahlo-auction-record-sothebys-el-sueno-la-cama"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "jenny-holzer",
+      "name": "Jenny Holzer",
+      "line": "Our reporting on Jenny Holzer, the American artist who puts words where people look.",
+      "about": "<p>American artist, born in Gallipolis, Ohio, in 1950. She began her Truisms in 1977, pasting anonymous one-line statements around Manhattan.</p><h2>The work</h2><p>Words in public: street posters, the Times Square sign board in 1982, stone benches, LED signs and, since 1996, light projected onto rivers and buildings. Her US Pavilion at the 1990 Venice Biennale won the Golden Lion.</p><h2>In their own words</h2><blockquote>I like placing content wherever people look.<cite>Holzer, quoted by the Guggenheim Museum Bilbao</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../ben-eine/\">Ben Eine</a>, letters painted on city walls</li><li><a href=\"../keith-haring/\">Keith Haring</a>, New York public art in the same years</li><li><a href=\"../art-in-public/\">Art in public</a>, our reporting on work made for the street</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Gallipolis, Ohio, 1950"
+        ],
+        [
+          "Began",
+          "Truisms, 1977"
+        ],
+        [
+          "Media",
+          "Posters, LED signs, stone, light"
+        ],
+        [
+          "Prize",
+          "Golden Lion, Venice, 1990"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Jenny Holzer",
+          "publisher": "Peggy Guggenheim Collection, Venice",
+          "date": "",
+          "href": "https://www.guggenheim-venice.it/en/art/artists/jenny-holzer/"
+        },
+        {
+          "title": "Jenny Holzer, Truisms",
+          "publisher": "MoMA",
+          "date": "",
+          "href": "https://www.moma.org/collection/works/63755"
+        },
+        {
+          "title": "Jenny Holzer",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Jenny_Holzer"
+        },
+        {
+          "title": "Jenny Holzer",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Jenny-Holzer"
+        },
+        {
+          "title": "From the 1970s to today: Jenny Holzer in context",
+          "publisher": "Guggenheim Museum Bilbao",
+          "date": "",
+          "href": "https://guggenheim-bilbao.eus/en/did-you-know/desde-la-decada-de-1970-hasta-hoy-jenny-holzer-en-contexto"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "mona-hatoum",
+      "name": "Mona Hatoum",
+      "line": "Our reporting on Mona Hatoum, the Beirut-born artist based in London.",
+      "about": "<p>Artist born in Beirut in 1952 to a Palestinian family. She was in London in 1975 when war broke out in Lebanon and has lived there since, studying at the Byam Shaw School of Art and the Slade.</p><h2>The work</h2><p>Performance and video until 1988, then installations and sculpture made from familiar things such as lockers, graters and maps. She was shortlisted for the Turner Prize in 1995 and had a retrospective at Tate Modern in 2016.</p><h2>In their own words</h2><blockquote>I've always had quite a rebellious and contrary attitude.<cite>Hatoum, BOMB, 1998, quoted by Tate</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../dana-awartani/\">Dana Awartani</a>, whose work also deals with the Middle East</li><li><a href=\"../ai-weiwei/\">Ai Weiwei</a>, another artist who works far from home</li><li><a href=\"../art-and-identity/\">Art and identity</a>, our reporting on where artists come from</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Beirut, 1952"
+        ],
+        [
+          "Lives",
+          "London, since 1975"
+        ],
+        [
+          "Media",
+          "Installation and sculpture"
+        ],
+        [
+          "Shortlisted",
+          "Turner Prize, 1995"
+        ]
+      ],
+      "image": "mona-hatoum-ivam-2021.jpg",
+      "alt": "Mona Hatoum, with dark curly hair and glasses, in a striped top, seen in front of shelves of files.",
+      "credit": "Mona Hatoum in April 2021. Photo: Miguel Lorenzo, IVAM, CC BY-SA 4.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Mona Hatoum",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/mona-hatoum-2365"
+        },
+        {
+          "title": "Who is Mona Hatoum?",
+          "publisher": "Tate",
+          "date": "",
+          "href": "https://www.tate.org.uk/art/artists/mona-hatoum-2365/who-is-mona-hatoum"
+        },
+        {
+          "title": "Mona Hatoum",
+          "publisher": "Praemium Imperiale",
+          "date": "",
+          "href": "https://praemiumimperiale.org/en/laureate-en/laureates-en/hatoum-en"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "zanele-muholi",
+      "name": "Zanele Muholi",
+      "line": "Our reporting on Zanele Muholi, the South African photographer and visual activist.",
+      "about": "<p>South African photographer, born in Umlazi, Durban, in 1972, who describes themself as a visual activist. Muholi's pronouns are they, them and their.</p><h2>The work</h2><p>Black and white portraits of Black lesbian, trans and gender non-conforming people in <em>Faces and Phases</em>, begun in 2006, and self-portraits in <em>Somnyama Ngonyama</em>, begun in 2014. Tate Modern showed their work in 2020 to 2021 and again in 2024 to 2025.</p><h2>In their own words</h2><blockquote>these are not [just] subjects, these are my people<cite>Muholi, quoted by Tate Etc, 2020</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../rene-matic/\">Rene Matić</a>, photographs of community and identity</li><li><a href=\"../jr/\">JR</a>, large portraits made with the people in them</li><li><a href=\"../art-and-identity/\">Art and identity</a>, our reporting on where artists come from</li></ul>",
+      "details": [
+        [
+          "Born",
+          "Umlazi, Durban, 1972"
+        ],
+        [
+          "Pronouns",
+          "They, them, their"
+        ],
+        [
+          "Series",
+          "Faces and Phases; Somnyama Ngonyama"
+        ],
+        [
+          "Calls themself",
+          "A visual activist"
+        ]
+      ],
+      "image": "zanele-muholi-2011.jpg",
+      "alt": "Zanele Muholi, in a dark hat and patterned top, speaking in a gallery while people with cameras listen.",
+      "credit": "Zanele Muholi, left, at the Side by Side LGBT Film Festival, October 2011. Photo: Side by Side LGBT Film Festival, CC BY-SA 3.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Zanele Muholi, press release",
+          "publisher": "Tate",
+          "date": "2020",
+          "href": "https://www.tate.org.uk/press/press-releases/zanele-muholi"
+        },
+        {
+          "title": "Zanele Muholi",
+          "publisher": "Britannica",
+          "date": "",
+          "href": "https://www.britannica.com/biography/Zanele-Muholi"
+        },
+        {
+          "title": "Zanele Muholi: repertoires of resistance",
+          "publisher": "Tate Etc",
+          "date": "Autumn 2020",
+          "href": "https://www.tate.org.uk/tate-etc/issue-50-autumn-2020/zanele-muholi-repertoires-resistance"
+        },
+        {
+          "title": "Zanele Muholi",
+          "publisher": "Tate Modern",
+          "date": "2024",
+          "href": "https://www.tate.org.uk/whats-on/tate-modern/zanele-muholi"
         }
       ],
       "hidden": false
