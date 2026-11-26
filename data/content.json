@@ -9,6 +9,81 @@
   },
   "articles": [
     {
+      "slug": "ben-eine-the-graffiti-writer-downing-street-called",
+      "title": "Ben Eine, the Graffiti Writer Downing Street Called",
+      "kicker": "Artist Stories",
+      "summary": "Arrested again and again for graffiti, Eine ran the print room for Banksy, painted the alphabet on a London street and saw a canvas of his go to the White House.",
+      "description": "The story of Ben Eine: south London graffiti, the Pictures on Walls print studio with Banksy, the Middlesex Street alphabet, the 2010 gift to Barack Obama and his work for charity.",
+      "date": "26 November 2026",
+      "subjects": [
+        "ben-eine",
+        "art-and-philanthropy"
+      ],
+      "next": "david-hockney-the-painter-who-kept-changing-tools",
+      "body": "<p>In 2010 Ben Eine got a phone call from Downing Street. The new prime minister, David Cameron, was going to Washington and wanted to take a piece of art for President Obama. The painting he took was Eine's <em>Twenty First Century City</em>, a canvas of brightly coloured letters by a man who, by his own account, had been arrested 15 to 20 times for graffiti.</p>\n<h2>A south London writer</h2>\n<p>Eine is the working name of Benjamin Flynn, born in London in 1970. He grew up in south London and told the Observer he started writing graffiti at about 14. He has said the book that set him off was <em>Subway Art</em>, Martha Cooper and Henry Chalfant's photographs of New York trains. Graffiti also cost him. He told the Big Issue it ended with a £7,000 fine and about 180 hours of community service, and he told Street Art London that the last time had been a close escape from prison.</p>\n<h2>The print room</h2>\n<p>The way out was a print studio. He met Banksy at a party at the Dragon Bar near Old Street, and the two set up Pictures on Walls to sell screenprints people could afford. Eine became its principal printer. He pulled editions for Banksy, David Shrigley and others before he started making his own. What he took from those years shows in everything since: flat colour, crisp edges and letters you can read from the other side of the road.</p>\n<p>His own work went onto shop shutters in east London. In 2010 he painted the whole alphabet along Middlesex Street, one letter to a shutter, after talking the shopkeepers into it.</p>\n<h2>After the White House</h2>\n<p>Samantha Cameron is reported to have chosen him. The Obamas sent back a signed lithograph by Ed Ruscha, another artist who paints words. Eine told the Big Issue that the press camped outside his studio for a week. Eight years later he was still matter-of-fact about it. \"Well obviously the Obama thing was quite cool,\" he told Wonderland.</p>\n<p>The attention helped. In 2011 he was in <em>Art in the Streets</em> at the Museum of Contemporary Art in Los Angeles, and Ocula reports that the Victoria and Albert Museum holds his work.</p>\n<h2>Using the name</h2>\n<p>He has put the profile to work for causes. Wonderland reported that Paint for Change, a campaign with The Body Shop in memory of a young man killed in a stabbing, raised £360,000, and that he also works with a hepatitis C charity and The Big Issue. \"I think it's important for me to use my position to raise money and make people aware of things,\" he said. In March 2020 he guest-edited the Big Issue and designed the cover of its 200 millionth copy.</p>\n<p>His prices have stayed within reach of the kind of buyer Pictures on Walls was set up for. In October 2026 a unique screenprint of his Tenderloin alphabet sold at Tate Ward in London for £500, fees included.</p>",
+      "sources": [
+        {
+          "title": "Cameron's gifts for Obama",
+          "publisher": "The Guardian, reprinted by Dawn (Patrick Wintour)",
+          "date": "22 July 2010",
+          "href": "https://www.dawn.com/news/548500"
+        },
+        {
+          "title": "Ben Aine: Street Art and The White House",
+          "publisher": "Brooklyn Street Art",
+          "date": "21 July 2010",
+          "href": "https://www.brooklynstreetart.com/2010/07/21/ben-aine-street-art-and-the-white-house"
+        },
+        {
+          "title": "Ben Eine's Age of Innocence",
+          "publisher": "Interview Magazine (Georgia Frances King)",
+          "date": "14 June 2013",
+          "href": "https://www.interviewmagazine.com/art/ben-eine-innocence"
+        },
+        {
+          "title": "Rise up, stand up, speak up with guest editor Ben Eine",
+          "publisher": "Big Issue (Maeve Doyle)",
+          "date": "11 March 2020",
+          "href": "https://bigissue.com/culture/art/rise-up-stand-up-speak-up-with-guest-editor-ben-eine"
+        },
+        {
+          "title": "Eine",
+          "publisher": "Street Art London",
+          "date": "20 January 2011",
+          "href": "https://streetartlondon.co.uk/artists/eine/"
+        },
+        {
+          "title": "Ben Eine: An Unconventional Canvas",
+          "publisher": "Wonderland",
+          "date": "26 January 2018",
+          "href": "https://www.wonderlandmagazine.com/2018/01/26/ben-eine-an-unconventional-canvas/"
+        },
+        {
+          "title": "Ben Eine",
+          "publisher": "Ocula",
+          "date": "",
+          "href": "https://ocula.com/artists/ben-eine/"
+        },
+        {
+          "title": "Ben Eine",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Ben_Eine"
+        },
+        {
+          "title": "Ben Eine, Tenderloin A-Z Sandstone (Unique), lot 178",
+          "publisher": "Tate Ward",
+          "date": "29 October 2026",
+          "href": "https://www.tateward.com/auction/lot/lot-178---ben-eine-british-1970--tenderloin-a-z-sandstone-crosshatch-black--gold/?lot=29620"
+        }
+      ],
+      "image": "ben-eine-naschmarkt-vienna.jpg",
+      "alt": "A shop shutter at a market painted with a large orange capital D, striped by the shutter's slats, with a turquoise shadow on its right side.",
+      "credit": "A letter D by Ben Eine at the Naschmarkt, Vienna, photographed in 2014. Photo: Ungry Young Man, CC BY 2.0, via Wikimedia Commons.",
+      "how": "This is a reported story. It draws on the interviews, news reports and auction page listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
+      "hidden": false
+    },
+    {
       "slug": "david-hockney-the-painter-who-kept-changing-tools",
       "title": "David Hockney, the Painter Who Kept Changing His Tools",
       "kicker": "Artist Stories",
@@ -3688,6 +3763,66 @@
           "publisher": "MASH Gallery",
           "date": "",
           "href": "https://www.mashgallery.com/collections/amanza-smith"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "ben-eine",
+      "name": "Ben Eine",
+      "line": "Our reporting on Ben Eine, Benjamin Flynn: south London graffiti, the Pictures on Walls print room and the letters on the shutters.",
+      "about": "<p>Benjamin Flynn, born in London in 1970, who signs as Eine. He started writing graffiti in south London at about 14 and later painted giant letters on shop shutters, first in east London and then in cities from Vienna to San Francisco.</p><h2>From the print room</h2><p>He set up Pictures on Walls with Banksy to sell affordable screenprints, and ran its printing for artists including David Shrigley before going solo. In 2010 he painted A to Z along Middlesex Street. That July, David Cameron gave Barack Obama his painting <em>Twenty First Century City</em>.</p><h2>In their own words</h2><blockquote>Typography guides you around a city without you being aware of it.<cite>Ben Eine, Big Issue, 2020</cite></blockquote><blockquote>I haven't studied art and I haven't studied typography, but I've still gone out and done it.<cite>Ben Eine, Interview Magazine, 2013</cite></blockquote><h2>Also on The Art Correspondent</h2><ul><li><a href=\"../banksy/\">Banksy</a>, his partner in Pictures on Walls</li><li><a href=\"../david-shrigley/\">David Shrigley</a>, one of the artists he printed for</li></ul>",
+      "details": [
+        [
+          "Born",
+          "London, 1970"
+        ],
+        [
+          "Real name",
+          "Benjamin Flynn"
+        ],
+        [
+          "Known for",
+          "Letters painted on shop shutters"
+        ],
+        [
+          "Started",
+          "Graffiti at about 14"
+        ]
+      ],
+      "image": "ben-eine-naschmarkt-vienna.jpg",
+      "alt": "A shop shutter at a market painted with a large orange capital D, striped by the shutter's slats, with a turquoise shadow on its right side.",
+      "credit": "A letter D by Ben Eine at the Naschmarkt, Vienna, photographed in 2014. Photo: Ungry Young Man, CC BY 2.0, via Wikimedia Commons.",
+      "sources": [
+        {
+          "title": "Ben Eine",
+          "publisher": "Wikipedia",
+          "date": "",
+          "href": "https://en.wikipedia.org/wiki/Ben_Eine"
+        },
+        {
+          "title": "Cameron's gifts for Obama",
+          "publisher": "The Guardian, reprinted by Dawn (Patrick Wintour)",
+          "date": "22 July 2010",
+          "href": "https://www.dawn.com/news/548500"
+        },
+        {
+          "title": "Rise up, stand up, speak up with guest editor Ben Eine",
+          "publisher": "Big Issue (Maeve Doyle)",
+          "date": "11 March 2020",
+          "href": "https://bigissue.com/culture/art/rise-up-stand-up-speak-up-with-guest-editor-ben-eine"
+        },
+        {
+          "title": "Ben Eine's Age of Innocence",
+          "publisher": "Interview Magazine (Georgia Frances King)",
+          "date": "14 June 2013",
+          "href": "https://www.interviewmagazine.com/art/ben-eine-innocence"
+        },
+        {
+          "title": "Ben Eine: An Unconventional Canvas",
+          "publisher": "Wonderland",
+          "date": "26 January 2018",
+          "href": "https://www.wonderlandmagazine.com/2018/01/26/ben-eine-an-unconventional-canvas/"
         }
       ],
       "hidden": false
