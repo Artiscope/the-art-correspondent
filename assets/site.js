@@ -162,19 +162,61 @@
     }
     tick();
   }
-  /* Soft fade-up as content comes into view, as on The Art Correspondent. Never in the editor or a small
-     picture of the site, where everything shows at once, and never for visitors who ask for less motion. */
+  /* Everything on the page shows straight away. The old fade-up left pages looking empty for a second or
+     more, so it is gone; marked items are simply shown. */
   function setupReveal(){
-    var items=Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
     if(watch){watch.disconnect();watch=null}
-    var still=window.parent!==window||!('IntersectionObserver' in window)||(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-    if(still){html.classList.remove('js');items.forEach(function(el){el.classList.add('in')});return}
-    html.classList.add('js');
-    watch=new IntersectionObserver(function(entries){
-      var shown=0;
-      entries.forEach(function(en){if(!en.isIntersecting)return;en.target.style.setProperty('--wait',(shown*80)+'ms');en.target.classList.add('in');watch.unobserve(en.target);shown+=1});
-    },{threshold:0.12,rootMargin:'0px 0px -6% 0px'});
-    items.forEach(function(el){watch.observe(el)});
+    html.classList.remove('js');
+    Array.prototype.forEach.call(document.querySelectorAll('[data-reveal]'),function(el){el.classList.add('in')});
+  }
+  /* Search: looks through the list of stories and subjects the build writes beside the search page.
+     Every word typed must appear; titles and names count for more than the body of a story. */
+  function setupSearch(){
+    var form=document.querySelector('form[data-search]');if(!form||form.getAttribute('data-wired'))return;form.setAttribute('data-wired','1');
+    var box=form.elements.q,out=document.querySelector('[data-search-out]'),said=document.getElementById('search-said'),data=null,timer=0,first=said?said.textContent:'';
+    var fold=function(t){return String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()};
+    var esc=function(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')};
+    function score(x,words){
+      var t=fold(x.t),k=fold(x.k),s=fold(x.s),n=fold((x.n||[]).join(' ')),b=fold(x.b),total=0;
+      for(var i=0;i<words.length;i++){
+        var w=words[i],hit=0;
+        if(t.indexOf(w)>=0)hit+=t.split(/\W+/).indexOf(w)>=0?12:8;
+        if(n.indexOf(w)>=0)hit+=6;
+        if(k.indexOf(w)>=0)hit+=3;
+        if(s.indexOf(w)>=0)hit+=3;
+        if(b.indexOf(w)>=0)hit+=1+Math.min(4,b.split(w).length-2);
+        if(!hit)return 0;total+=hit;
+      }
+      return total;
+    }
+    function snippet(x,words){
+      var b=x.b||'',f=fold(b),at=-1;
+      for(var i=0;i<words.length&&at<0;i++)at=f.indexOf(words[i]);
+      if(at<0||fold(x.t+' '+x.s).indexOf(words[0])>=0)return esc(x.s);
+      var from=Math.max(0,b.lastIndexOf(' ',Math.max(0,at-70))),to=b.indexOf(' ',Math.min(b.length,at+150));if(to<0)to=b.length;
+      return (from>0?'… ':'')+esc(b.slice(from,to).trim())+(to<b.length?' …':'');
+    }
+    function show(){
+      var q=box.value.trim(),words=fold(q).split(/[^a-z0-9']+/).filter(function(w){return w.length>1});
+      try{history.replaceState(null,'',q?'?q='+encodeURIComponent(q):location.pathname)}catch(e){}
+      if(!words.length){out.innerHTML='';said.textContent=first;return}
+      if(!data){said.textContent=SW('search.loading','Searching.');return}
+      var rank=function(list){return list.map(function(x){return [x,score(x,words)]}).filter(function(r){return r[1]>0}).sort(function(a,b){return b[1]-a[1]}).map(function(r){return r[0]})};
+      var subs=rank(data.subjects),stories=rank(data.stories),html='';
+      if(subs.length)html+='<h2 class="label">'+esc(SW('search.subjects','Artists and themes'))+'</h2><p class="topic-links search-subjects">'+subs.map(function(x){return '<a href="../'+esc(x.u)+'">'+esc(x.t)+(x.c?'<span class="count" aria-hidden="true">'+x.c+'</span><span class="sr">, '+(x.c===1?'1 story':x.c+' stories')+'</span>':'')+'</a>'}).join('\n')+'</p>';
+      if(stories.length)html+='<h2 class="label">'+esc(SW('search.stories','Stories'))+'</h2><ol class="search-list">'+stories.map(function(x){return '<li><p class="where">'+esc(x.k)+'</p><a class="story" href="../'+esc(x.u)+'">'+esc(x.t)+'</a><p class="blurb">'+snippet(x,words)+'</p></li>'}).join('')+'</ol>';
+      out.innerHTML=html;
+      var n=stories.length,m=subs.length;
+      said.textContent=!n&&!m?SW('search.none','Nothing matches “{q}”. Try fewer words, or another spelling.',{q:q})
+        :SW('search.found','{stories} and {subjects} for “{q}”.',{q:q,stories:n===1?'1 story':n+' stories',subjects:m===1?'1 artist or theme':m+' artists and themes'});
+    }
+    box.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(show,140)});
+    form.addEventListener('submit',function(e){e.preventDefault();show()});
+    var q=new URLSearchParams(location.search).get('q');if(q)box.value=q;
+    var top=document.getElementById('site-q');if(top&&q)top.value=q;
+    if(!q)box.focus();
+    fetch(form.getAttribute('data-search')).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){data=d;show()})
+      .catch(function(){said.textContent=SW('search.failed','Search could not load just now. Please try again in a moment.')});
   }
   /* The words above the story cards show only the stories with that small line. */
   function setupFilter(){
@@ -185,10 +227,12 @@
         Array.prototype.forEach.call(bar.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
         Array.prototype.forEach.call(grid.children,function(li){li.hidden=!!want&&li.getAttribute('data-kind')!==want});
         grid.classList.toggle('is-filtered',!!want);
+        var live=bar.querySelector('.sr[role="status"]');if(!live){live=document.createElement('span');live.className='sr';live.setAttribute('role','status');bar.appendChild(live)}
+        var n=Array.prototype.filter.call(grid.children,function(li){return !li.hidden}).length;live.textContent=n===1?'1 story shown':n+' stories shown';
       });
     });
   }
-  function refresh(){timers.forEach(clearInterval);timers=[];setupReveal();setupFilter();aoWire();setupMenu();setupSignup();setupAnnounce();setupSlides();setupGalleries();setupMailForms();setupPopups()}
+  function refresh(){timers.forEach(clearInterval);timers=[];setupReveal();setupFilter();setupSearch();aoWire();setupMenu();setupSignup();setupAnnounce();setupSlides();setupGalleries();setupMailForms();setupPopups()}
   window.SiteJS={refresh:refresh};
   refresh();
 })();
