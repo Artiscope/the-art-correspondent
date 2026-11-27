@@ -180,9 +180,9 @@
         '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n' +
         '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Karla:wght@400;500;600&family=Reenie+Beanie&display=swap" rel="stylesheet">\n' +
         (o.head || "") + (iconOk() ? '<link rel="icon" href="' + r + opts.favicon + '">\n' : "") +
-        '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261127a">\n' + (THEME || "") + secCssTag() + wordsTag() +
+        '<link rel="stylesheet" href="' + r + 'assets/site.css?v=20261127b">\n' + (THEME || "") + secCssTag() + wordsTag() +
         '</head>\n<body>\n<a class="skip" href="#main">' + W("menu.skip", "Skip to the stories") + '</a>\n' + (o.top ? String(o.top).split("@@").join(r) + "\n" : "") + nav + '\n<main id="main">\n' + main + '\n</main>\n' + foot + '\n' +
-        '<script src="' + r + 'assets/analytics.js" defer></script>\n<script src="' + r + 'assets/site.js?v=20261127a" defer></script>\n</body>\n</html>\n';
+        '<script src="' + r + 'assets/analytics.js" defer></script>\n<script src="' + r + 'assets/site.js?v=20261127b" defer></script>\n</body>\n</html>\n';
       return { path: o.file || path, url: urlPath, html: html, lastmod: o.lastmod || "" };
     }
 
@@ -554,19 +554,40 @@
     function relSection(id, heading, inner) {
       return inner ? '\n    <section class="all-features related" aria-labelledby="' + id + '"><p class="label" id="' + id + '" data-reveal>' + heading + '</p>' + inner + '</section>' : "";
     }
+    // The story's own headings, each given an address, and a list of them to jump between.
+    function storyContents(body) {
+      var used = {}, items = [];
+      var out = body.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/gi, function (m, attrs, inner) {
+        if (/\sid=/.test(attrs)) return m;
+        var t = inner.replace(/<[^>]*>/g, "").trim(), id = "s-" + (slug(t) || "part").slice(0, 60), k = id, n = 2;
+        while (used[k]) k = id + "-" + n++;
+        used[k] = 1; items.push([k, t]);
+        return '<h2' + attrs + ' id="' + k + '">' + inner + '</h2>';
+      });
+      var html = items.length >= 3 && !opts.mark ? '<nav class="story-toc" aria-labelledby="toc-h"><p class="label" id="toc-h">' + W("item.contents", "In this story") + '</p><ol>' + items.map(function (x) { return '<li><a href="#' + x[0] + '">' + txt(x[1]) + '</a></li>'; }).join("") + '</ol></nav>' : "";
+      return { body: out, html: html };
+    }
     function articlePage(a) {
       var subs = subjectsOf(a), i = ARTICLES.indexOf(a), chosen = a.next ? articleOf(a.next) : null;
       var nxt = chosen && chosen !== a && chosen.hidden !== true ? chosen : ARTICLES.length > 1 ? ARTICLES[(i + 1) % ARTICLES.length] : null;
       if (nxt === a) nxt = null;
       var kick = String(a.kicker || "").trim(), date = String(a.date || "").trim(), how = String(a.how || "").trim(), when = Date.parse(date + " 12:00 UTC");
       var label = kick ? '<a href="' + sectionHref(kick) + '">' + txt(kick) + '</a>' : "";
+      var toc = storyContents(String(a.body || ""));
+      // the column beside the story on wide screens: what it is filed under, what to read next, and more like it
+      var railRel = opts.mark ? [] : relatedStories(a, 4, nxt ? [nxt] : []);
+      var rail = opts.mark ? "" : '<aside class="story-rail" aria-label="' + W("sr.rail", "About this story") + '">' +
+        (subs.length ? '<div class="rail-part"><p class="label">' + W("item.filed", "Filed under") + '</p><p class="rail-links">' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("") + '</p></div>' : "") +
+        (nxt ? '<div class="rail-part"><p class="label">' + W("btn.read-next", "Read next") + '</p><a class="rail-story" href="@@' + P.articles + '/' + esc(nxt.slug) + '/">' + (nxt.image ? '<img src="@@assets/images/' + esc(nxt.image) + '" alt=""' + sizeAttr(nxt.image) + ' loading="lazy" decoding="async">' : "") + '<span>' + txt(or(nxt.title, "[Story title]")) + '</span></a></div>' : "") +
+        (railRel.length ? '<div class="rail-part"><p class="label">' + (subs.length === 1 ? W("rel.more-subject", "More on {name}", { name: txt(subs[0].name) }) : W("rel.more", "More like this")) + '</p><ul class="rail-list">' + railRel.map(function (b) { return '<li><a href="@@' + P.articles + '/' + esc(b.slug) + '/">' + txt(b.title) + '</a></li>'; }).join("") + '</ul></div>' : "") + '</aside>';
       var main = '<article class="article">\n    ' + M('<header class="article-head">' + (label ? '<p class="label" data-reveal>' + label + '</p>' : "") + '<h1 data-reveal>' + txt(or(a.title, "[Story title]")) + '</h1>' +
         '<p class="byline" data-reveal>' + W("item.byline", "By {site}.", { site: txt(NAME()) }) + '</p></header>', "words") + '\n    ' +
         M(figure(a, or(a.alt, "[What the photograph shows]")), "picture") + '\n    ' +
-        M('<div class="prose"><p class="standfirst" data-reveal>' + txt(or(a.summary, "[One or two sentences that sum up the story]")) + '</p>' + (String(a.body || "").replace(/<[^>]*>/g, "").trim() ? a.body : "<p>[Write the story here]</p>") + '</div>', "body") +
+        '<div class="story-layout">' + toc.html + '<div class="story-main">' +
+        M('<div class="prose"><p class="standfirst" data-reveal>' + txt(or(a.summary, "[One or two sentences that sum up the story]")) + '</p>' + (String(a.body || "").replace(/<[^>]*>/g, "").trim() ? toc.body : "<p>[Write the story here]</p>") + '</div>', "body") +
         (nxt ? '\n    <aside class="next" aria-labelledby="next-title"><p class="label" id="next-title" data-reveal>' + W("btn.read-next", "Read next") + '</p><p data-reveal><a class="story" href="@@' + P.articles + '/' + esc(nxt.slug) + '/">' + txt(or(nxt.title, "[Story title]")) + '</a></p>' + (String(nxt.kicker || "").trim() ? '<p class="where" data-reveal>' + txt(nxt.kicker) + '</p>' : "") + '</aside>' : "") + '\n    ' +
         M('<footer class="filed">' + (how ? '<p class="how" data-reveal>' + txt(how) + '</p>' : (opts.mark ? '<p class="how">[A line on how the story was reported]</p>' : "")) + sourceList(a.sources) +
-          (subs.length ? '<p class="label" data-reveal>' + W("item.filed", "Filed under") + '</p><p class="topic-links" data-reveal>' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("\n") + '</p>' : "") + '</footer>', "sources") +
+          (subs.length ? '<p class="label" data-reveal>' + W("item.filed", "Filed under") + '</p><p class="topic-links" data-reveal>' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("\n") + '</p>' : "") + '</footer>', "sources") + '</div>' + rail + '</div>' +
         (opts.mark ? "" : (function () {
           var rel = relatedStories(a, 3, nxt ? [nxt] : []);
           var same = rel.length < 3 && String(a.kicker || "").trim() ? ARTICLES.filter(function (b) { return b !== a && b !== nxt && b.hidden !== true && rel.indexOf(b) < 0 && String(b.kicker || "").trim() === String(a.kicker || "").trim(); }).slice(0, 3 - rel.length) : [];
@@ -585,8 +606,9 @@
       var hasAbout = String(x.about || "").replace(/<[^>]*>/g, "").trim(), srcs = sourceList(x.sources);
       var main = '<article class="subject">\n    ' + M('<section class="page-head"><p class="label" data-reveal>' + W("item.subject", "Read by subject") + '</p><h1 data-reveal>' + txt(or(x.name, "[Subject]")) + '</h1><p class="intro" data-reveal>' + txt(or(x.line, "[A line about what is filed here]")) + '</p></section>', "words") + '\n    ' +
         M(figure(x, "Picture for " + or(x.name, "the subject")), "picture") +
+        '<div class="subject-body' + (dl && (hasAbout || opts.mark) ? " has-details" : "") + '">' +
         (hasAbout || opts.mark ? '\n    ' + M('<div class="prose">' + (hasAbout ? x.about : "<p>[More about the subject, if it needs it]</p>") + '</div>', "about") : "") +
-        (dl ? '\n    ' + M('<div class="prose prose-details">' + dl + '</div>', "details") : "") +
+        (dl ? '\n    ' + M('<div class="prose prose-details">' + dl + '</div>', "details") : "") + '</div>' +
         '\n    <section class="all-features" aria-label="' + W("item.stories-about", "Stories filed under {name}", { name: esc(or(x.name, "the subject")) }) + '">' + (about.length ? '<ul class="feature-grid">' + about.map(function (a) { return storyCard(a, true); }).join("") + '</ul>' : '<p class="where">[Stories filed under this subject appear here]</p>') + '</section>' +
         (srcs ? '\n    ' + M('<footer class="filed">' + srcs + '</footer>', "sources") : "") +
         (opts.mark ? "" : (function () {

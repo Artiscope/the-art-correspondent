@@ -232,7 +232,17 @@
       });
     });
   }
-  function refresh(){timers.forEach(clearInterval);timers=[];setupReveal();setupFilter();setupSearch();aoWire();setupMenu();setupSignup();setupAnnounce();setupSlides();setupGalleries();setupMailForms();setupPopups()}
+  /* In this story: marks the part being read */
+  var tocWatch=null;
+  function setupToc(){
+    if(tocWatch){tocWatch.disconnect();tocWatch=null}
+    var toc=document.querySelector('.story-toc');if(!toc||!('IntersectionObserver' in window))return;
+    var links={};Array.prototype.forEach.call(toc.querySelectorAll('a[href^="#"]'),function(a){links[a.getAttribute('href').slice(1)]=a});
+    var mark=function(id){Object.keys(links).forEach(function(k){if(k===id)links[k].setAttribute('aria-current','true');else links[k].removeAttribute('aria-current')})};
+    tocWatch=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting)mark(e.target.id)})},{rootMargin:'0px 0px -70% 0px'});
+    Object.keys(links).forEach(function(id){var h=document.getElementById(id);if(h)tocWatch.observe(h)});
+  }
+  function refresh(){timers.forEach(clearInterval);timers=[];setupReveal();setupToc();setupFilter();setupSearch();aoWire();setupMenu();setupSignup();setupAnnounce();setupSlides();setupGalleries();setupMailForms();setupPopups()}
   window.SiteJS={refresh:refresh};
   refresh();
 })();
