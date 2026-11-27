@@ -466,7 +466,7 @@
           "href": "https://www.phillips.com/detail/david-hockney/242634"
         }
       ],
-      "image": "david-hockney-2017-story.jpg",
+      "image": "david-hockney-2017.jpg",
       "alt": "David Hockney in a flat cap, round black glasses and a striped cardigan.",
       "credit": "David Hockney in 2017. Photo: Connaissance des Arts, CC BY 3.0, via Wikimedia Commons.",
       "how": "This is a reported story. It draws on the obituary, museum and auction pages listed below, and is not an interview. No one quoted here spoke to The Art Correspondent.",
@@ -2726,7 +2726,8 @@
           "href": "https://www.studiointernational.com/el-anatsui-interview-behind-the-red-moon-turbine-hall-tate-modern/"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Anatsui El"
     },
     {
       "slug": "beatriz-milhazes",
@@ -3226,7 +3227,8 @@
           "href": "https://brooklynstreetart.com/2018/04/25/faithxlvii-x-moniker-x-bsa"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Faith XLVII"
     },
     {
       "slug": "vincent-van-gogh",
@@ -3282,7 +3284,8 @@
           "href": "https://webexhibits.org/vangogh/letter/21/651.htm"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Gogh Vincent van"
     },
     {
       "slug": "wassily-kandinsky",
@@ -4443,7 +4446,8 @@
           "href": "https://en.wikipedia.org/wiki/Ai_Weiwei"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Ai Weiwei"
     },
     {
       "slug": "william-kentridge",
@@ -4542,7 +4546,8 @@
           "href": "https://en.wikipedia.org/wiki/Zao_Wou-Ki"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Zao Wou-Ki"
     },
     {
       "slug": "mai-trung-thu",
@@ -4590,7 +4595,8 @@
           "href": "https://www.aguttes.com/en/lot/160379/28022297-mai-trung-thu-1906-1980-deg-grand-mere-1976-encre-et"
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "sort": "Mai Trung Thu"
     },
     {
       "slug": "frida-kahlo",

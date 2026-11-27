@@ -27,7 +27,7 @@ in the repository, so there is nothing to edit by hand.
 | The sections of each page, their order and their words, the menu bar and footer | `data/pages.json` (only from Artiscope Digital Home) |
 | Colours and typefaces chosen in the console | `data/theme.json` (leave alone) |
 | Colours, fonts, spacing | `assets/site.css` |
-| The soft fade, story filter, forms | `assets/site.js` |
+| Search, story filter, forms | `assets/site.js` |
 | Page layouts | `assets/render.js` (run by `tools/build.mjs`, which `python3 tools/build.py` runs) |
 
 - A story has a section (Features, Artist Stories, Studio Notes,
@@ -51,7 +51,7 @@ in the repository, so there is nothing to edit by hand.
 - Typefaces: EB Garamond for headings, Karla for reading text and labels,
   Reenie Beanie for the one handwritten line under the lead photograph.
 - Quiet and text-led: centred openings, story cards in pale oak, one oak
-  band, a dark footer. The soft fade-up as content comes into view stays.
+  band, a dark footer. Content shows straight away: the old fade-up was removed on 27 November 2026 because it left pages looking empty while they loaded.
 - Logo: the nib, beside the name. Its files are in `assets/brand/` and its
   outline is `site.mark` in `data/content.json`. Leave it alone unless the
   owner asks.

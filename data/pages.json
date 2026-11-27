@@ -20,10 +20,6 @@
             "studio-notes/"
           ],
           [
-            "Conversations",
-            "conversations/"
-          ],
-          [
             "Culture",
             "culture/"
           ],
@@ -32,8 +28,12 @@
             "exhibitions/"
           ],
           [
-            "Studio Sessions",
-            "studio-sessions/"
+            "All stories",
+            "stories/"
+          ],
+          [
+            "About",
+            "about/"
           ]
         ],
         "logos": []
@@ -59,10 +59,6 @@
             "studio-notes/"
           ],
           [
-            "Conversations",
-            "conversations/"
-          ],
-          [
             "Culture",
             "culture/"
           ],
@@ -77,6 +73,14 @@
           [
             "All stories",
             "stories/"
+          ],
+          [
+            "Search",
+            "search/"
+          ],
+          [
+            "Subjects A to Z",
+            "subjects/"
           ],
           [
             "About",
@@ -174,12 +178,6 @@
                 "blurb": "Materials, methods and the working day, seen from inside the studio."
               },
               {
-                "title": "Conversations",
-                "href": "conversations/",
-                "where": "",
-                "blurb": "Interviews with artists, published only once they have taken place and the transcript is approved. None yet."
-              },
-              {
                 "title": "Culture",
                 "href": "culture/",
                 "where": "",
@@ -222,8 +220,8 @@
           "visible": true,
           "settings": {
             "heading": "A letter from the studio, now and then.",
-            "text": "New features as they are published. Nothing else.",
-            "button": "Sign up",
+            "text": "An email when new stories are published. Nothing else.",
+            "button": "Join by email",
             "pitch": ""
           }
         }
@@ -365,12 +363,13 @@
             "heading": "",
             "standfirst": "",
             "paras": [
-              "No conversations have been published yet. Every conversation that appears here will be a real interview, published with a transcript the artist has approved. We do not write imagined or reconstructed dialogue."
+              "No conversations have been published yet. Every conversation that appears here will be a real interview, published with a transcript the artist has approved. We do not write imagined or reconstructed dialogue.",
+              "Until the first one is ready, there are reported stories to read across the magazine."
             ],
             "parts": [],
             "align": "centre",
-            "link": "About the Studio Sessions",
-            "href": "studio-sessions/"
+            "link": "Read the stories",
+            "href": "stories/"
           }
         }
       ]

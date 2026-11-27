@@ -28,7 +28,25 @@ function themeHead() {
   if (typeof rules === "string" && rules.trim() && !rules.includes("<")) out += '<style id="theme-rules">\n' + rules + "\n</style>\n";
   return out;
 }
-const extras = { social: theme.social && typeof theme.social === "object" ? theme.social : {}, favicon: typeof theme.favicon === "string" ? theme.favicon : "" };
+// The width and height of each picture in assets/images, read from the file itself (JPEG, PNG),
+// so pages can reserve the right space and never stretch a small picture.
+function imageSize(name) {
+  try {
+    const b = fs.readFileSync(path.join(ROOT, "assets", "images", String(name)));
+    if (b[0] === 0x89 && b.toString("ascii", 1, 4) === "PNG") return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+    if (b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i < b.length) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const m = b[i + 1], len = b.readUInt16BE(i + 2);
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) return { w: b.readUInt16BE(i + 7), h: b.readUInt16BE(i + 5) };
+        i += 2 + len;
+      }
+    }
+  } catch (e) { /* no such picture: no size */ }
+  return null;
+}
+const extras = { imageSize, social: theme.social && typeof theme.social === "object" ? theme.social : {}, favicon: typeof theme.favicon === "string" ? theme.favicon : "" };
 
 // Refuses to build if the page list would not draw, so a bad edit cannot blank the site.
 const KINDS = ["announcement", "columns", "space", "quote", "faq", "button",
@@ -101,6 +119,8 @@ const written = [];
 const write = (p, text) => { const out = path.join(OUT, p); fs.mkdirSync(path.dirname(out), { recursive: true }); fs.writeFileSync(out, text); written.push(p); };
 const pagesOut = site.all();
 for (const pg of pagesOut) write(pg.path, pg.html);
+// what the search page looks through
+if (pagesOut.some((p) => p.path === "search/index.html")) write("search/index.json", JSON.stringify(site.searchIndex()));
 // the site's old addresses, each sending the visitor on to its new page
 for (const pg of site.forwards()) { if (written.includes(pg.path)) fail("An old address is also a page of the site: " + pg.path); write(pg.path, pg.html); }
 const listed = pagesOut.filter((p) => p.path !== "404.html");
