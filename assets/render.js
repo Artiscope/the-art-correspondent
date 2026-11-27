@@ -528,6 +528,15 @@
       });
       return hit || (k ? storiesHref() : "");
     }
+    // Related reading, worked out from the subjects each story is filed under.
+    function relatedStories(a, n, skip) {
+      var mine = subjectsOf(a), live = ARTICLES.filter(function (b) { return b !== a && b.hidden !== true && (skip || []).indexOf(b) < 0; });
+      return live.map(function (b, i) { return [b, subjectsOf(b).filter(function (x) { return mine.indexOf(x) >= 0; }).length, i]; })
+        .filter(function (r) { return r[1] > 0; }).sort(function (x, y) { return y[1] - x[1] || x[2] - y[2]; }).slice(0, n).map(function (r) { return r[0]; });
+    }
+    function relSection(id, heading, inner) {
+      return inner ? '\n    <section class="all-features related" aria-labelledby="' + id + '"><p class="label" id="' + id + '" data-reveal>' + heading + '</p>' + inner + '</section>' : "";
+    }
     function articlePage(a) {
       var subs = subjectsOf(a), i = ARTICLES.indexOf(a), chosen = a.next ? articleOf(a.next) : null;
       var nxt = chosen && chosen !== a && chosen.hidden !== true ? chosen : ARTICLES.length > 1 ? ARTICLES[(i + 1) % ARTICLES.length] : null;
@@ -540,7 +549,12 @@
         M('<div class="prose"><p class="standfirst" data-reveal>' + txt(or(a.summary, "[One or two sentences that sum up the story]")) + '</p>' + (String(a.body || "").replace(/<[^>]*>/g, "").trim() ? a.body : "<p>[Write the story here]</p>") + '</div>', "body") +
         (nxt ? '\n    <aside class="next" aria-labelledby="next-title"><p class="label" id="next-title" data-reveal>' + W("btn.read-next", "Read next") + '</p><p data-reveal><a class="story" href="@@' + P.articles + '/' + esc(nxt.slug) + '/">' + txt(or(nxt.title, "[Story title]")) + '</a></p>' + (String(nxt.kicker || "").trim() ? '<p class="where" data-reveal>' + txt(nxt.kicker) + '</p>' : "") + '</aside>' : "") + '\n    ' +
         M('<footer class="filed">' + (how ? '<p class="how" data-reveal>' + txt(how) + '</p>' : (opts.mark ? '<p class="how">[A line on how the story was reported]</p>' : "")) + sourceList(a.sources) +
-          (subs.length ? '<p class="label" data-reveal>' + W("item.filed", "Filed under") + '</p><p class="topic-links" data-reveal>' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("\n") + '</p>' : "") + '</footer>', "sources") + '\n  </article>';
+          (subs.length ? '<p class="label" data-reveal>' + W("item.filed", "Filed under") + '</p><p class="topic-links" data-reveal>' + subs.map(function (x) { return '<a href="@@' + P.artists + '/' + esc(x.slug) + '/">' + txt(or(x.name, "[Subject]")) + '</a>'; }).join("\n") + '</p>' : "") + '</footer>', "sources") +
+        (opts.mark ? "" : (function () {
+          var rel = relatedStories(a, 3, nxt ? [nxt] : []);
+          var same = rel.length < 3 && String(a.kicker || "").trim() ? ARTICLES.filter(function (b) { return b !== a && b !== nxt && b.hidden !== true && rel.indexOf(b) < 0 && String(b.kicker || "").trim() === String(a.kicker || "").trim(); }).slice(0, 3 - rel.length) : [];
+          return relSection("more-like-this", rel.length && subs.length === 1 ? W("rel.more-subject", "More on {name}", { name: txt(subs[0].name) }) : W("rel.more", "More like this"), rel.concat(same).length ? '<ul class="feature-grid">' + rel.concat(same).map(function (b) { return storyCard(b, true); }).join("") + '</ul>' : "");
+        })()) + '\n  </article>';
       main = tplWrap("article", a.slug, main); AO_KIND = "article";
       var aDesc = String(a.description || "").trim() || String(a.summary || "");
       return page(P.articles + "/" + a.slug + "/index.html", or(a.title, "[Story title]") + " | " + NAME(), aDesc, main,
@@ -557,7 +571,15 @@
         (hasAbout || opts.mark ? '\n    ' + M('<div class="prose">' + (hasAbout ? x.about : "<p>[More about the subject, if it needs it]</p>") + '</div>', "about") : "") +
         (dl ? '\n    ' + M('<div class="prose prose-details">' + dl + '</div>', "details") : "") +
         '\n    <section class="all-features" aria-label="' + W("item.stories-about", "Stories filed under {name}", { name: esc(or(x.name, "the subject")) }) + '">' + (about.length ? '<ul class="feature-grid">' + about.map(function (a) { return storyCard(a, true); }).join("") + '</ul>' : '<p class="where">[Stories filed under this subject appear here]</p>') + '</section>' +
-        (srcs ? '\n    ' + M('<footer class="filed">' + srcs + '</footer>', "sources") : "") + '\n  </article>';
+        (srcs ? '\n    ' + M('<footer class="filed">' + srcs + '</footer>', "sources") : "") +
+        (opts.mark ? "" : (function () {
+          // the subjects most often filed beside this one
+          var tally = [];
+          about.forEach(function (a) { subjectsOf(a).forEach(function (y) { if (y === x) return; var t = tally.filter(function (r) { return r[0] === y; })[0]; if (t) t[1]++; else tally.push([y, 1]); }); });
+          tally.sort(function (p, q) { return q[1] - p[1]; });
+          var near = tally.slice(0, 8).map(function (r) { return '<a href="@@' + P.artists + '/' + esc(r[0].slug) + '/">' + txt(r[0].name) + '</a>'; });
+          return near.length ? '\n    <footer class="filed related"><p class="label" data-reveal>' + W("rel.alongside", "Often filed alongside") + '</p><p class="topic-links" data-reveal>' + near.join("\n") + '</p></footer>' : "";
+        })()) + '\n  </article>';
       main = tplWrap("artist", x.slug, main); AO_KIND = "artist";
       return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main, { head: listLd(P.artists + "/" + x.slug + "/", x.name, x.line), image: x.image });
     }
