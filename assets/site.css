@@ -652,3 +652,77 @@ form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
   .feature-grid{grid-template-columns:repeat(4,1fr)}
   .related .feature-grid{grid-template-columns:repeat(3,1fr)}
 }
+
+/* A richer look, 27 November 2026. Same colours, typefaces and spacing; more of a magazine
+   finish. The cover story sits on a near-black spread, section labels carry a small burgundy
+   diamond, the magazine's sections become oak cards, the Studio Sessions band gets depth,
+   and stories open with a drop cap. Hover movement only runs for visitors who have not
+   asked for less motion. Nothing is hidden while a page loads. */
+:root{--lift:0 1px 2px rgba(22,22,26,.06),0 14px 30px -16px rgba(22,22,26,.32)}
+/* Labels: a small burgundy diamond before the words */
+.hero .label,.issue>.label,.topics>.label,.cover-words .label,.article-head .label,.sessions .label{display:inline-flex;align-items:center;gap:10px}
+.hero .label::before,.issue>.label::before,.topics>.label::before,.cover-words .label::before,.article-head .label::before,.sessions .label::before{content:"";width:7px;height:7px;background:var(--accent);transform:rotate(45deg);flex:none}
+.sessions .label::before{background:var(--page)}
+.issue>.label{display:flex}
+
+/* The opening: a larger, tighter headline */
+.hero h1{letter-spacing:-.022em;line-height:1}
+@media (min-width:900px){.hero h1{font-size:calc(88px * var(--h-scale, 1))}}
+
+/* The cover story: a near-black spread across the full width, picture first */
+.lead-cover{position:relative;background:var(--band);color:var(--page);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax);padding-block:var(--s6) var(--s5);margin-bottom:var(--s6)}
+.lead-cover .cover-pic{overflow:hidden;background:#000}
+.lead-cover .cover-pic img{transition:scale .9s cubic-bezier(.16,1,.3,1),filter .9s}
+@media (prefers-reduced-motion:no-preference){.lead-cover .cover:hover .cover-pic img{scale:1.03}}
+.lead-cover .cover-words h2{font-size:calc(48px * var(--h-scale, 1));line-height:1.04;letter-spacing:-.015em}
+.lead-cover .cover-words h2 a{color:var(--page)}
+.lead-cover .cover-blurb{color:color-mix(in srgb, var(--page) 82%, var(--band));font-size:calc(1.1875rem * var(--b-scale, 1))}
+.lead-cover .cover-words .label{color:color-mix(in srgb, var(--page) 82%, var(--band))}
+.lead-cover .cover-words .label::before{background:#C46A78}
+.lead-cover .text-link{color:var(--page);border-color:var(--page)}
+.lead-cover .cover-credit{color:color-mix(in srgb, var(--page) 72%, var(--band))}
+.lead-cover .hand{color:var(--page)}
+.lead-cover :focus-visible{outline-color:var(--page)}
+@media (max-width:900px){.lead-cover{padding-block:var(--s5) var(--s4);margin-bottom:var(--s5)}.lead-cover .cover-words h2{font-size:calc(var(--t-title) * var(--h-scale, 1))}}
+
+/* Latest: larger burgundy numbers, like a contents page */
+.issue:not(.issue-page) .num{font-size:calc(var(--t-title) * var(--h-scale, 1));color:var(--accent);line-height:1}
+.contents .story{transition:color .2s}
+.contents .story:hover{color:var(--accent)}
+
+/* In the magazine: oak cards, numbered */
+.issue-page .contents-plain{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--s3);counter-reset:sec}
+.issue-page .contents-plain li{position:relative;display:block;padding:var(--s4);background:var(--card);border-radius:2px;counter-increment:sec;transition:background .25s,box-shadow .35s,translate .35s cubic-bezier(.16,1,.3,1)}
+.issue-page .contents-plain li::before{content:counter(sec, upper-roman);display:block;margin-bottom:var(--s2);font-family:var(--display);font-style:italic;font-size:calc(var(--t-lead) * var(--h-scale, 1));line-height:1;color:var(--accent)}
+.issue-page .contents-plain .story{font-size:calc(var(--t-title) * var(--h-scale, 1))}
+.issue-page .contents-plain .story::after{content:"";position:absolute;inset:0}
+.issue-page .contents-plain li:hover{background:var(--card-hover);box-shadow:var(--lift)}
+@media (prefers-reduced-motion:no-preference){.issue-page .contents-plain li:hover,.feature-grid li:hover{translate:0 -3px}}
+.feature-grid li{transition:background .25s,box-shadow .35s,translate .35s cubic-bezier(.16,1,.3,1)}
+.feature-grid li:hover{box-shadow:var(--lift)}
+
+/* Subjects: hover in burgundy */
+.topic-links a{transition:color .2s,text-decoration-thickness .2s}
+.topic-links a:hover{color:var(--accent);text-decoration-thickness:2px}
+
+/* The Studio Sessions: depth instead of flat colour, and a larger line */
+.sessions{background-image:radial-gradient(80% 140% at 50% 0%, rgba(243,235,221,.12), transparent 60%),radial-gradient(60% 100% at 100% 100%, rgba(22,22,26,.35), transparent 70%)}
+.sessions h2{font-size:calc(48px * var(--h-scale, 1));letter-spacing:-.015em;line-height:1.05}
+@media (max-width:900px){.sessions h2{font-size:calc(var(--t-title) * var(--h-scale, 1))}}
+
+/* The letter: an oak panel */
+.letter{background:var(--card);max-width:760px;margin-block:var(--s6);padding-inline:var(--s5)}
+@media (max-width:700px){.letter{margin-inline:var(--s2);padding-inline:var(--s3)}}
+
+/* Stories: a burgundy drop cap, pull quotes and a firmer headline */
+.article-head h1{letter-spacing:-.02em}
+.prose>.standfirst+p::first-letter{float:left;font-family:var(--display);font-size:4.6em;line-height:.8;padding:.06em .08em 0 0;color:var(--accent)}
+.prose blockquote{padding:var(--s3) var(--s4);background:var(--card);font-family:var(--display);font-size:calc(var(--t-lead) * var(--h-scale, 1));line-height:1.35;font-style:italic}
+.prose blockquote p{margin-top:0}
+
+/* Buttons and focus */
+.btn{transition:background .2s,color .2s,box-shadow .25s}
+.btn:hover{box-shadow:0 8px 18px -10px rgba(22,22,26,.55)}
+main :focus-visible{outline-color:var(--accent)}
+@media (min-width:1100px){.issue-page .contents-plain{grid-template-columns:repeat(5,minmax(0,1fr))}.issue-page .contents-plain li{padding:var(--s3)}.issue-page .contents-plain .story{font-size:calc(var(--t-lead) * var(--h-scale, 1))}}
+@media (max-width:699px){.issue-page .contents-plain{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s1)}.issue-page .contents-plain li{padding:var(--s2)}.issue-page .contents-plain li::before{margin-bottom:var(--s1);font-size:calc(var(--t-body) * var(--h-scale, 1))}.issue-page .contents-plain .story{font-size:calc(1.25rem * var(--h-scale, 1))}.issue-page .contents-plain .blurb{font-size:calc(.875rem * var(--b-scale, 1));line-height:1.45}}
