@@ -41,8 +41,15 @@ in the repository, so there is nothing to edit by hand.
   section set to that section; a story's label leads to that page.
 - `forward` in `data/content.json` keeps every old address working: each
   `<name>.html` forwards to its new page. Never remove an entry.
-- Run `python3 tools/build.py _site` to check a change builds. Do not commit
-  `_site`. Do not edit `.github/workflows/` unless the owner asks.
+- The site is built with Astro (since 27 November 2026; see `ASTRO.md`).
+  Run `npm ci` once, then `npx astro build` to check a change builds, or
+  `npx astro dev` for a local copy that reloads as you edit. The build
+  stops with a plain message if a story or subject in `data/content.json`
+  is malformed (rules in `src/content.config.ts`).
+  `python3 tools/build.py _site` still works and gives the same pages,
+  without the smoother page changes. Do not commit `_site`, `public`,
+  `.site-build` or `node_modules`. Do not edit `.github/workflows/`
+  unless the owner asks.
 
 ## The look of this site
 - Colours (the owner's choice, 26 November 2026): cream #F3EBDD pages,
