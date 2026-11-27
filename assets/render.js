@@ -138,10 +138,16 @@
       // Google wants a full date and time with a time zone in structured data.
       if (isoDate(date)) o.datePublished = isoDate(date) + "T00:00:00+00:00";
       if (/^[A-Za-z0-9._-]{1,120}\.(png|jpe?g)$/.test(String(file || ""))) o.image = SITE_URL + "assets/images/" + file;
-      if (about && about.length) o.about = about.map(function (n) { return { "@type": "Thing", name: plainText(n) }; });
+      if (about && about.length) o.about = about.map(aboutLd);
       return ldTag(o);
     }
-    function listLd(urlPath, name, desc) { return ldTag({ "@context": "https://schema.org", "@type": "CollectionPage", name: plainText(name), description: plainText(desc), url: SITE_URL + urlPath, isPartOf: { "@type": "WebSite", name: plainText(NAME()), url: SITE_URL } }); }
+    // A subject in structured data: an artist is a Person with their page here, a theme stays a plain topic.
+    function aboutLd(x) {
+      if (typeof x === "string") return { "@type": "Thing", name: plainText(x) };
+      var o = { "@type": x.kind === "theme" ? "Thing" : "Person", name: plainText(x.name), url: SITE_URL + P.artists + "/" + x.slug + "/" };
+      return o;
+    }
+    function listLd(urlPath, name, desc, about) { var o = { "@context": "https://schema.org", "@type": "CollectionPage", name: plainText(name), description: plainText(desc), url: SITE_URL + urlPath, isPartOf: { "@type": "WebSite", name: plainText(NAME()), url: SITE_URL } }; if (about) o.about = about; return ldTag(o); }
     function page(path, title, desc, main, o) {
       o = o || {};
       title = shortTitle(title);
@@ -596,7 +602,7 @@
       main = tplWrap("article", a.slug, main); AO_KIND = "article";
       var aDesc = String(a.description || "").trim() || String(a.summary || "");
       return page(P.articles + "/" + a.slug + "/index.html", or(a.title, "[Story title]") + " | " + NAME(), aDesc, main,
-        { head: articleLd("Article", P.articles + "/" + a.slug + "/", a.title, aDesc, a.date, a.image, subs.map(function (x) { return x.name; })), image: a.image, lastmod: isoDate(a.date) });
+        { head: articleLd("Article", P.articles + "/" + a.slug + "/", a.title, aDesc, a.date, a.image, subs), image: a.image, lastmod: isoDate(a.date) });
     }
     // A subject page: its name and introduction, then every story filed under it.
     function artistPage(x) {
@@ -620,7 +626,7 @@
           return near.length ? '\n    <footer class="filed related"><p class="label" data-reveal>' + W("rel.alongside", "Often filed alongside") + '</p><p class="topic-links" data-reveal>' + near.join("\n") + '</p></footer>' : "";
         })()) + '\n  </article>';
       main = tplWrap("artist", x.slug, main); AO_KIND = "artist";
-      return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main, { head: listLd(P.artists + "/" + x.slug + "/", x.name, x.line), image: x.image });
+      return page(P.artists + "/" + x.slug + "/index.html", or(x.name, "[Subject]") + " | " + NAME(), String(x.line || ""), main, { head: listLd(P.artists + "/" + x.slug + "/", x.name, x.line, aboutLd(x)), image: x.image });
     }
     // All the stories as cards, with a word for each small line to show only those; or every artist.
     function listPage(k) {
